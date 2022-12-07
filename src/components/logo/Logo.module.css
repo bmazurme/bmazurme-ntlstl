@@ -1,0 +1,115 @@
+.title {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.main {
+  font-size: 28px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  margin: 10px 0 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+.content_lt {
+  font-size: 12px;
+  color: rgba(80, 80, 80, 0.31);
+}
+
+
+.title_background {
+  --content: '[ntlstl]';
+  color: #000;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 7rem;
+  position: relative;
+  user-select: none;
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  text-align: center;
+  /*width: 500px;*/
+
+  --start-color: #007CF0;
+  --end-color: #00DFD8;
+  background: linear-gradient(90deg,var(--start-color),var(--end-color));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: auto;
+}
+
+.title_foreground:before {
+  content: var(--content);
+  position: absolute;
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-bottom: -10px;
+  background: #000;
+  /* background: #fff; */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.animated:before {
+  box-sizing: border-box;
+  animation: animated-gradient 16s infinite;
+}
+
+@keyframes animated-gradient {
+  0%,26.667%,to{opacity:1}76%,81.667%{opacity:0}
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 10px;
+  padding: 0 10px;
+  list-style: none;
+  font-size: 16px;
+  line-height: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.menu__link {
+  margin: 0;
+  padding: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  .title_foreground:before {
+    content: var(--content);
+    position: absolute;
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: -10px;
+    background: #fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
