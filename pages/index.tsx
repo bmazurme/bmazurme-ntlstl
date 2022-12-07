@@ -19,9 +19,8 @@ export default function Home() {
         <Menu />
       </main>
 
-      <footer className={styles.footer}>
-
-      </footer>
+      {/* <footer className={styles.footer}>
+      </footer> */}
     </div>
   )
 }

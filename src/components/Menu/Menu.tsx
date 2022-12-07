@@ -1,12 +1,31 @@
 import React from 'react';
+import Link from 'next/link';
+
 import styles from './Menu.module.css';
 
 export default function Menu() {
+  const links = [
+    {
+      label: 'LinkedIn',
+      url: '#',
+    },
+    {
+      label: 'GitHub',
+      url: '#',
+    },
+    {
+      label: 'E-mail',
+      url: '#',
+    },
+  ];
+
   return (
     <ul className={styles.menu}>
-      <li className={styles.menu__item}>LinkedIn</li>
-      <li className={styles.menu__item}>GitHub</li>
-      <li className={styles.menu__item}>E-mail</li>
+      {links.map(({ label, url}) => (
+        <li key={label} className={styles.menu__item}>
+          <Link className={styles.link} href={url}>{label}</Link>
+        </li>
+      ))}
     </ul>
   );
 }
