@@ -2,7 +2,7 @@
 const isProd = process.env.NODE_ENV === 'production'
 
 const nextConfig = {
-  assetPrefix: isProd ? '/ntlstl/' : '',
+  assetPrefix: isProd ? 'ntlstl' : '',
   reactStrictMode: true,
   swcMinify: true,
 }
