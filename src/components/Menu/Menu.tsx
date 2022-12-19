@@ -1,10 +1,24 @@
 import React from 'react';
 import Link from 'next/link';
-import links from './mockData';
 
 import styles from './Menu.module.css';
 
 export default function Menu() {
+  const links = [
+    {
+      label: 'LinkedIn',
+      url: '#',
+    },
+    {
+      label: 'GitHub',
+      url: '#',
+    },
+    {
+      label: 'E-mail',
+      url: '#',
+    },
+  ];
+
   return (
     <ul className={styles.menu}>
       {links.map(({ label, url}) => (
