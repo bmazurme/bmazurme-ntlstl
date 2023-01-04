@@ -14,6 +14,10 @@ export default function Menu() {
       url: '#',
     },
     {
+      label: 'CV',
+      url: '/profile',
+    },
+    {
       label: 'E-mail',
       url: '#',
     },

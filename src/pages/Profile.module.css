@@ -1,0 +1,138 @@
+.name {
+  /* font-family: 'Inter'; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 58px;
+  letter-spacing: -0.04em;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.image {
+  height: 320px;
+  width: 270px;
+  background-color: #E8E8E8;
+  border-radius: 10px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.about {
+  position: relative;
+  /* background-color: magenta; */
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 70px;
+  margin-right: 70px;
+  min-height: 320px;
+}
+.tech {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+.tech__description {
+  margin: 0;
+  margin-top: 100px;
+  margin-bottom: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.portfolio {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+.profession {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.description {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 0;
+  margin-right: 0;
+  width: calc(100% - 300px);
+}
+
+.paragraph {
+  margin-top: 10px;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+  /* background-color: rebeccapurple; */
+  width: 100%;
+  display: flex;
+}
+/* .description:first {
+  margin-top: 30px;
+} */
+
+.title {
+  /* font-family: 'Inter'; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 27px;
+  /* identical to box height */
+  letter-spacing: -0.04em;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  margin-left: 0;
+  margin-right: 0;
+  position: relative;
+}
+
+.title::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  background-color: #212121;
+  height: 1px;
+  bottom: -20px;
+  left: 0;
+}
+
+.tech__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* margin: 0; */
+  margin-top: 70px;
+  margin-bottom: 20px;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+  list-style: none;
+  color: #000;
+  /* background-color: moccasin; */
+}
+.tag {
+  display: flex;
+  height: 60px;
+  min-width: 90px;
+  /* width: auto; */
+  border-radius: 10px;
+  background-color: #E8E8E8;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  padding: 10px;
+}
