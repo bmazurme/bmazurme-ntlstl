@@ -1,5 +1,5 @@
 import styles from './Company.module.css';
-import IProfile from '../../pages/IProfile';
+import IProfile from '../../interfaces/IProfile';
 
 export default function Company({ info }: { info: IProfile }) {
   const companyList = ['Apex, Fullstack-разработчик', 'StepLogic, Fullstack-разработчик', 'IFellow, Фронтенд-разработчик'];

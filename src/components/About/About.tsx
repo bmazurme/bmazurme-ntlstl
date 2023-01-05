@@ -3,7 +3,7 @@ import ContactMenu from '../ContactMenu';
 import getAge from '../../utils/getAge';
 
 import styles from './About.module.css';
-import IProfile from '../../pages/IProfile';
+import IProfile from '../../interfaces/IProfile';
 
 export default function About({ info }: { info: IProfile}) {
 

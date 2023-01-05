@@ -9,7 +9,7 @@ import Footer from '../components/Footer';
 import Company from '../components/Company';
 
 // import styles from './Profile.module.css';
-import IProfile from './IProfile';
+import IProfile from '../interfaces/IProfile';
 
 export default function Profile() {
   const profileInfo: Record<string, IProfile> = {

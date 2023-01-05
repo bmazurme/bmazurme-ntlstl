@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 import styles from './Portfolio.module.css';
-import IProfile from '../../pages/IProfile';
+import IProfile from '../../interfaces/IProfile';
 
 export default function Portfolio({ info }: { info: IProfile }) {
   const portfolioList = [
