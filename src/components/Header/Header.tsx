@@ -1,21 +1,16 @@
-import { useState } from 'react';
 import styles from './Header.module.css';
 
-export default function Header() {
-  const languageList = [
-    { label: 'RU', active: true },
-    { label: 'EN', active: false },
-  ];
-  const [language, setLanguage] = useState(languageList);
-  const toggleLanguage = (label: string) => {
-    setLanguage(language.map((item) => {
-      return { label: item.label, active: item.label === label };
-    }));
-  };
+interface IProps {
+  label: string,
+  active: boolean
+}
+
+export default function Header({ language, toggleLanguage }
+  : { language: IProps[], toggleLanguage: (label: string) => void }) {
   return (
     <div className={styles.header}>
       <ul className={styles.header__list}>
-        <li className={styles.header__link}>[ntlstl]</li>
+        <li className={styles.header__link}><a href='/'>[ntlstl]</a></li>
       </ul>
 
       <ul className={styles.language__list}>

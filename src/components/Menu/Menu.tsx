@@ -7,11 +7,11 @@ export default function Menu() {
   const links = [
     {
       label: 'LinkedIn',
-      url: '#',
+      url: 'https://www.linkedin.com/in/bogdan-mazur-aba74287',
     },
     {
       label: 'GitHub',
-      url: '#',
+      url: 'https://github.com/bmazurme',
     },
     {
       label: 'CV',
