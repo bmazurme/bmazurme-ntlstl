@@ -52,10 +52,10 @@
   margin-left: 10px;
   cursor: pointer;
   opacity: 0.6;
+  transition: opacity 0.6s ease;
 }
 
 .language__link:hover {
-  transition: opacity 0.6s ease;
   opacity: 1;
 }
 
