@@ -2,7 +2,7 @@ import styles from './Tech.module.css';
 import IProfile from '../../interfaces/IProfile';
 
 export default function Tech({ info }: { info: IProfile}) {
-  const techList = ['HTML', 'CSS', 'JS', 'TS', 'React.js', 'Vue.js', 'Next.js', 'Express.js', 'Redux', 'RTK', 'Jest', 'Webpack', 'Parcel', 'PostCSS', 'Eslint', 'MUI', 'Tailwind', 'BEM', 'Canvas', 'MongoDB', 'PostgreSQL', 'Git', 'Docker', 'SCR', 'SSR', 'Figma'];
+  const techList = ['HTML', 'CSS', 'JS', 'TS', 'React.js', 'Vue.js', 'Next.js', 'Express.js', 'Redux', 'RTK', 'Jest', 'Webpack', 'Parcel', 'PostCSS', 'Eslint', 'MUI', 'Tailwind', 'BEM', 'Canvas', 'MongoDB', 'PostgreSQL', 'Git', 'Docker', 'CSR', 'SSR', 'Figma'];
 
   return (
     <section className={styles.tech}>
