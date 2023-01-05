@@ -31,6 +31,7 @@
 .company__link {
   margin: 0;
   margin-top: 10px;
+  margin-bottom: 10px;
   padding: 0;
 }
 
@@ -62,4 +63,46 @@
   height: 1px;
   bottom: -20px;
   left: 0;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.position {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.description {
+  margin: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.date {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
 }

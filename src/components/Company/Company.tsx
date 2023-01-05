@@ -6,7 +6,17 @@ export default function Company({ info }: { info: IProfile }) {
     <section className={styles.company}>
       <h2 className={styles.title}>{info.company}</h2>
       <ul className={styles.company__list}>
-        {info.companyList.map((item) => <li key={item} className={styles.company__link}>{item}</li>)}
+        {info.companyList.map((item) => 
+          <li key={item.name} className={styles.company__link}>
+            <h4 className={styles.name}>{item.name}</h4>
+            <h5 className={styles.position}>
+              {item.position}
+              <span className={styles.date}>{item.from} - {item.to}</span>
+            </h5>
+            <p className={styles.description}>{item.description}</p>
+            <p className={styles.description}>{item.stack}</p>
+          </li>
+        )}
       </ul>
     </section>
   )

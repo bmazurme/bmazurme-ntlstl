@@ -6,7 +6,7 @@ interface IProfile {
   tech: string;
   age: Date;
   company: string;
-  companyList: string[];
+  companyList: Record<string, string>[];
   portfolioList: Record<string, string>[];
 };
 
