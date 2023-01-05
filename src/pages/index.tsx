@@ -1,5 +1,4 @@
 import Head from 'next/head';
-
 import { Logo, Menu } from '../components';
 
 import styles from '../styles/Home.module.css';

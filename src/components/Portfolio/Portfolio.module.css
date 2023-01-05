@@ -5,7 +5,16 @@
   margin-right: 70px;
 }
 
+@media screen and (min-width: 320px) and (max-width: 599px) {
+  .portfolio {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
 .portfolio_title {
+  display: flex;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -16,6 +25,14 @@
   margin-left: 0;
   margin-right: 0;
   position: relative;
+}
+
+@media screen and (min-width: 320px) and (max-width: 599px) {
+  .portfolio_title {
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
 }
 
 .link {

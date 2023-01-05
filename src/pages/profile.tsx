@@ -8,7 +8,6 @@ import Tech from '../components/Tech';
 import Footer from '../components/Footer';
 import Company from '../components/Company';
 
-// import styles from './Profile.module.css';
 import IProfile from '../interfaces/IProfile';
 
 export default function Profile() {
@@ -21,6 +20,33 @@ export default function Profile() {
       use: 'I use technology in my work',
       company: 'Company',
       age: new Date(1985, 5, 22),
+      companyList: [
+        'Apex, Fullstack-developer, 2019-2021',
+        'StepLogic, Fullstack-developer, 2021-2022',
+        'IFellow, Frontend-developer, 2022'
+      ],
+      portfolioList: [
+        {
+          label: 'Static page',
+          url: 'https://bmazurme.github.io/how-to-learn/',
+        },
+        {
+          label: 'Adaptive page',
+          url: 'https://bmazurme.github.io/russian-travel/',
+        },
+        {
+          label: 'Mesto CSR',
+          url: 'https://whimsical-sprite-5d5e95.netlify.app/',
+        },
+        {
+          label: 'Messager',
+          url: 'https://deploy--brilliant-dasik-aed875.netlify.app/',
+        },
+        {
+          label: 'Game 15-puzzle',
+          url: 'https://github.com/babylon-game/practicum_15puzzle_babylon',
+        },
+      ],
     },
     RU: {
       name: 'Богдан',
@@ -30,6 +56,33 @@ export default function Profile() {
       use: 'В работе использую следующие технологии',
       company: 'Компании',
       age: new Date(1985, 5, 22),
+      companyList: [
+        'Apex, Fullstack-разработчик, с 2019 по 2021',
+        'StepLogic, Fullstack-разработчик, с 2021 по 2022',
+        'IFellow, Фронтенд-разработчик, с 2022',
+      ],
+      portfolioList: [
+        {
+          label: 'Статичный сайт',
+          url: 'https://bmazurme.github.io/how-to-learn/',
+        },
+        {
+          label: 'Адаптивный сайт',
+          url: 'https://bmazurme.github.io/russian-travel/',
+        },
+        {
+          label: 'Одностраничный сайт',
+          url: 'https://whimsical-sprite-5d5e95.netlify.app/',
+        },
+        {
+          label: 'Простой месседжер',
+          url: 'https://deploy--brilliant-dasik-aed875.netlify.app/',
+        },
+        {
+          label: 'Игра пятнашки',
+          url: 'https://github.com/babylon-game/practicum_15puzzle_babylon',
+        },
+      ],
     },
   };
   const languageList = [
