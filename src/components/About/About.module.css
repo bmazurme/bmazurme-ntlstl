@@ -2,20 +2,17 @@
   display: flex;
   flex-direction: column;
   position: relative;
-  margin-top: 70px;
-  margin-bottom: 0;
-  margin-left: 70px;
-  margin-right: 70px;
+  margin: 70px 70px 0;
   min-height: 320px;
+  font-style: normal;
+  font-weight: 400;
 }
 
 @media screen and (min-width: 320px) and (max-width: 599px) {
   .about {
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 10px 10px 0;
   }
 }
 
@@ -36,9 +33,7 @@
 @media screen and (min-width: 320px) and (max-width: 599px) {
   .image {
     position: relative;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 20px auto 0;
   }
 }
 
@@ -49,10 +44,7 @@
   font-size: 50px;
   line-height: 58px;
   letter-spacing: -0.04em;
-  margin-top: 0;
-  margin-bottom: 20px;
-  margin-left: 0;
-  margin-right: 0;
+  margin: 0 0 20px;
   padding: 0;
 }
 
@@ -64,14 +56,9 @@
 }
 
 .text {
-  margin-top: 20px;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
+  margin: 20px 0 0;
   padding: 0;
   width: calc(100% - 300px);
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 22px;
 }
@@ -84,14 +71,10 @@
 
 .profession {
   display: flex;
-  font-style: normal;
   font-weight: 500;
   font-size: 18px;
   line-height: 20px;
-  margin-top: 30px;
-  margin-bottom: 20px;
-  margin-left: 0;
-  margin-right: 0;
+  margin: 30px 0 20px;
 }
 
 @media screen and (min-width: 320px) and (max-width: 599px) {
@@ -102,32 +85,23 @@
 
 .description {
   margin: 0;
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 22px;
 }
 
 .paragraph {
-  margin-top: 5px;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
+  margin: 5px 0 0;
   padding: 0;
   width: 100%;
   display: flex;
 }
 
 .title {
-  font-style: normal;
   font-weight: 400;
   font-size: 22px;
   line-height: 27px;
   letter-spacing: -0.04em;
-  margin-top: 100px;
-  margin-bottom: 20px;
-  margin-left: 0;
-  margin-right: 0;
+  margin: 100px 0 20px;
   position: relative;
 }
 

@@ -1,12 +1,12 @@
 import styles from './Company.module.css';
-import IProfile from '../../interfaces/IProfile';
+import { IProfile } from '../../interfaces';
 
 export default function Company({ info }: { info: IProfile }) {
   return (
     <section className={styles.company}>
       <h2 className={styles.title}>{info.company}</h2>
       <ul className={styles.company__list}>
-        {info.companyList.map((item) => 
+        {info.companyList.map((item) =>
           <li key={item.name} className={styles.company__link}>
             <h4 className={styles.name}>{item.name}</h4>
             <h5 className={styles.position}>

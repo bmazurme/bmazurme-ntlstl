@@ -1,15 +1,10 @@
 .portfolio {
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-left: 70px;
-  margin-right: 70px;
+  margin: 0 70px;
 }
 
 @media screen and (min-width: 320px) and (max-width: 599px) {
   .portfolio {
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 10px 10px 0;
   }
 }
 
@@ -20,10 +15,7 @@
   font-size: 22px;
   line-height: 27px;
   letter-spacing: -0.04em;
-  margin-top: 100px;
-  margin-bottom: 20px;
-  margin-left: 0;
-  margin-right: 0;
+  margin: 100px 0 20px;
   position: relative;
 }
 
@@ -47,13 +39,9 @@
   flex-direction: column;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin-top: 70px;
-  margin-bottom: 20px;
-  margin-left: 0;
-  margin-right: 0;
+  margin: 70px 0 20px;
   padding: 0;
   list-style: none;
-  /* color: #000; */
 }
 
 .project__link {
@@ -63,10 +51,7 @@
   line-height: 50px;
   letter-spacing: -0.04em;
   padding: 0;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin: 10px 0;
   position: relative;
   opacity: 0.6;
   transition: opacity 0.6s ease;

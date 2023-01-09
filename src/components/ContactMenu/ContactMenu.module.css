@@ -1,6 +1,5 @@
 .contact__links {
-  margin: 0;
-  margin-top: 30px;
+  margin: 30px 0 0;
   padding: 0;
   width: calc(100% - 300px);
   display: flex;
@@ -9,8 +8,7 @@
 }
 
 .contact__link {
-  margin: 0;
-  margin-right: 10px;
+  margin: 0 10px 0 0;
   padding: 0;
   font-style: normal;
   font-weight: 500;

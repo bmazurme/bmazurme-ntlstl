@@ -1,9 +1,6 @@
 .footer {
   display: flex;
-  margin-top: 70px;
-  margin-bottom: 30px;
-  margin-left: 70px;
-  margin-right: 70px;
+  margin: 70px 70px 30px;
   position: relative;
 }
 
