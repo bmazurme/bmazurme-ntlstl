@@ -19,7 +19,7 @@ export default function Menu() {
     },
     {
       label: 'E-mail',
-      url: '#',
+      url: 'mailto:ntlstlwk@gmail.com',
     },
   ];
 
