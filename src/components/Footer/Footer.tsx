@@ -1,9 +1,11 @@
 import styles from './Footer.module.css';
 
 export default function Footer() {
+  const year = new Date().getFullYear().toString();
+
   return (
     <footer className={styles.footer}>
-      &copy; 2022 [ntlstl]
+      &copy; {year} [ntlstl]
     </footer>
   )
 }

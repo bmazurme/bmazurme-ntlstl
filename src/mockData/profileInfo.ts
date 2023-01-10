@@ -9,6 +9,11 @@ const profileInfo: Record<string, IProfile> = {
     use: 'I use technology in my work',
     company: 'Company',
     age: new Date(1985, 5, 22),
+    about: [
+      'When I worked in design, I automated workflows using Python and C# scripts to interact with Revit API, Forge API, Google API.',
+      'Completed courses "Web developer" and "Middle front-end developer" in Yandex.Practicum.',
+      'After completing the Web Development course, I moved to work, where I do front-end 100% of the time.',
+    ],
     companyList: [
       {
         name: 'Apex',
@@ -66,6 +71,11 @@ const profileInfo: Record<string, IProfile> = {
     use: 'В работе использую следующие технологии',
     company: 'Опыт работы',
     age: new Date(1985, 5, 22),
+    about: [
+      'По образованию инженер-строитель. Когда работал в проектировании, автоматизировал рабочие процессы с использованием скриптов на Python и C# для взаимодействия с Revit API, Forge API, Google API.',
+      'Прошел обучение по курсам «Веб-разработчик» и «Мидл фронтенд-разработчик» в Яндекс.Практикум.',
+      'После прохождения курса «Веб-разработка» перешел на работу, где 100% времени занимаюсь фронтендом.',
+    ],
     companyList: [
       {
         name: 'Apex',
@@ -118,3 +128,4 @@ const profileInfo: Record<string, IProfile> = {
 };
 
 export default profileInfo;
+
