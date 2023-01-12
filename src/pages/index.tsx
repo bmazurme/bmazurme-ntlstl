@@ -17,12 +17,12 @@ export default function Home() {
         title="Bogdan"
         canonical="https://github.com/bmazurme"
         openGraph={{
-          url: 'https://github.com/bmazurme/mesto/raw/main/src/images/mesto.png',
+          url: 'https://main--celebrated-pithivier-e91356.netlify.app/',
           title: 'Bogdan',
           description: 'ntlstl',
           images: [
             {
-              url: short.src,
+              url: 'https://github.com/bmazurme/mesto/raw/main/src/images/mesto.png',
               width: 800,
               height: 600,
               alt: 'Profile image',
