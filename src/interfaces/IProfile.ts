@@ -9,7 +9,7 @@ interface IProfile {
   age: Date;
   about: string[];
   company: string;
-  companyList: Record<string, string>[];
+  companyList: Record<string, string | null>[];
   portfolioList: Record<string, string>[];
 };
 

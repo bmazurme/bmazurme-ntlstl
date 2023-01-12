@@ -13,8 +13,8 @@ export default function Company({ info }: { info: IProfile }) {
               {item.position}
               <span className={styles.date}>{item.from} - {item.to}</span>
             </h5>
-            <p className={styles.description}>{item.description}</p>
-            <p className={styles.description}>{item.stack}</p>
+            {item.description ?? <p className={styles.description}>{item.description}</p>}
+            {item.stack ?? <p className={styles.description}>{item.stack}</p>}
           </li>
         )}
       </ul>

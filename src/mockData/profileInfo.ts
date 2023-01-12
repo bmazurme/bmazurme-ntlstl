@@ -5,7 +5,7 @@ const profileInfo: Record<string, IProfile> = {
     name: 'Bogdan',
     profession: 'Frontend developer',
     portfolio: 'Portfolio',
-    tech: 'Skills',
+    tech: 'Professional skills',
     use: 'I use technology in my work',
     company: 'Work experience',
     age: new Date(1985, 5, 22),
@@ -13,7 +13,7 @@ const profileInfo: Record<string, IProfile> = {
     educationList: [
       {
         place: 'Moscow State University of Civil Engineering',
-        name: 'Water supply and sanitation',
+        name: 'Public Health Engineer',
         from: '2004',
         to: '2009',
       },
@@ -47,6 +47,14 @@ const profileInfo: Record<string, IProfile> = {
       'to new possibilities.',
     ],
     companyList: [
+      {
+        name: 'AECOM',
+        position: 'Senior Public Health Engineer',
+        from: '2009',
+        to: '2019',
+        description: '',
+        stack: '',
+      },
       {
         name: 'Apex',
         position: 'Fullstack-developer',
@@ -107,7 +115,7 @@ const profileInfo: Record<string, IProfile> = {
     educationList: [
       {
         place: 'Московский государственный строительный университет',
-        name: 'Водоснабжение и водоотведение',
+        name: 'Инженер водоснабжения и водоотведения',
         from: '2004',
         to: '2009',
       },
@@ -130,7 +138,7 @@ const profileInfo: Record<string, IProfile> = {
       'технологии. Имею опыт разработки\n' +
       'SPA с использованием React (JS/TS), Redux, HTML, CSS,\n' +
       'а также имею коммерческий опыт в качестве\n' +
-      'мидл фронтенд-разработчика. В моем свободном\n' +
+      'мидл фронтенд-разработчика. В свое свободное\n' +
       'время, я стараюсь смотреть IT-каналы для своего\n' +
       'развития.',
       'Занимаюсь разработкой нового\n' +
@@ -141,6 +149,14 @@ const profileInfo: Record<string, IProfile> = {
       'к новым возможностям.',
     ],
     companyList: [
+      {
+        name: 'AECOM',
+        position: 'Ведущий инженер водоснабжения и водоотведения',
+        from: '2009',
+        to: '2019',
+        description: null,
+        stack: null,
+      },
       {
         name: 'Apex',
         position: 'Fullstack-разработчик',

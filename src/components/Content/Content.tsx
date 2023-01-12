@@ -4,6 +4,7 @@ import { NextSeo } from 'next-seo';
 import Head from 'next/head';
 import { Header, Footer } from '..';
 import ILang from '../../interfaces/ILang';
+
 import styles from './Content.module.css';
 // import short from '../../../img/sh-screen.png';
 
