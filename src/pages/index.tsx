@@ -16,7 +16,7 @@ export default function Home() {
       <NextSeo
         title="ntlstl"
         openGraph={{
-          url: '/',
+          url: 'https://main--celebrated-pithivier-e91356.netlify.app/',
           title: 'ntlstl',
           description: 'ntlstl',
           images: [
