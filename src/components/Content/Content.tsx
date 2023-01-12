@@ -24,14 +24,14 @@ export default function Content({ toggleLanguage, language, children }: IProps) 
       </Head>
       <NextSeo
         title="Bogdan"
-        canonical="https://github.com/bmazurme"
+        canonical="https://main--celebrated-pithivier-e91356.netlify.app/profile"
         openGraph={{
-          url: 'https://avatars.githubusercontent.com/u/49879328?v=4',
+          url: 'https://main--celebrated-pithivier-e91356.netlify.app/profile',
           title: 'Bogdan',
           description: 'ntlstl',
           images: [
             {
-              url: 'https://avatars.githubusercontent.com/u/49879328?v=4',
+              url: 'https://github.com/bmazurme/mesto/raw/main/src/images/mesto.png',
               width: 800,
               height: 600,
               alt: 'Profile image',
