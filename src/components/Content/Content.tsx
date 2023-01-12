@@ -5,7 +5,7 @@ import Head from 'next/head';
 import { Header, Footer } from '..';
 import ILang from '../../interfaces/ILang';
 import styles from './Content.module.css';
-import short from '../../../img/sh-screen.png';
+// import short from '../../../img/sh-screen.png';
 
 interface IProps {
   toggleLanguage: (label: string) => void;
@@ -24,14 +24,14 @@ export default function Content({ toggleLanguage, language, children }: IProps) 
       <NextSeo
         title="Bogdan"
         description="This is a demo description"
-        canonical="https://www.example.com"
+        canonical="https://github.com/bmazurme"
         openGraph={{
-          url: '/',
+          url: 'https://avatars.githubusercontent.com/u/49879328?v=4',
           title: 'Bogdan',
           description: 'ntlstl',
           images: [
             {
-              url: short.src,
+              url: 'https://avatars.githubusercontent.com/u/49879328?v=4',
               width: 800,
               height: 600,
               alt: 'Profile image',
