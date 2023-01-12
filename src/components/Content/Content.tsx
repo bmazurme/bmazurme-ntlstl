@@ -23,7 +23,6 @@ export default function Content({ toggleLanguage, language, children }: IProps) 
       </Head>
       <NextSeo
         title="Bogdan"
-        description="This is a demo description"
         canonical="https://github.com/bmazurme"
         openGraph={{
           url: 'https://avatars.githubusercontent.com/u/49879328?v=4',
@@ -40,7 +39,7 @@ export default function Content({ toggleLanguage, language, children }: IProps) 
           ],
           site_name: 'ntlstl',
         }}
-/>
+      />
       <Header toggleLanguage={toggleLanguage} language={language} />
         {children }
       <Footer />
