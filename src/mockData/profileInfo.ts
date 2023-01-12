@@ -69,7 +69,7 @@ const profileInfo: Record<string, IProfile> = {
         from: '2022',
         to: 'recently',
         description: 'Development of a thin client CRM system. Fixed bugs, optimized functions. Development of REST API, components, layout, implementation of new tools (from business). Unit tests.',
-        stack: 'Stack: Vue.js, React.js, Next.js, Express.js, Redux, RTK, JS/TS, MUI, Tailwind, CSS, SASS, Jest, Eslint, Stylelint, NPM, Webpack, Node.js, Docker, Maven, Git.',
+        stack: 'Stack: Vue.js, React.js, Next.js, Express.js, Redux, RTK, JS/TS, MUI, Tailwind, CSS, SASS, Jest, Eslint, Stylelint, Webpack, Node.js, Docker, Maven, Git.',
       },
     ],
     portfolioList: [
@@ -112,13 +112,13 @@ const profileInfo: Record<string, IProfile> = {
         to: '2009',
       },
       {
-        place: 'Яндекс.Практикуме (АНО ДПО «ШАД»)',
+        place: 'Яндекс.Практикум (АНО ДПО «ШАД»)',
         name: 'Веб-разработчик',
         from: '2021',
         to: '2022',
       },
       {
-        place: 'Яндекс Практикуме (АНО ДПО «Образовательные технологии Яндекса») ',
+        place: 'Яндекс Практикум (АНО ДПО «Образовательные технологии Яндекса») ',
         name: 'Мидл фронтенд-разработчик',
         from: '2022',
         to: '2022',
@@ -163,7 +163,7 @@ const profileInfo: Record<string, IProfile> = {
         from: '2022',
         to: 'по настоящее время',
         description: 'Разработка тонкого клиента CRM-системы. Исправление ошибок, оптимизация. Разработка REST API, компонентов, верстка, внедрение новых инструментов (от бизнеса). Unit-тесты.',
-        stack: 'Стэк: Vue.js, React.js, Next.js, Express.js, Redux, RTK, JS/TS, MUI, Tailwind, CSS, SASS, Jest, Eslint, Stylelint, NPM, Webpack, Node.js, Docker, Maven, Git.',
+        stack: 'Стэк: Vue.js, React.js, Next.js, Express.js, Redux, RTK, JS/TS, MUI, Tailwind, CSS, SASS, Jest, Eslint, Stylelint, Webpack, Node.js, Docker, Maven, Git.',
       },
     ],
     portfolioList: [
