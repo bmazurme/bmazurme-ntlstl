@@ -18,11 +18,11 @@ export default function Content({ toggleLanguage, language, children }: IProps) 
       <Head>
         <title>ntlstl | web developer</title>
         <meta name="description" content="ntlstl" />
-        <meta property="og:title" content="Bogdan" />
-        <meta property="og:site_name" content="ntlstl" />
-        <meta property="og:url" content="/profile" />
-        <meta property="og:description" content="ntlstl" />
-        <meta property="og:image" content={short.src} />
+        <meta property="og:title" content="Bogdan" key="ogtitle" />
+        <meta property="og:site_name" content="ntlstl" key="ogsitename" />
+        <meta property="og:url" content="/profile"  key="ogurl" />
+        <meta property="og:description" content="ntlstl" key="ogdesc" />
+        <meta property="og:image" content={short.src} key="ogimage" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header toggleLanguage={toggleLanguage} language={language} />
