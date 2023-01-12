@@ -1,4 +1,5 @@
 import styles from './Header.module.css';
+import Link from 'next/link';
 
 interface IProps {
   label: string,
@@ -10,7 +11,7 @@ export default function Header({ language, toggleLanguage }
   return (
     <div className={styles.header}>
       <ul className={styles.header__list}>
-        <li className={styles.header__link}><a href='/'>[ntlstl]</a></li>
+        <li className={styles.header__link}><Link href='/'>[ntlstl]</Link></li>
       </ul>
 
       <ul className={styles.language__list}>

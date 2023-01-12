@@ -52,7 +52,7 @@ const profileInfo: Record<string, IProfile> = {
         position: 'Fullstack-developer',
         from: '2019',
         to: '2021',
-        description: 'Automation of design processes. Development of plug-ins for Revit, for engineering calculations, automation of documentation processes.',
+        description: 'Automation of design processes. Development of plug-ins for Revit, for engineering calculations, automation of documentation processes. Communication with related programs AutoCAD, DiaLux, MS Excel.',
         stack: 'Stack: C#, Framework 4.8, WPF, Revit API, WPFMath, Django, Python, PostgreSQL, LaTeX, Material design, Bootstrap.',
       },
       {
@@ -60,8 +60,8 @@ const profileInfo: Record<string, IProfile> = {
         position: 'Fullstack-developer',
         from: '2021',
         to: '2022',
-        description: 'Internal automation service: thin client. Plugins for Ribbon panel Revit. Functionality: search for a route for laying cables through trays, pipelines using graphs, generating specifications, working with a 3D model. Communication with related programs AutoCAD, DiaLux, MS Excel.',
-        stack: 'Stack: C#, ASP.NET Core .NET 5.0, MSSQL, IIS, React.js, MUI, Bootstrap, JS, Node.js, HTML, CSS, KaTeX, Canvas, viewer Autodesk Forge, Framework 4.8, WPF.',
+        description: 'Internal automation service: thin client. Plugins for Ribbon panel Revit. Functionality: search for a route for laying cables through trays, pipelines using graphs, generating specifications, working with a 3D model.',
+        stack: 'Stack: C#, ASP.NET Core .NET 5.0, MSSQL, IIS, React.js, MUI, JS, Node.js, HTML, CSS, KaTeX, Canvas, viewer Autodesk Forge, Framework 4.8, WPF.',
       },
       {
         name: 'IFellow',
@@ -69,7 +69,7 @@ const profileInfo: Record<string, IProfile> = {
         from: '2022',
         to: 'recently',
         description: 'Development of a thin client CRM system. Fixed bugs, optimized functions. Development of REST API, components, layout, implementation of new tools (from business). Unit tests.',
-        stack: 'Stack: Vue.js, React.js, Next.js, Express.js, Redux, RTK, JS, TS, MUI, Tailwind, CSS, SASS, Jest, Eslint, Stylelint, NPM, Webpack, Node.js, Docker, Maven, Git.',
+        stack: 'Stack: Vue.js, React.js, Next.js, Express.js, Redux, RTK, JS/TS, MUI, Tailwind, CSS, SASS, Jest, Eslint, Stylelint, NPM, Webpack, Node.js, Docker, Maven, Git.',
       },
     ],
     portfolioList: [
@@ -146,7 +146,7 @@ const profileInfo: Record<string, IProfile> = {
         position: 'Fullstack-разработчик',
         from: '2019',
         to: '2021',
-        description: 'Автоматизация процессов проектирования. Разработка плагинов для Revit, для инженерных расчетов, автоматизации процессов оформления документации.',
+        description: 'Автоматизация процессов проектирования. Разработка плагинов для Revit, для инженерных расчетов, автоматизации процессов оформления документации. Связь со смежными программами AutoCAD, DiaLux, MS Excel.',
         stack: 'Стек: C#, Framework 4.8, WPF, Revit API, WPFMath, Django, Python, PostgreSQL, LaTeX, Material design, Bootstrap.',
       },
       {
@@ -154,8 +154,8 @@ const profileInfo: Record<string, IProfile> = {
         position: 'Fullstack-разработчик',
         from: '2021',
         to: '2022',
-        description: 'Сервис внутренней автоматизации: тонкий клиент. Плагины для Ribbon panel Revit. Функционал: поиск пути прокладки кабелей по лоткам, трубопроводов с использованием графов, генерация спецификаций, работа с 3D моделью. Связь со смежными программами AutoCAD, DiaLux, MS Excel.',
-        stack: 'Стек: C#, ASP.NET Core .NET 5.0, MSSQL, IIS, React.js, MUI, Bootstrap, JS, Node.js, HTML, CSS, KaTeX, Canvas, viewer Autodesk Forge, Framework 4.8, WPF.',
+        description: 'Сервис внутренней автоматизации: тонкий клиент. Плагины для Ribbon panel Revit. Функционал: поиск пути прокладки кабелей по лоткам, трубопроводов с использованием графов, генерация спецификаций, работа с 3D моделью.',
+        stack: 'Стек: C#, ASP.NET Core .NET 5.0, MSSQL, IIS, React.js, MUI, JS, Node.js, HTML, CSS, KaTeX, Canvas, viewer Autodesk Forge, Framework 4.8, WPF.',
       },
       {
         name: 'IFellow',
@@ -163,7 +163,7 @@ const profileInfo: Record<string, IProfile> = {
         from: '2022',
         to: 'по настоящее время',
         description: 'Разработка тонкого клиента CRM-системы. Исправление ошибок, оптимизация. Разработка REST API, компонентов, верстка, внедрение новых инструментов (от бизнеса). Unit-тесты.',
-        stack: 'Стэк: Vue.js, React.js, Next.js, Express.js, Redux, RTK, JS, TS, MUI, Tailwind, CSS, SASS, Jest, Eslint, Stylelint, NPM, Webpack, Node.js, Docker, Maven, Git.',
+        stack: 'Стэк: Vue.js, React.js, Next.js, Express.js, Redux, RTK, JS/TS, MUI, Tailwind, CSS, SASS, Jest, Eslint, Stylelint, NPM, Webpack, Node.js, Docker, Maven, Git.',
       },
     ],
     portfolioList: [
