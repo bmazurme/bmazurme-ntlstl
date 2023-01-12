@@ -26,8 +26,8 @@ const profileInfo: Record<string, IProfile> = {
       {
         place: 'Practicum by Yandex (INO CPE “Yandex EdTech”)',
         name: 'The Mid-Level Web Developer training course',
-        from: '2022',
-        to: '2021',
+        from: '2021',
+        to: '2022',
       },
     ],
     about: [
@@ -114,8 +114,8 @@ const profileInfo: Record<string, IProfile> = {
       {
         place: 'Яндекс.Практикуме (АНО ДПО «ШАД»)',
         name: 'Веб-разработчик',
-        from: '2022',
-        to: '2021',
+        from: '2021',
+        to: '2022',
       },
       {
         place: 'Яндекс Практикуме (АНО ДПО «Образовательные технологии Яндекса») ',
