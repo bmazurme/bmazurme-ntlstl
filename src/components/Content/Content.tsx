@@ -6,7 +6,7 @@ import { Header, Footer } from '..';
 import ILang from '../../interfaces/ILang';
 
 import styles from './Content.module.css';
-// import short from '../../../img/sh-screen.png';
+import short from '../../../img/bm.jpg';
 
 interface IProps {
   toggleLanguage: (label: string) => void;
@@ -23,22 +23,21 @@ export default function Content({ toggleLanguage, language, children }: IProps) 
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <NextSeo
-        title="Bogdan"
-        canonical="https://main--celebrated-pithivier-e91356.netlify.app/profile"
+        title="Frontend developer"
         openGraph={{
           url: 'https://main--celebrated-pithivier-e91356.netlify.app/profile',
-          title: 'Bogdan',
-          description: 'ntlstl',
+          title: 'Frontend developer',
+          description: 'Frontend developer',
           images: [
             {
-              url: 'https://github.com/bmazurme/mesto/raw/main/src/images/mesto.png',
-              width: 800,
-              height: 600,
-              alt: 'Profile image',
+              url: short.src,
+              width: 320,
+              height: 240,
+              alt: 'profile image',
               type: 'image/jpeg',
             },
           ],
-          site_name: 'ntlstl',
+          site_name: 'Bogdan',
         }}
       />
       <Header toggleLanguage={toggleLanguage} language={language} />

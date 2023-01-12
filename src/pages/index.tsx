@@ -2,7 +2,7 @@ import Head from 'next/head';
 import { NextSeo } from 'next-seo';
 import { Logo, Menu } from '../components';
 
-// import short from '../../img/sh-screen.png';
+import short from '../../img/sh-screen.png';
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
@@ -14,30 +14,27 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <NextSeo
-        title="Bogdan"
-        canonical="https://github.com/bmazurme"
+        title="ntlstl"
         openGraph={{
-          url: 'https://main--celebrated-pithivier-e91356.netlify.app/',
-          title: 'Bogdan',
-          description: 'Frontend developer',
+          url: '/',
+          title: 'ntlstl',
+          description: 'ntlstl',
           images: [
             {
-              url: 'https://github.com/bmazurme/mesto/raw/main/src/images/mesto.png',
+              url: short.src,
               width: 320,
               height: 240,
-              alt: 'Profile image',
+              alt: 'preview',
               type: 'image/jpeg',
             },
           ],
-          site_name: 'Frontend developer',
+          site_name: 'ntlstl',
         }}
       />
-
       <main className={styles.main}>
         <Logo />
         <Menu />
       </main>
-
     </div>
   )
 }
