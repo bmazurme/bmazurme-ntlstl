@@ -68,7 +68,7 @@
 .position {
   display: flex;
   flex-direction: column;
-  margin: 0 0 20px;
+  margin: 0;
   padding: 0;
   font-style: normal;
   font-weight: 400;
@@ -76,13 +76,6 @@
   line-height: 22px;
 }
 
-.description {
-  margin: 0;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 22px;
-}
 
 .date {
   margin: 0;

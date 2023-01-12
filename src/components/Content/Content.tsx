@@ -3,6 +3,7 @@ import { ReactElement} from 'react';
 import Head from 'next/head';
 import { Header, Footer } from '..';
 import ILang from '../../interfaces/ILang';
+import styles from './Content.module.css';
 
 interface IProps {
   toggleLanguage: (label: string) => void;
@@ -12,7 +13,7 @@ interface IProps {
 
 export default function Content({ toggleLanguage, language, children }: IProps) {
   return (
-    <>
+    <div className={styles.page}>
       <Head>
         <title>ntlstl | web developer</title>
         <meta name="description" content="ntlstl" />
@@ -21,6 +22,6 @@ export default function Content({ toggleLanguage, language, children }: IProps) 
       <Header toggleLanguage={toggleLanguage} language={language} />
         {children }
       <Footer />
-    </>
+    </div>
   )
 }

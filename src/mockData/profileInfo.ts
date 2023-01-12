@@ -5,14 +5,46 @@ const profileInfo: Record<string, IProfile> = {
     name: 'Bogdan',
     profession: 'Frontend developer',
     portfolio: 'Portfolio',
-    tech: 'Tech stack',
+    tech: 'Skills',
     use: 'I use technology in my work',
-    company: 'Company',
+    company: 'Work experience',
     age: new Date(1985, 5, 22),
+    education: 'Education',
+    educationList: [
+      {
+        place: 'Moscow State University of Civil Engineering',
+        name: 'Water supply and sanitation',
+        from: '2004',
+        to: '2009',
+      },
+      {
+        place: 'Practicum by Yandex',
+        name: 'The Web Development',
+        from: '2022',
+        to: '2022',
+      },
+      {
+        place: 'Practicum by Yandex (INO CPE “Yandex EdTech”)',
+        name: 'The Mid-Level Web Developer training course',
+        from: '2022',
+        to: '2021',
+      },
+    ],
     about: [
-      'When I worked in design, I automated workflows using Python and C# scripts to interact with Revit API, Forge API, Google API.',
-      'Completed courses "Web developer" and "Middle front-end developer" in Yandex.Practicum.',
-      'After completing the Web Development course, I moved to work, where I do front-end 100% of the time.',
+      'I am a frontend developer. I improve my\n' +
+      'skills and expand them by learning new\n' +
+      'technologies. I have experience in creating\n' +
+      'SPA using React(JS/TS), Redux, HTML, CSS,\n' +
+      'and also have commercial experience as a\n' +
+      'middle frontend developer. In my free\n' +
+      'time, I try to watch IT channels for my\n' +
+      'development.',
+      'Engaged in the development of new\n' +
+      'functionality and support for existing ones,\n' +
+      'also worked with API requests, Swagger,\n' +
+      'Figma. Now I am looking for new\n' +
+      'opportunities in a new company. I am open\n' +
+      'to new possibilities.',
     ],
     companyList: [
       {
@@ -28,7 +60,7 @@ const profileInfo: Record<string, IProfile> = {
         position: 'Fullstack-developer',
         from: '2021',
         to: '2022',
-        description: 'Internal automation service: thin client. Functionality: personal user accounts, settlement services, project gallery, family manager, updating the panel and its modules, modules for automating calculations and preparing documentation, integration with third-party services. Plugins for Ribbon panel Revit. Functionality: search for a route for laying cables through trays, pipelines using graphs, generating specifications, working with a 3D model. Communication with related programs AutoCAD, DiaLux, MS Excel.',
+        description: 'Internal automation service: thin client. Plugins for Ribbon panel Revit. Functionality: search for a route for laying cables through trays, pipelines using graphs, generating specifications, working with a 3D model. Communication with related programs AutoCAD, DiaLux, MS Excel.',
         stack: 'Stack: C#, ASP.NET Core .NET 5.0, MSSQL, IIS, React.js, MUI, Bootstrap, JS, Node.js, HTML, CSS, KaTeX, Canvas, viewer Autodesk Forge, Framework 4.8, WPF.',
       },
       {
@@ -36,7 +68,7 @@ const profileInfo: Record<string, IProfile> = {
         position: 'Frontend-developer',
         from: '2022',
         to: 'recently',
-        description: 'Development of a thin client CRM system. Development of REST API, components, layout, implementation of new tools (from business). Unit tests.',
+        description: 'Development of a thin client CRM system. Fixed bugs, optimized functions. Development of REST API, components, layout, implementation of new tools (from business). Unit tests.',
         stack: 'Stack: Vue.js, React.js, Next.js, Express.js, Redux, RTK, JS, TS, MUI, Tailwind, CSS, SASS, Jest, Eslint, Stylelint, NPM, Webpack, Node.js, Docker, Maven, Git.',
       },
     ],
@@ -65,16 +97,48 @@ const profileInfo: Record<string, IProfile> = {
   },
   RU: {
     name: 'Богдан',
-    profession: 'Фронтенд разработчик',
+    profession: 'Фронтенд-разработчик',
     portfolio: 'Портфолио',
-    tech: 'Технологии',
+    tech: 'Навыки',
     use: 'В работе использую следующие технологии',
     company: 'Опыт работы',
     age: new Date(1985, 5, 22),
+    education: 'Образование',
+    educationList: [
+      {
+        place: 'Московский государственный строительный университет',
+        name: 'Водоснабжение и водоотведение',
+        from: '2004',
+        to: '2009',
+      },
+      {
+        place: 'Яндекс.Практикуме (АНО ДПО «ШАД»)',
+        name: 'Веб-разработчик',
+        from: '2022',
+        to: '2021',
+      },
+      {
+        place: 'Яндекс Практикуме (АНО ДПО «Образовательные технологии Яндекса») ',
+        name: 'Мидл фронтенд-разработчик',
+        from: '2022',
+        to: '2022',
+      },
+    ],
     about: [
-      'По образованию инженер-строитель. Когда работал в проектировании, автоматизировал рабочие процессы с использованием скриптов на Python и C# для взаимодействия с Revit API, Forge API, Google API.',
-      'Прошел обучение по курсам «Веб-разработчик» и «Мидл фронтенд-разработчик» в Яндекс.Практикум.',
-      'После прохождения курса «Веб-разработка» перешел на работу, где 100% времени занимаюсь фронтендом.',
+      'Я фронтенд-разработчик. Я улучшаю свои\n' +
+      'навыки и расширяю их, изучая новые\n' +
+      'технологии. Имею опыт разработки\n' +
+      'SPA с использованием React (JS/TS), Redux, HTML, CSS,\n' +
+      'а также имею коммерческий опыт в качестве\n' +
+      'мидл фронтенд-разработчика. В моем свободном\n' +
+      'время, я стараюсь смотреть IT-каналы для своего\n' +
+      'развития.',
+      'Занимаюсь разработкой нового\n' +
+      'функционала и поддержкой существующего,\n' +
+      'также работал с запросами API, Swagger,\n' +
+      'Figma. Сейчас ищу новые\n' +
+      'возможности в новой компании. Я открыт\n' +
+      'к новым возможностям.',
     ],
     companyList: [
       {
@@ -90,7 +154,7 @@ const profileInfo: Record<string, IProfile> = {
         position: 'Fullstack-разработчик',
         from: '2021',
         to: '2022',
-        description: 'Сервис внутренней автоматизации: тонкий клиент. Функционал: личные кабинеты пользователей, расчетные сервисы, галерея проектов, менеджер семейств, обновление панели и входящих в нее модулей, модули для автоматизации расчетов и оформления документации, интеграция со сторонними сервисами. Плагины для Ribbon panel Revit. Функционал: поиск пути прокладки кабелей по лоткам, трубопроводов с использованием графов, генерация спецификаций, работа с 3D моделью. Связь со смежными программами AutoCAD, DiaLux, MS Excel.',
+        description: 'Сервис внутренней автоматизации: тонкий клиент. Плагины для Ribbon panel Revit. Функционал: поиск пути прокладки кабелей по лоткам, трубопроводов с использованием графов, генерация спецификаций, работа с 3D моделью. Связь со смежными программами AutoCAD, DiaLux, MS Excel.',
         stack: 'Стек: C#, ASP.NET Core .NET 5.0, MSSQL, IIS, React.js, MUI, Bootstrap, JS, Node.js, HTML, CSS, KaTeX, Canvas, viewer Autodesk Forge, Framework 4.8, WPF.',
       },
       {
@@ -98,7 +162,7 @@ const profileInfo: Record<string, IProfile> = {
         position: 'Frontend-разработчик',
         from: '2022',
         to: 'по настоящее время',
-        description: 'Разработка тонкого клиента CRM-системы. Разработка REST API, компонентов, верстка, внедрение новых инструментов (от бизнеса). Unit-тесты.',
+        description: 'Разработка тонкого клиента CRM-системы. Исправление ошибок, оптимизация. Разработка REST API, компонентов, верстка, внедрение новых инструментов (от бизнеса). Unit-тесты.',
         stack: 'Стэк: Vue.js, React.js, Next.js, Express.js, Redux, RTK, JS, TS, MUI, Tailwind, CSS, SASS, Jest, Eslint, Stylelint, NPM, Webpack, Node.js, Docker, Maven, Git.',
       },
     ],
