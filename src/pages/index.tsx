@@ -2,7 +2,7 @@ import Head from 'next/head';
 import { NextSeo } from 'next-seo';
 import { Logo, Menu } from '../components';
 
-import short from '../../img/sh-screen.png';
+import short from '../../img/screen.jpg';
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
