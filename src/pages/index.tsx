@@ -17,7 +17,7 @@ export default function Home() {
         title="Bogdan"
         canonical="https://github.com/bmazurme"
         openGraph={{
-          url: 'https://main--celebrated-pithivier-e91356.netlify.app/',
+          url: 'https://github.com/bmazurme/mesto/raw/main/src/images/mesto.png',
           title: 'Bogdan',
           description: 'ntlstl',
           images: [
