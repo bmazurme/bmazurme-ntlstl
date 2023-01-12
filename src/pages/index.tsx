@@ -2,6 +2,7 @@ import Head from 'next/head';
 import { NextSeo } from 'next-seo';
 import { Logo, Menu } from '../components';
 
+import short from '../../../img/sh-screen.png';
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
@@ -21,7 +22,7 @@ export default function Home() {
           description: 'ntlstl',
           images: [
             {
-              url: 'https://main--celebrated-pithivier-e91356.netlify.app/_next/static/media/bm.a8f02518.jpg',
+              url: short.src,
               width: 800,
               height: 600,
               alt: 'Profile image',
