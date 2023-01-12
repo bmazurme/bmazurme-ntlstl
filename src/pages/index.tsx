@@ -19,17 +19,17 @@ export default function Home() {
         openGraph={{
           url: 'https://main--celebrated-pithivier-e91356.netlify.app/',
           title: 'Bogdan',
-          description: 'ntlstl',
+          description: 'Frontend developer',
           images: [
             {
               url: 'https://github.com/bmazurme/mesto/raw/main/src/images/mesto.png',
-              width: 800,
-              height: 600,
+              width: 320,
+              height: 240,
               alt: 'Profile image',
               type: 'image/jpeg',
             },
           ],
-          site_name: 'ntlstl',
+          site_name: 'Frontend developer',
         }}
       />
 
