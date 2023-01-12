@@ -4,7 +4,7 @@ import Head from 'next/head';
 import { Header, Footer } from '..';
 import ILang from '../../interfaces/ILang';
 import styles from './Content.module.css';
-import short from '../../../img/short.png';
+import short from '../../../img/sh-screen.png';
 
 interface IProps {
   toggleLanguage: (label: string) => void;
