@@ -18,6 +18,10 @@ export default function Menu() {
       url: '/profile',
     },
     {
+      label: 'Portfolio',
+      url: '/portfolio',
+    },
+    {
       label: 'E-mail',
       url: 'mailto:ntlstlwk@gmail.com',
     },
