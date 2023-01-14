@@ -31,20 +31,12 @@ const profileInfo: Record<string, IProfile> = {
       },
     ],
     about: [
-      'I am a frontend developer. I improve my\n' +
-      'skills and expand them by learning new\n' +
-      'technologies. I have experience in creating\n' +
-      'SPA using React(JS/TS), Redux, HTML, CSS,\n' +
-      'and also have commercial experience as a\n' +
-      'middle frontend developer. In my free\n' +
-      'time, I try to watch IT channels for my\n' +
-      'development.',
-      'Engaged in the development of new\n' +
-      'functionality and support for existing ones,\n' +
-      'also worked with API requests, Swagger,\n' +
-      'Figma. Now I am looking for new\n' +
-      'opportunities in a new company. I am open\n' +
-      'to new possibilities.',
+      'I am a frontend developer. I have development experience with React, Vue, Express and Next (JS/TS). \n' +
+      'I am engaged in the development of REST API, UI components, layout, writing unit tests, code review. \n' +
+      'In my work I use VSCode, Postman, Swagger, Figma, GitLab.',
+      'I constantly improve and expand my skills, solve problems on CodeWars, work on pet-projects.',
+      'My hobbies are designing and manufacturing 3D printers, CNC devices, and programming IoT devices.',
+      'Currently looking for new career prospects and open to suggestions.',
     ],
     companyList: [
       {
@@ -133,20 +125,12 @@ const profileInfo: Record<string, IProfile> = {
       },
     ],
     about: [
-      'Я фронтенд-разработчик. Я улучшаю свои\n' +
-      'навыки и расширяю их, изучая новые\n' +
-      'технологии. Имею опыт разработки\n' +
-      'SPA с использованием React (JS/TS), Redux, HTML, CSS,\n' +
-      'а также имею коммерческий опыт в качестве\n' +
-      'мидл фронтенд-разработчика. В свое свободное\n' +
-      'время, я стараюсь смотреть IT-каналы для своего\n' +
-      'развития.',
-      'Занимаюсь разработкой нового\n' +
-      'функционала и поддержкой существующего,\n' +
-      'также работал с запросами API, Swagger,\n' +
-      'Figma. Сейчас ищу новые\n' +
-      'возможности в новой компании. Я открыт\n' +
-      'к новым возможностям.',
+      'Я фронтенд разработчик. Имею опыт разработки на React, Vue, Express и Next (JS/TS). \n' +
+      'Занимаюсь разработкой REST API, UI-компонентов, версткой, написанием unit-тестов, code review. \n' +
+      'В работе использую VSCode, Postman, Swagger, Figma, GitLab.',
+      'Постоянно улучшаю и расширяю свои навыки, решаю задачи на CodeWars, работаю над pet-проектами.',
+      'Увлекаюсь проектированием и изготовлением 3D-принтеров, CNC-устройств, а также программирование IoT-устройств.',
+      'В настоящее время ищу новые карьерные перспективы и открыт к предложениям.',
     ],
     companyList: [
       {
