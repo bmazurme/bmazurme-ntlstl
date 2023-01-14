@@ -12,6 +12,7 @@
   .contact__links {
     flex-direction: column;
     margin-bottom: 10px;
+    margin-top: 20px;
   }
 }
 

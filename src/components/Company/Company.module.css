@@ -83,6 +83,11 @@
   font-size: 14px;
   line-height: 22px;
 }
+@media screen and (min-width: 320px) and (max-width: 599px) {
+  .description {
+    text-align: justify;
+  }
+}
 
 .date {
   margin: 0;
