@@ -57,7 +57,7 @@ const profileInfo: Record<string, IProfile> = {
       },
       {
         name: 'Apex',
-        position: 'Fullstack-developer',
+        position: 'Desktop developer',
         from: '2019',
         to: '2021',
         description: 'Automation of design processes. Development of applications for engineering calculations, plugins for Revit, AutoCAD, DiaLux, MS Excel.',
@@ -107,7 +107,7 @@ const profileInfo: Record<string, IProfile> = {
     name: 'Богдан',
     profession: 'Фронтенд-разработчик',
     portfolio: 'Портфолио',
-    tech: 'Навыки',
+    tech: 'Профессиональные навыки',
     use: 'В работе использую следующие технологии',
     company: 'Опыт работы',
     age: new Date(1985, 5, 22),
@@ -159,7 +159,7 @@ const profileInfo: Record<string, IProfile> = {
       },
       {
         name: 'Apex',
-        position: 'Fullstack-разработчик',
+        position: 'Desktop-разработчик',
         from: '2019',
         to: '2021',
         description: 'Автоматизация процессов проектирования. Разработка приложений для инженерных расчетов, плагинов для Revit, AutoCAD, DiaLux, MS Excel.',
