@@ -31,12 +31,12 @@ const profileInfo: Record<string, IProfile> = {
       },
     ],
     about: [
-      'I am a frontend developer. I have development experience with React, Vue, Express and Next (JS/TS). \n' +
-      'I am engaged in the development of REST API, UI components, layout, writing unit tests, code review. \n' +
-      'In my work I use VSCode, Postman, Swagger, Figma, GitLab.',
-      'I constantly improve and expand my skills, solve problems on CodeWars, work on pet-projects.',
-      'My hobbies are designing and manufacturing 3D printers, CNC devices, and programming IoT devices.',
-      'Currently looking for new career prospects and open to suggestions.',
+      'I am a frontend developer. I have experience in programming on React, Vue, Express and Next (JS/TS). \n' +
+      'I develop REST API, UI components, layout, write unit tests, code review. \n' +
+      'I use VSCode, Postman, Swagger, Figma, GitLab in my work.',
+      'I am constantly improving and expanding my skills, solving problems on CodeWars, working on pet projects.',
+      'I am enthusiastic about designing and manufacturing 3D printers, CNC devices, as well as programming IoT devices.',
+      'I am currently looking for new career opportunities and am open to suggestions.',
     ],
     companyList: [
       {
@@ -52,7 +52,7 @@ const profileInfo: Record<string, IProfile> = {
         position: 'Desktop developer',
         from: '2019',
         to: '2021',
-        description: 'Automation of design processes. Development of applications for engineering calculations, plugins for Revit, AutoCAD, DiaLux, MS Excel.',
+        description: 'Introducing automation in design processes. Developing applications for engineering calculations, plugins for Revit, AutoCAD, DIALux, MS Excel.',
         stack: 'Stack: C#, Framework 4.8, WPF, Revit API, WPFMath, Django, Python, PostgreSQL, LaTeX, Material design, Bootstrap, Git.',
       },
       {
@@ -60,7 +60,7 @@ const profileInfo: Record<string, IProfile> = {
         position: 'Fullstack-developer',
         from: '2021',
         to: '2022',
-        description: 'Automation of design processes. Development of applications for engineering calculations, plug-ins for Revit. Development of Web services to interact with the Autodesk Forge API.',
+        description: 'Introducing automation in design processes. Developing applications for engineering calculations, plugins for Revit. Developing Web services for interaction with the Autodesk Forge API.',
         stack: 'Stack: React.js, ASP.NET Core, MSSQL, MUI, JS, Node.js, HTML, CSS, KaTeX, Canvas, viewer Autodesk Forge, Framework 4.8, WPF, GitHub.',
       },
       {
@@ -68,7 +68,7 @@ const profileInfo: Record<string, IProfile> = {
         position: 'Frontend-developer',
         from: '2022',
         to: 'recently',
-        description: 'Development of new CRM system tools using the Vue.js framework. Development of UI components, REST API, adaptive layout, writing unit tests. Error correction.',
+        description: 'Developing new CRM system tools using Vue.js framework. Developing UI components, REST API, adaptive layout, writing unit tests. Debugging.',
         stack: 'Stack: Vue.js, React.js, Next.js, Express.js, Redux, RTK, JS/TS, MUI, Tailwind, CSS, SASS, Jest, Webpack, Docker, Maven, GitLab.',
       },
     ],
