@@ -74,24 +74,105 @@ const profileInfo: Record<string, IProfile> = {
     ],
     portfolioList: [
       {
-        label: 'Static page',
-        url: 'https://bmazurme.github.io/how-to-learn/',
+        title: 'Photo posting service Mesto',
+        label: 'Static page CSR',
+        tech: ['React', 'Redux', 'TypeScript', 'Axios', 'Webpack', 'Eslint'],
+        links: [
+          {
+            label: 'GitHub',
+            url: '',
+          },
+          {
+            label: 'Netlify',
+            url: 'https://whimsical-sprite-5d5e95.netlify.app/',
+          },
+        ],
       },
       {
+        title: 'Game 15-puzzle',
+        label: 'Game SSR',
+        tech: ['React', 'Redux', 'Express', 'Canvas', 'PostgreSQL', 'ServiceWorker', 'TypeScript', 'Jest', 'Axios', 'Tailwind CSS', 'Webpack', 'Eslint', 'Docker'],
+        links: [
+          {
+            label: 'GitHub',
+            url: 'https://github.com/babylon-game/practicum_15puzzle_babylon',
+          },
+        ],
+      },
+      {
+        title: 'Messenger',
+        label: 'Messenger',
+        tech: ['TypeScript', 'Handlebars', 'Mocha', 'WebSocket', 'Webpack', 'Eslint', 'Docker'],
+        links: [
+          {
+            label: 'GitHub',
+            url: 'https://github.com/bmazurme/messenger',
+          },
+          {
+            label: 'Netlify',
+            url: 'https://deploy--brilliant-dasik-aed875.netlify.app/',
+          },
+        ],
+      },
+      {
+        title: 'Russian travel',
         label: 'Adaptive page',
-        url: 'https://bmazurme.github.io/russian-travel/',
+        tech: ['HTML', 'CSS', 'BEM'],
+        links: [
+          {
+            label: 'GitHub',
+            url: 'https://github.com/bmazurme/russian-travel',
+          },
+          {
+            label: 'GitHub Pages',
+            url: 'https://bmazurme.github.io/russian-travel/',
+          },
+        ],
       },
       {
-        label: 'Mesto CSR',
-        url: 'https://whimsical-sprite-5d5e95.netlify.app/',
+        title: 'Kuda poedu',
+        label: 'Adaptive page',
+        tech: ['HTML', 'CSS', 'BEM'],
+        links: [
+          {
+            label: 'GitHub',
+            url: 'https://github.com/bmazurme/kudaYaPoedu',
+          },
+          {
+            label: 'GitHub Pages',
+            url: 'https://bmazurme.github.io/kudaYaPoedu/',
+          },
+        ],
       },
       {
-        label: 'Messager',
-        url: 'https://deploy--brilliant-dasik-aed875.netlify.app/',
+        title: 'How to learn',
+        label: 'Static page',
+        tech: ['HTML', 'CSS', 'BEM'],
+        links: [
+          {
+            label: 'GitHub',
+            url: 'https://github.com/bmazurme/how-to-learn',
+          },
+          {
+            label: 'GitHub Pages',
+            url: 'https://bmazurme.github.io/how-to-learn/',
+          },
+        ],
       },
       {
-        label: 'Game 15-puzzle',
-        url: 'https://github.com/babylon-game/practicum_15puzzle_babylon',
+        title: 'Gallery svf',
+        label: 'Static page',
+        tech: ['HTML', 'CSS', 'BEM', 'Forge'],
+        links: [
+          {
+            label: 'GitHub',
+            url: 'https://github.com/bmazurme/gallery-svf',
+          },
+          {
+            label: 'GitHub Pages',
+            url: 'https://bmazurme.github.io/gallery-svf/',
+          },
+        ],
       },
     ],
   },
@@ -168,24 +249,105 @@ const profileInfo: Record<string, IProfile> = {
     ],
     portfolioList: [
       {
-        label: 'Статичный сайт',
-        url: 'https://bmazurme.github.io/how-to-learn/',
+        title: 'Сервис размещения фотографий Mesto',
+        label: 'Одностраничный сайт CSR',
+        tech: ['React', 'Redux', 'TypeScript', 'Axios', 'Webpack', 'Eslint'],
+        links: [
+          {
+            label: 'GitHub',
+            url: 'https://github.com/bmazurme/react-mesto-auth',
+          },
+          {
+            label: 'Netlify',
+            url: 'https://whimsical-sprite-5d5e95.netlify.app/',
+          },
+        ],
       },
       {
+        title: 'Игра пятнашки',
+        label: 'Игра SSR',
+        tech: ['React', 'Redux', 'Express', 'Canvas', 'PostgreSQL', 'ServiceWorker', 'TypeScript', 'Jest', 'Axios', 'Tailwind CSS', 'Webpack', 'Eslint', 'Docker'],
+        links: [
+          {
+            label: 'GitHub',
+            url: 'https://github.com/babylon-game/practicum_15puzzle_babylon',
+          },
+        ],
+      },
+      {
+        title: 'Простой месседжер',
+        label: 'Месседжер',
+        tech: ['TypeScript', 'Handlebars', 'Mocha', 'WebSocket', 'Webpack', 'Eslint', 'Docker'],
+        links: [
+          {
+            label: 'GitHub',
+            url: 'https://github.com/bmazurme/messenger',
+          },
+          {
+            label: 'Netlify',
+            url: 'https://deploy--brilliant-dasik-aed875.netlify.app/',
+          },
+        ],
+      },
+      {
+        title: 'Путешествие по России',
         label: 'Адаптивный сайт',
-        url: 'https://bmazurme.github.io/russian-travel/',
+        tech: ['HTML', 'CSS', 'BEM'],
+        links: [
+          {
+            label: 'GitHub',
+            url: 'https://github.com/bmazurme/russian-travel',
+          },
+          {
+            label: 'GitHub Pages',
+            url: 'https://bmazurme.github.io/russian-travel/',
+          },
+        ],
       },
       {
-        label: 'Одностраничный сайт',
-        url: 'https://whimsical-sprite-5d5e95.netlify.app/',
+        title: 'Куда поеду',
+        label: 'Адаптивный сайт',
+        tech: ['HTML', 'CSS', 'BEM'],
+        links: [
+          {
+            label: 'GitHub',
+            url: 'https://github.com/bmazurme/kudaYaPoedu',
+          },
+          {
+            label: 'GitHub Pages',
+            url: 'https://bmazurme.github.io/kudaYaPoedu/',
+          },
+        ],
       },
       {
-        label: 'Простой месседжер',
-        url: 'https://deploy--brilliant-dasik-aed875.netlify.app/',
+        title: 'How to learn',
+        label: 'Статичный сайт',
+        tech: ['HTML', 'CSS', 'BEM'],
+        links: [
+          {
+            label: 'GitHub',
+            url: 'https://github.com/bmazurme/how-to-learn',
+          },
+          {
+            label: 'GitHub Pages',
+            url: 'https://bmazurme.github.io/how-to-learn/',
+          },
+        ],
       },
       {
-        label: 'Игра пятнашки',
-        url: 'https://github.com/babylon-game/practicum_15puzzle_babylon',
+        title: 'Gallery svf',
+        label: 'Статичный сайт',
+        tech: ['HTML', 'CSS', 'BEM', 'Forge'],
+        links: [
+          {
+            label: 'GitHub',
+            url: 'https://github.com/bmazurme/gallery-svf',
+          },
+          {
+            label: 'GitHub Pages',
+            url: 'https://bmazurme.github.io/gallery-svf/',
+          },
+        ],
       },
     ],
   },

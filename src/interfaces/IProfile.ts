@@ -1,3 +1,15 @@
+type Link = {
+  label: string
+  url: string,
+}
+
+type Card = {
+  title: string,
+  label: string,
+  tech: string[],
+  links: Link[],
+}
+
 interface IProfile {
   name: string;
   profession: string;
@@ -10,7 +22,8 @@ interface IProfile {
   about: string[];
   company: string;
   companyList: Record<string, string | null>[];
-  portfolioList: Record<string, string>[];
+  portfolioList: Card[];
 };
 
 export default IProfile;
+export type { Link, Card };
