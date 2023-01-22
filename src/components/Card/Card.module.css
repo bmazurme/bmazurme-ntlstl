@@ -10,10 +10,15 @@
   border-bottom: 1px solid #212121;
 }
 
+.card:last-child {
+  padding-bottom: 0;
+  border: none;
+}
+
 .card__title {
   font-style: normal;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 30px;
   letter-spacing: -0.04em;
   padding: 0;
@@ -66,7 +71,7 @@
 .card__type {
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 20px;
   letter-spacing: -0.04em;
   padding: 0;
