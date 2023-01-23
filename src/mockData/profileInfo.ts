@@ -145,6 +145,17 @@ const profileInfo: Record<string, IProfile> = {
         ],
       },
       {
+        title: 'ITMO',
+        label: 'Adaptive page',
+        tech: ['HTML', 'CSS', 'JavaScript', 'BEM'],
+        links: [
+          {
+            label: 'GitHub Pages',
+            url: 'https://bmazurme.github.io/itmo/',
+          },
+        ],
+      },
+      {
         title: 'How to learn',
         label: 'Static page',
         tech: ['HTML', 'CSS', 'BEM'],
@@ -316,6 +327,17 @@ const profileInfo: Record<string, IProfile> = {
           {
             label: 'GitHub Pages',
             url: 'https://bmazurme.github.io/kudaYaPoedu/',
+          },
+        ],
+      },
+      {
+        title: 'ИТМО',
+        label: 'Адаптивный сайт',
+        tech: ['HTML', 'CSS', 'JavaScript',  'BEM'],
+        links: [
+          {
+            label: 'GitHub Pages',
+            url: 'https://bmazurme.github.io/itmo/',
           },
         ],
       },
