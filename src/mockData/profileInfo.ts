@@ -76,7 +76,7 @@ const profileInfo: Record<string, IProfile> = {
       {
         title: 'Photo posting service Mesto',
         label: 'Static page CSR',
-        tech: ['React', 'Redux', 'TypeScript', 'Axios', 'Webpack', 'Eslint', 'Docker'],
+        tech: ['React', 'Redux', 'TypeScript', 'Axios', 'Webpack', 'Eslint', 'Docker', 'ServiceWorker'],
         links: [
           {
             label: 'GitHub',
@@ -262,7 +262,7 @@ const profileInfo: Record<string, IProfile> = {
       {
         title: 'Сервис размещения фотографий Mesto',
         label: 'Одностраничный сайт CSR',
-        tech: ['React', 'Redux', 'TypeScript', 'Axios', 'Webpack', 'Eslint', 'Docker'],
+        tech: ['React', 'Redux', 'TypeScript', 'Axios', 'Webpack', 'Eslint', 'Docker', 'ServiceWorker'],
         links: [
           {
             label: 'GitHub',
