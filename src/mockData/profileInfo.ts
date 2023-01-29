@@ -80,7 +80,7 @@ const profileInfo: Record<string, IProfile> = {
         links: [
           {
             label: 'GitHub',
-            url: '',
+            url: 'https://github.com/bmazurme/react-mesto-auth',
           },
           {
             label: 'Netlify',
@@ -152,6 +152,17 @@ const profileInfo: Record<string, IProfile> = {
           {
             label: 'GitHub Pages',
             url: 'https://bmazurme.github.io/itmo/',
+          },
+        ],
+      },
+      {
+        title: 'MAKKU',
+        label: 'Adaptive page',
+        tech: ['HTML', 'CSS', 'JavaScript', 'BEM'],
+        links: [
+          {
+            label: 'Netlify',
+            url: 'https://stellar-custard-0d637a.netlify.app/',
           },
         ],
       },
@@ -333,11 +344,22 @@ const profileInfo: Record<string, IProfile> = {
       {
         title: 'ИТМО',
         label: 'Адаптивный сайт',
-        tech: ['HTML', 'CSS', 'JavaScript',  'BEM'],
+        tech: ['HTML', 'CSS', 'JavaScript', 'BEM'],
         links: [
           {
             label: 'GitHub Pages',
             url: 'https://bmazurme.github.io/itmo/',
+          },
+        ],
+      },
+      {
+        title: 'МАККУ',
+        label: 'Адаптивный сайт',
+        tech: ['HTML', 'CSS', 'JavaScript', 'BEM'],
+        links: [
+          {
+            label: 'Netlify',
+            url: 'https://stellar-custard-0d637a.netlify.app/',
           },
         ],
       },
