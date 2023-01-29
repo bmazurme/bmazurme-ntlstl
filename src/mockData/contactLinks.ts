@@ -1,7 +1,7 @@
 const contactLinks = [
   {
     label: 'Telegram',
-    link: 'https://t.me/withusdcom',
+    link: 'https://t.me/ntlstl',
   },
   {
     label: 'LinkedIn',
