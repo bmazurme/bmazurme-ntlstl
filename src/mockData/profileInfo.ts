@@ -100,6 +100,21 @@ const profileInfo: Record<string, IProfile> = {
         ],
       },
       {
+        title: 'Movies explorer',
+        label: 'Static page CSR',
+        tech: ['React', 'Redux', 'TypeScript', 'Axios', 'Webpack', 'Eslint'],
+        links: [
+          {
+            label: 'GitHub',
+            url: 'https://github.com/bmazurme/movies-explorer-frontend',
+          },
+          {
+            label: 'Netlify',
+            url: 'https://63dabdfebc34881642dc87ec--graceful-cassata-eff5c3.netlify.app/',
+          },
+        ],
+      },
+      {
         title: 'Messenger',
         label: 'Messenger',
         tech: ['TypeScript', 'Handlebars', 'Mocha', 'WebSocket', 'Webpack', 'Eslint', 'Docker'],
@@ -293,6 +308,21 @@ const profileInfo: Record<string, IProfile> = {
           {
             label: 'GitHub',
             url: 'https://github.com/babylon-game/practicum_15puzzle_babylon',
+          },
+        ],
+      },
+      {
+        title: 'Movies explorer',
+        label: 'Static page CSR',
+        tech: ['React', 'Redux', 'TypeScript', 'Axios', 'Webpack', 'Eslint'],
+        links: [
+          {
+            label: 'GitHub',
+            url: 'https://github.com/bmazurme/movies-explorer-frontend',
+          },
+          {
+            label: 'Netlify',
+            url: 'https://63dabdfebc34881642dc87ec--graceful-cassata-eff5c3.netlify.app/',
           },
         ],
       },
