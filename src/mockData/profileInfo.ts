@@ -281,7 +281,7 @@ const profileInfo: Record<string, IProfile> = {
         from: '2022',
         to: 'по настоящее время',
         description: 'Разработка новых инструментов CRM-системы с использование фреймворка Vue.js. Разработка UI-компонентов, REST API, адаптивная-верстка, написание unit-тестов. Исправление ошибок.',
-        stack: 'Стэк: Vue.js, React.js, Next.js, Express.js, Redux, RTK, JS/TS, MUI, Tailwind, CSS, SASS, Jest, Webpack, Docker, Maven, GitLab.',
+        stack: 'Стек: Vue.js, React.js, Next.js, Express.js, Redux, RTK, JS/TS, MUI, Tailwind, CSS, SASS, Jest, Webpack, Docker, Maven, GitLab.',
       },
     ],
     portfolioList: [
