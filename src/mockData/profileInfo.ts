@@ -117,7 +117,18 @@ const profileInfo: Record<string, IProfile> = {
       {
         title: 'Messenger',
         label: 'Messenger',
-        tech: ['TypeScript', 'Handlebars', 'Mocha', 'WebSocket', 'Webpack', 'Eslint', 'Docker'],
+        tech: ['React', 'Redux', 'Express', 'TypeScript', 'Axios', 'WebSocket', 'Webpack', 'BEM', 'Eslint', 'Docker'],
+        links: [
+          {
+            label: 'GitHub',
+            url: 'https://github.com/bmazurme/messenger',
+          },
+        ],
+      },
+      {
+        title: 'Messenger',
+        label: 'Messenger',
+        tech: ['TypeScript', 'Handlebars', 'Mocha', 'WebSocket', 'Webpack', 'BEM', 'Eslint', 'Docker'],
         links: [
           {
             label: 'GitHub',
@@ -125,7 +136,7 @@ const profileInfo: Record<string, IProfile> = {
           },
           {
             label: 'Netlify',
-            url: 'https://deploy--brilliant-dasik-aed875.netlify.app/',
+            url: 'https://velvety-babka-2aac37.netlify.app/',
           },
         ],
       },
@@ -329,7 +340,18 @@ const profileInfo: Record<string, IProfile> = {
       {
         title: 'Простой месседжер',
         label: 'Месседжер',
-        tech: ['TypeScript', 'Handlebars', 'Mocha', 'WebSocket', 'Webpack', 'Eslint', 'Docker'],
+        tech: ['React', 'Redux', 'Express', 'TypeScript', 'Axios', 'WebSocket', 'Webpack', 'BEM', 'Eslint', 'Docker'],
+        links: [
+          {
+            label: 'GitHub',
+            url: 'https://github.com/bmazurme/messenger',
+          },
+        ],
+      },
+      {
+        title: 'Простой месседжер',
+        label: 'Месседжер',
+        tech: ['TypeScript', 'Handlebars', 'Mocha', 'WebSocket', 'Webpack', 'BEM', 'Eslint', 'Docker'],
         links: [
           {
             label: 'GitHub',
@@ -337,7 +359,7 @@ const profileInfo: Record<string, IProfile> = {
           },
           {
             label: 'Netlify',
-            url: 'https://deploy--brilliant-dasik-aed875.netlify.app/',
+            url: 'https://velvety-babka-2aac37.netlify.app/',
           },
         ],
       },
