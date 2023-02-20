@@ -41,3 +41,11 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 ## Demo
 [![Netlify](https://img.shields.io/badge/-Netlify-black?style=flat-square&logo=netlify)](https://main--celebrated-pithivier-e91356.netlify.app/)
 [![GitHubPages](https://img.shields.io/badge/-GitHubPages-black?style=flat-square&logo=GitHub)](https://bmazurme.github.io/ntlstl/)
+
+###Docker
+
+build ```docker build -t docker_nextjs:developement .```
+
+run ```docker run --publish 3000:3000 docker_nextjs:developement```
+
+
