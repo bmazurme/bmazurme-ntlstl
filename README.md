@@ -38,7 +38,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 ![TypeScript](https://img.shields.io/badge/-TypeScript-black?style=flat-square&logo=typescript)
 ![Next](https://img.shields.io/badge/-Next-black?style=flat-square&logo=next.js)
 
-## Demo
+### Demo
 [![Netlify](https://img.shields.io/badge/-Netlify-black?style=flat-square&logo=netlify)](https://main--celebrated-pithivier-e91356.netlify.app/)
 [![GitHubPages](https://img.shields.io/badge/-GitHubPages-black?style=flat-square&logo=GitHub)](https://bmazurme.github.io/ntlstl/)
 
