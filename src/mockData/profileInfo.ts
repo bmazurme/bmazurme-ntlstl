@@ -76,7 +76,7 @@ const profileInfo: Record<string, IProfile> = {
       {
         title: 'Photo posting service Mesto',
         label: 'Static page CSR',
-        tech: ['React', 'Redux', 'TypeScript', 'Axios', 'Webpack', 'Eslint', 'Docker', 'ServiceWorker'],
+        tech: ['React', 'Redux', 'TypeScript', 'Axios', 'Webpack', 'Eslint', 'Docker', 'ServiceWorker', 'CI/CD'],
         links: [
           {
             label: 'GitHub',
@@ -91,7 +91,7 @@ const profileInfo: Record<string, IProfile> = {
       {
         title: 'Game 15-puzzle',
         label: 'Game SSR',
-        tech: ['React', 'Redux', 'Express', 'Canvas', 'PostgreSQL', 'ServiceWorker', 'TypeScript', 'Jest', 'Axios', 'Tailwind CSS', 'Webpack', 'Eslint', 'Docker'],
+        tech: ['React', 'Redux', 'Express', 'Canvas', 'PostgreSQL', 'ServiceWorker', 'TypeScript', 'Jest', 'Axios', 'Tailwind CSS', 'Webpack', 'Eslint', 'Docker', 'CI/CD'],
         links: [
           {
             label: 'GitHub',
@@ -117,7 +117,7 @@ const profileInfo: Record<string, IProfile> = {
       {
         title: 'Messenger',
         label: 'Messenger',
-        tech: ['React', 'Redux', 'Express', 'TypeScript', 'Axios', 'WebSocket', 'Webpack', 'BEM', 'Eslint', 'Docker'],
+        tech: ['React', 'Redux', 'Express', 'TypeScript', 'Axios', 'WebSocket', 'Webpack', 'BEM', 'Eslint', 'Docker', 'CI/CD'],
         links: [
           {
             label: 'GitHub',
@@ -283,7 +283,7 @@ const profileInfo: Record<string, IProfile> = {
         position: 'Fullstack-разработчик',
         from: '2021',
         to: '2022',
-        description: 'Автоматизация процессов проектирования. Разработка приложений для инженерных расчетов, плагинов для Revit. Разработка Web-сервисов для взаимодествия с API Autodesk Forge.',
+        description: 'Автоматизация процессов проектирования. Разработка приложений для инженерных расчетов, плагинов для Revit. Разработка Web-сервисов для взаимодействия с API Autodesk Forge.',
         stack: 'Стек: React.js, ASP.NET Core, MSSQL, MUI, JS, Node.js, HTML, CSS, KaTeX, Canvas, viewer Autodesk Forge, Framework 4.8, WPF, GitHub.',
       },
       {
@@ -292,14 +292,14 @@ const profileInfo: Record<string, IProfile> = {
         from: '2022',
         to: 'по настоящее время',
         description: 'Разработка новых инструментов CRM-системы с использование фреймворка Vue.js. Разработка UI-компонентов, REST API, адаптивная-верстка, написание unit-тестов. Исправление ошибок.',
-        stack: 'Стек: Vue.js, React.js, Next.js, Express.js, Redux, RTK, JS/TS, MUI, Tailwind, CSS, SASS, Jest, Webpack, Docker, Maven, GitLab.',
+        stack: 'Стек: Vue.js, React.js, Next.js, Express.js, Redux, RTK, JS/TS, MUI, Tailwind, CSS, SASS, Jest, Webpack, Docker, Maven, GitHub, GitLab.',
       },
     ],
     portfolioList: [
       {
         title: 'Сервис размещения фотографий Mesto',
         label: 'Одностраничный сайт CSR',
-        tech: ['React', 'Redux', 'TypeScript', 'Axios', 'Webpack', 'Eslint', 'Docker', 'ServiceWorker'],
+        tech: ['React', 'Redux', 'TypeScript', 'Axios', 'Webpack', 'Eslint', 'Docker', 'ServiceWorker', 'CI/CD'],
         links: [
           {
             label: 'GitHub',
@@ -314,7 +314,7 @@ const profileInfo: Record<string, IProfile> = {
       {
         title: 'Игра пятнашки',
         label: 'Игра SSR',
-        tech: ['React', 'Redux', 'Express', 'Canvas', 'PostgreSQL', 'ServiceWorker', 'TypeScript', 'Jest', 'Axios', 'Tailwind CSS', 'Webpack', 'Eslint', 'Docker'],
+        tech: ['React', 'Redux', 'Express', 'Canvas', 'PostgreSQL', 'ServiceWorker', 'TypeScript', 'Jest', 'Axios', 'Tailwind CSS', 'Webpack', 'Eslint', 'Docker', 'CI/CD'],
         links: [
           {
             label: 'GitHub',
@@ -340,7 +340,7 @@ const profileInfo: Record<string, IProfile> = {
       {
         title: 'Простой месседжер',
         label: 'Месседжер',
-        tech: ['React', 'Redux', 'Express', 'TypeScript', 'Axios', 'WebSocket', 'Webpack', 'BEM', 'Eslint', 'Docker'],
+        tech: ['React', 'Redux', 'Express', 'TypeScript', 'Axios', 'WebSocket', 'Webpack', 'BEM', 'Eslint', 'Docker', 'CI/CD'],
         links: [
           {
             label: 'GitHub',
