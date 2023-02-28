@@ -38,14 +38,42 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 ![TypeScript](https://img.shields.io/badge/-TypeScript-black?style=flat-square&logo=typescript)
 ![Next](https://img.shields.io/badge/-Next-black?style=flat-square&logo=next.js)
 
-## Demo
+### Demo
 [![Netlify](https://img.shields.io/badge/-Netlify-black?style=flat-square&logo=netlify)](https://main--celebrated-pithivier-e91356.netlify.app/)
 [![GitHubPages](https://img.shields.io/badge/-GitHubPages-black?style=flat-square&logo=GitHub)](https://bmazurme.github.io/ntlstl/)
 
-###Docker
+### Docker
 
 build ```docker build -t docker_nextjs:developement .```
 
 run ```docker run --publish 3000:3000 docker_nextjs:developement```
 
+### NGINX
 
+`sudo apt update`
+
+`sudo apt install -y nginx`
+
+`sudo ufw allow 'Nginx Full'`
+
+`sudo ufw allow OpenSSH`
+
+`sudo ufw enable`
+
+`sudo systemctl enable --now nginx`
+
+`sudo nano /etc/nginx/sites-available/default`
+
+`sudo nginx -t`
+
+`sudo systemctl reload nginx`
+
+### SSL
+
+`sudo apt update`
+
+`sudo apt install -y certbot python3-certbot-nginx`
+
+`sudo certbot --nginx`
+
+`sudo systemctl reload nginx`
