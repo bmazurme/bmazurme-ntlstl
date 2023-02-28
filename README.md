@@ -48,4 +48,32 @@ build ```docker build -t docker_nextjs:developement .```
 
 run ```docker run --publish 3000:3000 docker_nextjs:developement```
 
+### NGINX
 
+`sudo apt update`
+
+`sudo apt install -y nginx`
+
+`sudo ufw allow 'Nginx Full'`
+
+`sudo ufw allow OpenSSH`
+
+`sudo ufw enable`
+
+`sudo systemctl enable --now nginx`
+
+`sudo nano /etc/nginx/sites-available/default`
+
+`sudo nginx -t`
+
+`sudo systemctl reload nginx`
+
+### SSL
+
+`sudo apt update`
+
+`sudo apt install -y certbot python3-certbot-nginx`
+
+`sudo certbot --nginx`
+
+`sudo systemctl reload nginx`
