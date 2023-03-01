@@ -44,6 +44,26 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ### Docker
 
+`docker-compose build`
+
+`docker-compose up`
+
+`docker-compose stop`
+
+`docker system prune -a`
+
+`docker push cr.yandex/${REGISTRY_ID}/ntlstl:latest`
+
+`docker pull cr.yandex/${REGISTRY_ID}/ntlstl:latest`
+
+`docker run cr.yandex/${REGISTRY_ID}/ntlstl:latest`
+
+`docker run -d -p 80:3000 cr.yandex/${REGISTRY_ID}/ntlstl:latest`
+
+[https://cloud.yandex.ru/docs/container-registry/tutorials/run-docker-on-vm#before-begin](https://cloud.yandex.ru/docs/container-registry/tutorials/run-docker-on-vm#before-begin)
+
+`docker exec -it container_ID_or_name /bin/bash`
+
 build ```docker build -t docker_nextjs:developement .```
 
 run ```docker run --publish 3000:3000 docker_nextjs:developement```
