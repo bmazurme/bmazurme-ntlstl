@@ -338,7 +338,7 @@ const profileInfo: Record<string, IProfile> = {
         ],
       },
       {
-        title: 'Простой месседжер',
+        title: 'Простой мессенджер',
         label: 'Месседжер',
         tech: ['React', 'Redux', 'Express', 'TypeScript', 'Axios', 'WebSocket', 'Webpack', 'BEM', 'Eslint', 'Docker', 'CI/CD'],
         links: [
@@ -349,7 +349,7 @@ const profileInfo: Record<string, IProfile> = {
         ],
       },
       {
-        title: 'Простой месседжер',
+        title: 'Простой мессенджер',
         label: 'Месседжер',
         tech: ['TypeScript', 'Handlebars', 'Mocha', 'WebSocket', 'Webpack', 'BEM', 'Eslint', 'Docker'],
         links: [
