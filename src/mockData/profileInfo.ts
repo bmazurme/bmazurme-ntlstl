@@ -126,6 +126,17 @@ const profileInfo: Record<string, IProfile> = {
         ],
       },
       {
+        title: 'Product-tree',
+        label: 'd3.js',
+        tech: ['React', 'Redux', 'Express', 'TypeScript', 'React-d3-tree', 'Webpack', 'Ant design', 'Eslint'],
+        links: [
+          {
+            label: 'GitHub',
+            url: 'https://github.com/bmazurme/react-redux-d3',
+          },
+        ],
+      },
+      {
         title: 'Messenger',
         label: 'Messenger',
         tech: ['TypeScript', 'Handlebars', 'Mocha', 'WebSocket', 'Webpack', 'BEM', 'Eslint', 'Docker'],
@@ -345,6 +356,17 @@ const profileInfo: Record<string, IProfile> = {
           {
             label: 'GitHub',
             url: 'https://github.com/bmazurme/messenger',
+          },
+        ],
+      },
+      {
+        title: 'Product-tree',
+        label: 'd3.js',
+        tech: ['React', 'Redux', 'Express', 'TypeScript', 'React-d3-tree', 'Webpack', 'Ant design', 'Eslint'],
+        links: [
+          {
+            label: 'GitHub',
+            url: 'https://github.com/bmazurme/react-redux-d3',
           },
         ],
       },
