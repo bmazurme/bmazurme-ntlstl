@@ -29,6 +29,12 @@ const profileInfo: Record<string, IProfile> = {
         from: '2021',
         to: '2022',
       },
+      {
+        place: 'Practicum by Yandex (INO CPE “Yandex EdTech”)',
+        name: 'React Development',
+        from: '2023',
+        to: '2023',
+      },
     ],
     about: [
       'I am a frontend developer. I have experience in programming on React, Vue, Express and Next (JS/TS). \n' +
@@ -262,6 +268,12 @@ const profileInfo: Record<string, IProfile> = {
         name: 'Мидл фронтенд-разработчик',
         from: '2022',
         to: '2022',
+      },
+      {
+        place: 'Яндекс Практикум (АНО ДПО «Образовательные технологии Яндекса») ',
+        name: 'React-разработчик',
+        from: '2023',
+        to: '2023',
       },
     ],
     about: [
