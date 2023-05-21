@@ -1,5 +1,6 @@
-import styles from './Company.module.css';
 import { IProfile } from '../../interfaces';
+
+import styles from './Company.module.css';
 
 export default function Company({ info }: { info: IProfile }) {
   return (

@@ -11,10 +11,10 @@ export default function Tech({ info }: { info: IProfile}) {
 
   return (
     <section className={styles.tech}>
-    <h2 className={styles.title}>{info.tech}</h2>
-    <ul className={styles.tech__list}>
-      {techList.map((item) => <li key={item.replaceAll('.', '_')} className={styles.tag}>{item}</li>)}
-    </ul>
-  </section>
+      <h2 className={styles.title}>{info.tech}</h2>
+      <ul className={styles.tech__list}>
+        {techList.map((item) => <li key={item.replaceAll('.', '_')} className={styles.tag}>{item}</li>)}
+      </ul>
+    </section>
   )
 }

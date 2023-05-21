@@ -4,6 +4,7 @@ import Content from '../components/Content';
 import Info from '../components/Info';
 
 import { profileInfo, languageList } from '../mockData';
+
 import { ILang, IProfile } from '../interfaces';
 
 export default function Profile() {
@@ -17,10 +18,7 @@ export default function Profile() {
   };
 
   return (
-    <Content
-      toggleLanguage={toggleLanguage}
-      language={language}
-    >
+    <Content toggleLanguage={toggleLanguage} language={language}>
       <Info info={info} />
     </Content>
   )

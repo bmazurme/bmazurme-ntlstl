@@ -1,8 +1,9 @@
 import getAge from '../../utils/getAge';
 
+import { IProfile } from '../../interfaces';
+
 import img from '../../../img/bm.jpg';
 import styles from './About.module.css';
-import { IProfile } from '../../interfaces';
 
 export default function About({ info }: { info: IProfile}) {
   return (

@@ -17,10 +17,7 @@ export default function Profile() {
   };
 
   return (
-    <Content
-      toggleLanguage={toggleLanguage}
-      language={language}
-    >
+    <Content toggleLanguage={toggleLanguage} language={language}>
       <main>
         <Portfolio info={info} />
       </main>

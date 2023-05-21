@@ -1,5 +1,6 @@
-import styles from './Education.module.css';
 import { IProfile } from '../../interfaces';
+
+import styles from './Education.module.css';
 
 export default function Education({ info }: { info: IProfile }) {
   return (

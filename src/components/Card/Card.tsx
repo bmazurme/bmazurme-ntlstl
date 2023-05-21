@@ -11,18 +11,14 @@ export default function Card({ label, title, tech, links }: typeCard) {
 
       <ul className={styles.card__tags}>
         {(tech).map((item: string, i) => 
-          <li key={i} className={styles.card__tag}>
-            {item}
-          </li>
+          <li key={i} className={styles.card__tag}>{item}</li>
         )}
       </ul>
 
       <ul className={styles.card__links}>
         {links?.map((link: Link) => 
           <li key={link.label} className={styles.card__link}>
-            <a href={link.url}>
-              {link.label}
-            </a>
+            <a href={link.url}>{link.label}</a>
           </li>
         )}
       </ul>
