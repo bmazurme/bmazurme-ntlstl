@@ -1,32 +1,11 @@
 import React from 'react';
 import Link from 'next/link';
 
+import links from '../../mock-data/links';
+
 import styles from './Menu.module.css';
 
 export default function Menu() {
-  const links = [
-    {
-      label: 'LinkedIn',
-      url: 'https://www.linkedin.com/in/bogdan-mazur-aba74287',
-    },
-    {
-      label: 'GitHub',
-      url: 'https://github.com/bmazurme',
-    },
-    {
-      label: 'CV',
-      url: '/profile',
-    },
-    {
-      label: 'Portfolio',
-      url: '/portfolio',
-    },
-    {
-      label: 'E-mail',
-      url: 'mailto:ntlstlwk@gmail.com',
-    },
-  ];
-
   return (
     <ul className={styles.menu}>
       {links.map(({ label, url}) => (

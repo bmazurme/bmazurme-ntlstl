@@ -1,8 +1,13 @@
+import { useAppContext } from '../../context/app-context';
+
 import { IProfile } from '../../interfaces';
 
 import styles from './Company.module.css';
 
-export default function Company({ info }: { info: IProfile }) {
+export default function Company() {
+  const context = useAppContext();
+  const { info } = context as { info: IProfile };
+
   return (
     <section className={styles.company}>
       <h2 className={styles.title}>{info.company}</h2>

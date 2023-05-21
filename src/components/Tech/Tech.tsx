@@ -1,13 +1,13 @@
-import styles from './Tech.module.css';
+import { useAppContext } from '../../context/app-context';
+
+import techList from '../../mock-data/tech-list';
 import { IProfile } from '../../interfaces';
 
-export default function Tech({ info }: { info: IProfile}) {
-  const techList = [
-    'JavaScript', 'TypeScript', 'React.js', 'Vue.js', 'Next.js', 'Nest.js', 'Express.js', 'Redux', 'Redux Thunk',
-    'RTK', 'React-d3-tree', 'React-dnd',
-    'Jest', 'Webpack', 'Parcel', 'PostCSS', 'Eslint', 'MUI', 'Tailwind', 'BEM', 'Canvas', 'MongoDB', 'PostgreSQL',
-    'Git', 'Docker', 'CSR', 'SSR', 'REST', 'GraphQL', 'Axios', 'Figma', 'GitHub Actions', 'Sequelize', 'Mongoose'
-  ];
+import styles from './Tech.module.css';
+
+export default function Tech() {
+  const context = useAppContext();
+  const { info } = context as { info: IProfile };
 
   return (
     <section className={styles.tech}>

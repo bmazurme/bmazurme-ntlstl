@@ -25,6 +25,7 @@
   margin: 10px 0;
   position: relative;
 }
+
 .card__tags {
   display: flex;
   flex-direction: row;

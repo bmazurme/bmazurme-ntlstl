@@ -1,4 +1,4 @@
-import ContactMenu from '../ContactMenu';
+import ContactMenu from '../contact-menu';
 import Link from 'next/link';
 
 import styles from './Footer.module.css';

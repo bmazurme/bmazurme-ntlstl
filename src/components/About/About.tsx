@@ -1,11 +1,15 @@
 import getAge from '../../utils/getAge';
 
+import { useAppContext } from '../../context/app-context';
 import { IProfile } from '../../interfaces';
 
 import img from '../../../img/bm.jpg';
 import styles from './About.module.css';
 
-export default function About({ info }: { info: IProfile}) {
+export default function About() {
+  const context: unknown = useAppContext();
+  const { info } = context as { info: IProfile };
+
   return (
     <section className={styles.about}>
       <img className={styles.image} src={img.src} alt="фото профиля" />
@@ -14,9 +18,7 @@ export default function About({ info }: { info: IProfile}) {
         <h3 className={styles.profession}>{info.profession}, {getAge(info.age)}</h3>
         <p className={styles.description}>
           {info.about.map((text: string, index: number) =>
-            <span key={`p_${index}`} className={styles.paragraph}>
-              {text}
-            </span>
+            <span key={`p_${index}`} className={styles.paragraph}>{text}</span>
           )}
         </p>
       </div>

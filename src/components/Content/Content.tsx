@@ -3,18 +3,15 @@ import { NextSeo } from 'next-seo';
 
 import Head from 'next/head';
 import { Header, Footer } from '..';
-import ILang from '../../interfaces/ILang';
 
 import styles from './Content.module.css';
 import short from '../../../img/bm.jpg';
 
 interface IProps {
-  toggleLanguage: (label: string) => void;
-  language: ILang[];
   children: ReactElement;
 }
 
-export default function Content({ toggleLanguage, language, children }: IProps) {
+export default function Content({ children }: IProps) {
   return (
     <div className={styles.page}>
       <Head>
@@ -40,7 +37,7 @@ export default function Content({ toggleLanguage, language, children }: IProps) 
           site_name: 'Bogdan',
         }}
       />
-      <Header toggleLanguage={toggleLanguage} language={language} />
+      <Header />
         {children }
       <Footer />
     </div>

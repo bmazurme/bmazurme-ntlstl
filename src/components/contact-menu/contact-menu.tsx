@@ -1,6 +1,6 @@
-import { contactLinks } from '../../mockData';
+import { contactLinks } from '../../mock-data';
 
-import styles from './ContactMenu.module.css';
+import styles from './contact-menu.module.css';
 
 export default function ContactMenu() {
   return (

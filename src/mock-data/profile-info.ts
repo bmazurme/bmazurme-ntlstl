@@ -75,7 +75,7 @@ const profileInfo: Record<string, IProfile> = {
         from: '2022',
         to: 'recently',
         description: 'Developing new CRM system tools using Vue.js framework. Developing UI components, REST API, adaptive layout, writing unit tests. Debugging.',
-        stack: 'Stack: Vue.js, React.js, Next.js, Express.js, Redux, RTK, JS/TS, MUI, Tailwind, CSS, SASS, Jest, Webpack, Docker, Maven, GitLab.',
+        stack: 'Stack: Vue.js, React.js, Next.js, Express.js, Redux, RTK, React-de-tree, React-dnd, JS/TS, MUI, Tailwind, CSS, SASS, Jest, Webpack, Docker, Maven, GitLab.',
       },
     ],
     portfolioList: [
@@ -315,7 +315,7 @@ const profileInfo: Record<string, IProfile> = {
         from: '2022',
         to: 'по настоящее время',
         description: 'Разработка новых инструментов CRM-системы с использование фреймворка Vue.js. Разработка UI-компонентов, REST API, адаптивная-верстка, написание unit-тестов. Исправление ошибок.',
-        stack: 'Стек: Vue.js, React.js, Next.js, Express.js, Redux, RTK, JS/TS, MUI, Tailwind, CSS, SASS, Jest, Webpack, Docker, Maven, GitHub, GitLab.',
+        stack: 'Stack: Vue.js, React.js, Next.js, Express.js, Redux, RTK, React-de-tree, React-dnd, JS/TS, MUI, Tailwind, CSS, SASS, Jest, Webpack, Docker, Maven, GitLab.',
       },
     ],
     portfolioList: [
@@ -484,4 +484,3 @@ const profileInfo: Record<string, IProfile> = {
 };
 
 export default profileInfo;
-

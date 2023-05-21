@@ -1,8 +1,12 @@
+import { useAppContext } from '../../context/app-context';
 import { IProfile } from '../../interfaces';
 
 import styles from './Education.module.css';
 
-export default function Education({ info }: { info: IProfile }) {
+export default function Education() {
+  const context = useAppContext();
+  const { info } = context as { info: IProfile };
+
   return (
     <section className={styles.company}>
       <h2 className={styles.title}>{info.education}</h2>
