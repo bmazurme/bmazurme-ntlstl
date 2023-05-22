@@ -1,4 +1,4 @@
-import IProfile from '../interfaces/IProfile';
+import IProfile from '../interfaces/i-profile';
 
 const profileInfo: Record<string, IProfile> = {
   EN: {

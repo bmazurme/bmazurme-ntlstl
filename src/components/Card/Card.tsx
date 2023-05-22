@@ -10,7 +10,7 @@ export default function Card({
       <h4 className={styles.card__title}>{title}</h4>
       <h5 className={styles.card__type}>{label}</h5>
       <ul className={styles.card__tags}>
-        {(tech).map((item: string, i) => 
+        {(tech).map((item: string, i: number) => 
           <li key={i} className={styles.card__tag}>{item}</li>
         )}
       </ul>

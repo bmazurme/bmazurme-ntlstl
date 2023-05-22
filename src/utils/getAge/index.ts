@@ -1,3 +1,3 @@
-import getAge from './getAge';
+import getAge from './get-age';
 
 export default getAge;

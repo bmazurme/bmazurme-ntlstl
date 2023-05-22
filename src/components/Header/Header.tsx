@@ -1,14 +1,16 @@
 import Link from 'next/link';
+import classNames from 'classnames';
 
 import { useAppContext } from '../../context/app-context';
 
-import ILang from '../../interfaces/ILang';
+import ILang from '../../interfaces/i-lang';
 
 import styles from './Header.module.css';
 
 export default function Header() {
   const context = useAppContext();
-  const { language, toggleLanguage } = context as { language: ILang[], toggleLanguage: (label: string) => void };
+  const { language, toggleLanguage } = context as 
+    { language: ILang[], toggleLanguage: (label: string) => void };
   
   return (
     <div className={styles.header}>
@@ -21,7 +23,10 @@ export default function Header() {
         {language.map(({ label, active }) =>
           <li
             key={label}
-            className={`${styles.language__link} ${active ? styles.language__link_active : ''}`}
+            className={classNames(
+              styles.language__link,
+              { [styles.language__link_active]: active }
+            )}
             onClick={() => toggleLanguage(label)}
           >
             {label}

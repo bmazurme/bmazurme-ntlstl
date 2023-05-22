@@ -1,5 +1,5 @@
-import ILang from './ILang';
-import IProfile, { Card, Link} from './IProfile';
+import ILang from './i-lang';
+import IProfile, { Card, Link} from './i-profile';
 
 export type {
   ILang,

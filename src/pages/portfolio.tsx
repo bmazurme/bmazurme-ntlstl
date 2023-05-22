@@ -1,5 +1,5 @@
 import Content from '../components/Content';
-import Portfolio from '../components/Portfolio';
+import Portfolio from '../layers/portfolio';
 
 export default function Profile() {
   return (
