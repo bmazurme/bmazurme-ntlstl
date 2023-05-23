@@ -1,24 +1,26 @@
-import { ReactNode, createContext, useContext, useState } from 'react';
+import {
+  ReactNode, createContext, useContext, useState, useMemo, useCallback
+} from 'react';
 
 import { profileInfo, languageList } from '../mock-data';
 import { ILang, IProfile } from '../interfaces';
+
+type TypeState = { language: ILang[],info: IProfile };
 
 // @ts-ignore
 const AppContext = createContext();
 
 export function AppWrapper({ children }: { children: ReactNode }) {
-  const [language, setLanguage] = useState<ILang[]>(languageList);
-  const [info, setInfo] = useState<IProfile>(profileInfo.RU);
-  const toggleLanguage = (label: string) => {
-    setLanguage(language.map((item) => ({ label: item.label, active: item.label === label })));
-    setInfo(profileInfo[label]);
+  const [state, setState] = useState<TypeState>({ language: languageList, info: profileInfo.RU });
+  const toggle = (label: string) => {
+    setState({
+      language: state.language.map((item) => ({ label: item.label, active: item.label === label })),
+      info: profileInfo[label],
+    });
   };
 
-  const sharedState = {
-    toggleLanguage,
-    language,
-    info,
-  };
+  const toggleLanguage = useCallback((label: string) => toggle(label), []); // (label: string) => toggle(label);
+  const sharedState = { toggleLanguage, ...state };
   
   return (
     <AppContext.Provider value={sharedState}>
