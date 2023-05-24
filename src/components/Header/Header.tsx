@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import classNames from 'classnames';
+import { v4 as uuidv4 } from 'uuid';
 
 import { useAppContext } from '../../context/app-context';
 
@@ -22,7 +23,7 @@ export default function Header() {
       <ul className={styles.language__list}>
         {language.map(({ label, active }) =>
           <li
-            key={label}
+            key={uuidv4()}
             className={classNames(
               styles.language__link,
               { [styles.language__link_active]: active }

@@ -1,6 +1,8 @@
-import getAge from '../../utils/getAge';
+import { v4 as uuidv4 } from 'uuid';
 
 import { useAppContext } from '../../context/app-context';
+
+import getAge from '../../utils/getAge';
 import { IProfile } from '../../interfaces';
 
 import img from '../../../img/bm.jpg';
@@ -17,8 +19,8 @@ export default function About() {
         <h1 className={styles.name}>{info.name}</h1>
         <h3 className={styles.profession}>{info.profession}, {getAge(info.age)}</h3>
         <p className={styles.description}>
-          {info.about.map((text: string, index: number) =>
-            <span key={`p_${index}`} className={styles.paragraph}>{text}</span>
+          {info.about.map((text: string) =>
+            <span key={uuidv4()} className={styles.paragraph}>{text}</span>
           )}
         </p>
       </div>

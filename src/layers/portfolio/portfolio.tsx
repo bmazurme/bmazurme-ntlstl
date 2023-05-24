@@ -1,3 +1,5 @@
+import { v4 as uuidv4 } from 'uuid';
+
 import Card from '../../components/Card';
 
 import { useAppContext } from '../../context/app-context';
@@ -14,7 +16,7 @@ export default function Portfolio() {
     <section className={styles.portfolio}>
       <h2 className={styles.portfolio_title}>{info.portfolio}</h2>
       <ul className={styles.cards}>
-        {info.portfolioList.map((card: typeCard, i: number) => <Card key={i} {...card} />)}
+        {info.portfolioList.map((card: typeCard) => <Card key={uuidv4()} {...card} />)}
       </ul>
     </section>
   )

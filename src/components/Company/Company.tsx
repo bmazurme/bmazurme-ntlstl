@@ -1,3 +1,4 @@
+import { v4 as uuidv4 } from 'uuid';
 import { useAppContext } from '../../context/app-context';
 
 import { IProfile } from '../../interfaces';
@@ -13,7 +14,7 @@ export default function Company() {
       <h2 className={styles.title}>{info.company}</h2>
       <ul className={styles.company__list}>
         {info.companyList.map((item) =>
-          <li key={item.name} className={styles.company__link}>
+          <li key={uuidv4()} className={styles.company__link}>
             <h4 className={styles.name}>{item.name}</h4>
             <h5 className={styles.position}>
               {item.position}

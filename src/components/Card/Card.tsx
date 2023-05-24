@@ -1,3 +1,5 @@
+import { v4 as uuidv4 } from 'uuid';
+
 import { Card as typeCard, Link } from '../../interfaces';
 
 import styles from './Card.module.css';
@@ -10,13 +12,13 @@ export default function Card({
       <h4 className={styles.card__title}>{title}</h4>
       <h5 className={styles.card__type}>{label}</h5>
       <ul className={styles.card__tags}>
-        {(tech).map((item: string, i: number) => 
-          <li key={i} className={styles.card__tag}>{item}</li>
+        {(tech).map((item: string) => 
+          <li key={uuidv4()} className={styles.card__tag}>{item}</li>
         )}
       </ul>
       <ul className={styles.card__links}>
         {links?.map((link: Link) => 
-          <li key={link.label} className={styles.card__link}>
+          <li key={uuidv4()} className={styles.card__link}>
             <a href={link.url}>{link.label}</a>
           </li>
         )}
