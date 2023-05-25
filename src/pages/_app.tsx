@@ -1,6 +1,5 @@
-import { AppWrapper } from '../context/app-context';
-
 import type { AppProps } from 'next/app';
+import { AppWrapper } from '../context/app-context';
 
 import '../styles/globals.css';
 

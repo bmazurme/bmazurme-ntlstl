@@ -1,10 +1,10 @@
-import Content from '../components/Content';
-import Info from '../components/Info';
+import Content from '../components/core/content';
+import ProfileLayer from '../layers/profile';
 
 export default function Profile() {
   return (
     <Content>
-      <Info />
+      <ProfileLayer />
     </Content>
-  )
+  );
 }

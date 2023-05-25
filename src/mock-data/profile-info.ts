@@ -1,6 +1,5 @@
-import IProfile from '../interfaces/i-profile';
-
-const profileInfo: Record<string, IProfile> = {
+/* eslint-disable operator-linebreak */
+const profileInfo: Record<string, TypeProfile> = {
   EN: {
     name: 'Bogdan',
     profession: 'Frontend developer',
@@ -8,7 +7,7 @@ const profileInfo: Record<string, IProfile> = {
     tech: 'Professional skills',
     use: 'I use technology in my work',
     company: 'Work experience',
-    age: new Date(1985, 5, 22),
+    age: new Date(1985, 4, 22),
     education: 'Education',
     educationList: [
       {
@@ -80,81 +79,54 @@ const profileInfo: Record<string, IProfile> = {
     ],
     portfolioList: [
       {
+        title: 'Stellar React-burger',
+        label: 'Static page CSR',
+        tech: ['React', 'Redux', 'RTK', 'React-dnd', 'Framer-motion', 'TypeScript', 'Webpack', 'Eslint', 'ServiceWorker'],
+        links: [{ label: 'GitHub', url: 'https://github.com/bmazurme/react-burger' }],
+      },
+      {
         title: 'Photo posting service Mesto',
         label: 'Static page CSR',
         tech: ['React', 'Redux', 'TypeScript', 'Axios', 'Webpack', 'Eslint', 'Docker', 'ServiceWorker', 'CI/CD'],
         links: [
-          {
-            label: 'GitHub',
-            url: 'https://github.com/bmazurme/react-mesto-auth',
-          },
-          {
-            label: 'Netlify',
-            url: 'https://whimsical-sprite-5d5e95.netlify.app/',
-          },
+          { label: 'GitHub', url: 'https://github.com/bmazurme/react-mesto-auth' },
+          { label: 'Netlify', url: 'https://whimsical-sprite-5d5e95.netlify.app/' },
         ],
       },
       {
         title: 'Game 15-puzzle',
         label: 'Game SSR',
         tech: ['React', 'Redux', 'Express', 'Canvas', 'PostgreSQL', 'ServiceWorker', 'TypeScript', 'Jest', 'Axios', 'Tailwind CSS', 'Webpack', 'Eslint', 'Docker', 'CI/CD'],
-        links: [
-          {
-            label: 'GitHub',
-            url: 'https://github.com/babylon-game/practicum_15puzzle_babylon',
-          },
-        ],
+        links: [{ label: 'GitHub', url: 'https://github.com/babylon-game/practicum_15puzzle_babylon' }],
       },
       {
         title: 'Movies explorer',
         label: 'Static page CSR',
         tech: ['React', 'Redux', 'TypeScript', 'Axios', 'Webpack', 'Eslint'],
         links: [
-          {
-            label: 'GitHub',
-            url: 'https://github.com/bmazurme/movies-explorer-frontend',
-          },
-          {
-            label: 'Netlify',
-            url: 'https://63dabdfebc34881642dc87ec--graceful-cassata-eff5c3.netlify.app/',
-          },
+          { label: 'GitHub', url: 'https://github.com/bmazurme/movies-explorer-frontend' },
+          { label: 'Netlify', url: 'https://63dabdfebc34881642dc87ec--graceful-cassata-eff5c3.netlify.app/' },
         ],
       },
       {
         title: 'Messenger',
         label: 'Messenger',
         tech: ['React', 'Redux', 'Express', 'TypeScript', 'Axios', 'WebSocket', 'Webpack', 'BEM', 'Eslint', 'Docker', 'CI/CD'],
-        links: [
-          {
-            label: 'GitHub',
-            url: 'https://github.com/bmazurme/messenger',
-          },
-        ],
+        links: [{ label: 'GitHub', url: 'https://github.com/bmazurme/messenger' }],
       },
       {
         title: 'Product-tree',
         label: 'd3.js',
         tech: ['React', 'Redux', 'Express', 'TypeScript', 'React-d3-tree', 'Webpack', 'Ant design', 'Eslint'],
-        links: [
-          {
-            label: 'GitHub',
-            url: 'https://github.com/bmazurme/react-redux-d3',
-          },
-        ],
+        links: [{ label: 'GitHub', url: 'https://github.com/bmazurme/react-redux-d3' }],
       },
       {
         title: 'Messenger',
         label: 'Messenger',
         tech: ['TypeScript', 'Handlebars', 'Mocha', 'WebSocket', 'Webpack', 'BEM', 'Eslint', 'Docker'],
         links: [
-          {
-            label: 'GitHub',
-            url: 'https://github.com/bmazurme/messenger',
-          },
-          {
-            label: 'Netlify',
-            url: 'https://velvety-babka-2aac37.netlify.app/',
-          },
+          { label: 'GitHub', url: 'https://github.com/bmazurme/messenger' },
+          { label: 'Netlify', url: 'https://velvety-babka-2aac37.netlify.app/' },
         ],
       },
       {
@@ -162,14 +134,8 @@ const profileInfo: Record<string, IProfile> = {
         label: 'Adaptive page',
         tech: ['HTML', 'CSS', 'BEM'],
         links: [
-          {
-            label: 'GitHub',
-            url: 'https://github.com/bmazurme/russian-travel',
-          },
-          {
-            label: 'GitHub Pages',
-            url: 'https://bmazurme.github.io/russian-travel/',
-          },
+          { label: 'GitHub', url: 'https://github.com/bmazurme/russian-travel' },
+          { label: 'GitHub Pages', url: 'https://bmazurme.github.io/russian-travel/' },
         ],
       },
       {
@@ -177,51 +143,29 @@ const profileInfo: Record<string, IProfile> = {
         label: 'Adaptive page',
         tech: ['HTML', 'CSS', 'BEM'],
         links: [
-          {
-            label: 'GitHub',
-            url: 'https://github.com/bmazurme/kudaYaPoedu',
-          },
-          {
-            label: 'GitHub Pages',
-            url: 'https://bmazurme.github.io/kudaYaPoedu/',
-          },
+          { label: 'GitHub', url: 'https://github.com/bmazurme/kudaYaPoedu' },
+          { label: 'GitHub Pages', url: 'https://bmazurme.github.io/kudaYaPoedu/' },
         ],
       },
       {
         title: 'ITMO',
         label: 'Adaptive page',
         tech: ['HTML', 'CSS', 'JavaScript', 'BEM'],
-        links: [
-          {
-            label: 'GitHub Pages',
-            url: 'https://bmazurme.github.io/itmo/',
-          },
-        ],
+        links: [{ label: 'GitHub Pages', url: 'https://bmazurme.github.io/itmo/' }],
       },
       {
         title: 'MAKKU',
         label: 'Adaptive page',
         tech: ['HTML', 'CSS', 'JavaScript', 'BEM'],
-        links: [
-          {
-            label: 'Netlify',
-            url: 'https://stellar-custard-0d637a.netlify.app/',
-          },
-        ],
+        links: [{ label: 'Netlify', url: 'https://stellar-custard-0d637a.netlify.app/' }],
       },
       {
         title: 'How to learn',
         label: 'Static page',
         tech: ['HTML', 'CSS', 'BEM'],
         links: [
-          {
-            label: 'GitHub',
-            url: 'https://github.com/bmazurme/how-to-learn',
-          },
-          {
-            label: 'GitHub Pages',
-            url: 'https://bmazurme.github.io/how-to-learn/',
-          },
+          { label: 'GitHub', url: 'https://github.com/bmazurme/how-to-learn' },
+          { label: 'GitHub Pages', url: 'https://bmazurme.github.io/how-to-learn/' },
         ],
       },
       {
@@ -229,14 +173,8 @@ const profileInfo: Record<string, IProfile> = {
         label: 'Static page',
         tech: ['HTML', 'CSS', 'BEM', 'Forge'],
         links: [
-          {
-            label: 'GitHub',
-            url: 'https://github.com/bmazurme/gallery-svf',
-          },
-          {
-            label: 'GitHub Pages',
-            url: 'https://bmazurme.github.io/gallery-svf/',
-          },
+          { label: 'GitHub', url: 'https://github.com/bmazurme/gallery-svf' },
+          { label: 'GitHub Pages', url: 'https://bmazurme.github.io/gallery-svf/' },
         ],
       },
     ],
@@ -248,7 +186,7 @@ const profileInfo: Record<string, IProfile> = {
     tech: 'Профессиональные навыки',
     use: 'В работе использую следующие технологии',
     company: 'Опыт работы',
-    age: new Date(1985, 5, 22),
+    age: new Date(1985, 4, 22),
     education: 'Образование',
     educationList: [
       {
@@ -320,81 +258,54 @@ const profileInfo: Record<string, IProfile> = {
     ],
     portfolioList: [
       {
+        title: 'Stellar React-burger',
+        label: 'Static page CSR',
+        tech: ['React', 'Redux', 'RTK', 'React-dnd', 'Framer-motion', 'TypeScript', 'Webpack', 'Eslint', 'ServiceWorker'],
+        links: [{ label: 'GitHub', url: 'https://github.com/bmazurme/react-burger' }],
+      },
+      {
         title: 'Сервис размещения фотографий Mesto',
         label: 'Одностраничный сайт CSR',
         tech: ['React', 'Redux', 'TypeScript', 'Axios', 'Webpack', 'Eslint', 'Docker', 'ServiceWorker', 'CI/CD'],
         links: [
-          {
-            label: 'GitHub',
-            url: 'https://github.com/bmazurme/react-mesto-auth',
-          },
-          {
-            label: 'Netlify',
-            url: 'https://whimsical-sprite-5d5e95.netlify.app/',
-          },
+          { label: 'GitHub', url: 'https://github.com/bmazurme/react-mesto-auth' },
+          { label: 'Netlify', url: 'https://whimsical-sprite-5d5e95.netlify.app/' },
         ],
       },
       {
         title: 'Игра пятнашки',
         label: 'Игра SSR',
         tech: ['React', 'Redux', 'Express', 'Canvas', 'PostgreSQL', 'ServiceWorker', 'TypeScript', 'Jest', 'Axios', 'Tailwind CSS', 'Webpack', 'Eslint', 'Docker', 'CI/CD'],
-        links: [
-          {
-            label: 'GitHub',
-            url: 'https://github.com/babylon-game/practicum_15puzzle_babylon',
-          },
-        ],
+        links: [{ label: 'GitHub', url: 'https://github.com/babylon-game/practicum_15puzzle_babylon' }],
       },
       {
         title: 'Movies explorer',
         label: 'Static page CSR',
         tech: ['React', 'Redux', 'TypeScript', 'Axios', 'Webpack', 'Eslint'],
         links: [
-          {
-            label: 'GitHub',
-            url: 'https://github.com/bmazurme/movies-explorer-frontend',
-          },
-          {
-            label: 'Netlify',
-            url: 'https://63dabdfebc34881642dc87ec--graceful-cassata-eff5c3.netlify.app/',
-          },
+          { label: 'GitHub', url: 'https://github.com/bmazurme/movies-explorer-frontend' },
+          { label: 'Netlify', url: 'https://63dabdfebc34881642dc87ec--graceful-cassata-eff5c3.netlify.app/' },
         ],
       },
       {
         title: 'Простой мессенджер',
         label: 'Мессенджер',
         tech: ['React', 'Redux', 'Express', 'TypeScript', 'Axios', 'WebSocket', 'Webpack', 'BEM', 'Eslint', 'Docker', 'CI/CD'],
-        links: [
-          {
-            label: 'GitHub',
-            url: 'https://github.com/bmazurme/messenger',
-          },
-        ],
+        links: [{ label: 'GitHub', url: 'https://github.com/bmazurme/messenger' }],
       },
       {
         title: 'Product-tree',
         label: 'd3.js',
         tech: ['React', 'Redux', 'Express', 'TypeScript', 'React-d3-tree', 'Webpack', 'Ant design', 'Eslint'],
-        links: [
-          {
-            label: 'GitHub',
-            url: 'https://github.com/bmazurme/react-redux-d3',
-          },
-        ],
+        links: [{ label: 'GitHub', url: 'https://github.com/bmazurme/react-redux-d3' }],
       },
       {
         title: 'Простой мессенджер',
         label: 'Мессенджер',
         tech: ['TypeScript', 'Handlebars', 'Mocha', 'WebSocket', 'Webpack', 'BEM', 'Eslint', 'Docker'],
         links: [
-          {
-            label: 'GitHub',
-            url: 'https://github.com/bmazurme/messenger',
-          },
-          {
-            label: 'Netlify',
-            url: 'https://velvety-babka-2aac37.netlify.app/',
-          },
+          { label: 'GitHub', url: 'https://github.com/bmazurme/messenger' },
+          { label: 'Netlify', url: 'https://velvety-babka-2aac37.netlify.app/' },
         ],
       },
       {
@@ -402,14 +313,8 @@ const profileInfo: Record<string, IProfile> = {
         label: 'Адаптивный сайт',
         tech: ['HTML', 'CSS', 'BEM'],
         links: [
-          {
-            label: 'GitHub',
-            url: 'https://github.com/bmazurme/russian-travel',
-          },
-          {
-            label: 'GitHub Pages',
-            url: 'https://bmazurme.github.io/russian-travel/',
-          },
+          { label: 'GitHub', url: 'https://github.com/bmazurme/russian-travel' },
+          { label: 'GitHub Pages', url: 'https://bmazurme.github.io/russian-travel/' },
         ],
       },
       {
@@ -417,51 +322,29 @@ const profileInfo: Record<string, IProfile> = {
         label: 'Адаптивный сайт',
         tech: ['HTML', 'CSS', 'BEM'],
         links: [
-          {
-            label: 'GitHub',
-            url: 'https://github.com/bmazurme/kudaYaPoedu',
-          },
-          {
-            label: 'GitHub Pages',
-            url: 'https://bmazurme.github.io/kudaYaPoedu/',
-          },
+          { label: 'GitHub', url: 'https://github.com/bmazurme/kudaYaPoedu' },
+          { label: 'GitHub Pages', url: 'https://bmazurme.github.io/kudaYaPoedu/' },
         ],
       },
       {
         title: 'ИТМО',
         label: 'Адаптивный сайт',
         tech: ['HTML', 'CSS', 'JavaScript', 'BEM'],
-        links: [
-          {
-            label: 'GitHub Pages',
-            url: 'https://bmazurme.github.io/itmo/',
-          },
-        ],
+        links: [{ label: 'GitHub Pages', url: 'https://bmazurme.github.io/itmo/' }],
       },
       {
         title: 'МАККУ',
         label: 'Адаптивный сайт',
         tech: ['HTML', 'CSS', 'JavaScript', 'BEM'],
-        links: [
-          {
-            label: 'Netlify',
-            url: 'https://stellar-custard-0d637a.netlify.app/',
-          },
-        ],
+        links: [{ label: 'Netlify', url: 'https://stellar-custard-0d637a.netlify.app/' }],
       },
       {
         title: 'How to learn',
         label: 'Статичный сайт',
         tech: ['HTML', 'CSS', 'BEM'],
         links: [
-          {
-            label: 'GitHub',
-            url: 'https://github.com/bmazurme/how-to-learn',
-          },
-          {
-            label: 'GitHub Pages',
-            url: 'https://bmazurme.github.io/how-to-learn/',
-          },
+          { label: 'GitHub', url: 'https://github.com/bmazurme/how-to-learn' },
+          { label: 'GitHub Pages', url: 'https://bmazurme.github.io/how-to-learn/' },
         ],
       },
       {
@@ -469,14 +352,8 @@ const profileInfo: Record<string, IProfile> = {
         label: 'Статичный сайт',
         tech: ['HTML', 'CSS', 'BEM', 'Forge'],
         links: [
-          {
-            label: 'GitHub',
-            url: 'https://github.com/bmazurme/gallery-svf',
-          },
-          {
-            label: 'GitHub Pages',
-            url: 'https://bmazurme.github.io/gallery-svf/',
-          },
+          { label: 'GitHub', url: 'https://github.com/bmazurme/gallery-svf' },
+          { label: 'GitHub Pages', url: 'https://bmazurme.github.io/gallery-svf/' },
         ],
       },
     ],

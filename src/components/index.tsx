@@ -1,11 +1,5 @@
-import Logo from './Logo';
-import Menu from './header-menu';
-import Header from './Header';
-import Footer from './Footer';
+import Logo from './logo';
+import Header from './core/header';
+import Footer from './core/footer';
 
-export {
-  Logo,
-  Menu,
-  Header,
-  Footer,
-};
+export { Logo, Header, Footer };

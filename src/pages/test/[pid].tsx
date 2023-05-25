@@ -1,9 +1,13 @@
-import { useRouter } from 'next/router'
+import { useRouter } from 'next/router';
 
 export default function Test() {
-  const router = useRouter()
+  const router = useRouter();
   const { pid } = router.query;
   return (
-    <div>pid: { pid }</div>
-  )
+    <div>
+      pid:
+      {' '}
+      { pid }
+    </div>
+  );
 }

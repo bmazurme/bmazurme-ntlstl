@@ -1,23 +1,21 @@
 import { v4 as uuidv4 } from 'uuid';
 
-import Card from '../../components/Card';
+import ProjectCard from '../../components/project-card';
 
 import { useAppContext } from '../../context/app-context';
 
-import { IProfile, Card as typeCard } from '../../interfaces';
-
-import styles from './Portfolio.module.css';
+import styles from './portfolio.module.css';
 
 export default function Portfolio() {
   const context = useAppContext();
-  const { info } = context as { info: IProfile };
+  const { info } = context as { info: TypeProfile };
 
   return (
     <section className={styles.portfolio}>
-      <h2 className={styles.portfolio_title}>{info.portfolio}</h2>
+      <h2 className={styles.title}>{info.portfolio}</h2>
       <ul className={styles.cards}>
-        {info.portfolioList.map((card: typeCard) => <Card key={uuidv4()} {...card} />)}
+        {info.portfolioList.map((card: TypeCard) => <ProjectCard key={uuidv4()} {...card} />)}
       </ul>
     </section>
-  )
+  );
 }

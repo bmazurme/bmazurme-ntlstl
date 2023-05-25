@@ -1,14 +1,18 @@
 import React from 'react';
 import classNames from 'classnames';
 
-import styles from './Logo.module.css';
+import { TITLE } from '../../utils';
+
+import styles from './logo.module.css';
 
 export default function Logo() {
   return (
     <h1 className={styles.title}>
       <span className={styles.title_background}>
         <span className={classNames(styles.title_foreground, styles.animated)}>
-          [ntlstl]
+          [
+          {TITLE}
+          ]
         </span>
       </span>
     </h1>

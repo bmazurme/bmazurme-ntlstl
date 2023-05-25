@@ -1,16 +1,18 @@
 import Head from 'next/head';
 import { NextSeo } from 'next-seo';
-import { Logo, Menu } from '../components';
+import HomeLayer from '../layers/index';
 
-import short from '../../img/screen.jpg';
-import styles from '../styles/Home.module.css';
+import { TITLE } from '../utils';
+
+import short from '../img/screen.jpg';
+import styles from '../styles/home.module.css';
 
 export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
         <title>ntlstl | web developer</title>
-        <meta name="description" content="ntlstl" />
+        <meta name="description" content={TITLE} />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <NextSeo
@@ -31,10 +33,7 @@ export default function Home() {
           site_name: 'ntlstl',
         }}
       />
-      <main className={styles.main}>
-        <Logo />
-        <Menu />
-      </main>
+      <HomeLayer />
     </div>
-  )
+  );
 }

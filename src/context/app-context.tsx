@@ -1,14 +1,13 @@
+/* eslint-disable react/jsx-no-constructed-context-values */
 import {
-  ReactNode, createContext, useContext, useState, useMemo, useCallback
+  ReactNode, createContext, useContext, useState, useCallback,
 } from 'react';
 
 import { profileInfo, languageList } from '../mock-data';
-import { ILang, IProfile } from '../interfaces';
 
-type TypeState = { language: ILang[],info: IProfile };
+type TypeState = { language: TypeLang[], info: TypeProfile };
 
-// @ts-ignore
-const AppContext = createContext();
+const AppContext = createContext({ language: languageList, info: profileInfo.RU });
 
 export function AppWrapper({ children }: { children: ReactNode }) {
   const [state, setState] = useState<TypeState>({ language: languageList, info: profileInfo.RU });
@@ -19,9 +18,9 @@ export function AppWrapper({ children }: { children: ReactNode }) {
     });
   };
 
-  const toggleLanguage = useCallback((label: string) => toggle(label), []); // (label: string) => toggle(label);
+  const toggleLanguage = useCallback((label: string) => toggle(label), []);
   const sharedState = { toggleLanguage, ...state };
-  
+
   return (
     <AppContext.Provider value={sharedState}>
       {children}
