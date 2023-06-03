@@ -62,7 +62,7 @@ const profileInfo: Record<string, TypeProfile> = {
       },
       {
         name: 'StepLogic',
-        position: 'Fullstack-developer',
+        position: 'Frontend-developer',
         from: '2021',
         to: '2022',
         description: 'Introducing automation in design processes. Developing applications for engineering calculations, plugins for Revit. Developing Web services for interaction with the Autodesk Forge API.',
@@ -241,7 +241,7 @@ const profileInfo: Record<string, TypeProfile> = {
       },
       {
         name: 'StepLogic',
-        position: 'Fullstack-разработчик',
+        position: 'Frontend-разработчик',
         from: '2021',
         to: '2022',
         description: 'Автоматизация процессов проектирования. Разработка приложений для инженерных расчетов, плагинов для Revit. Разработка Web-сервисов для взаимодействия с API Autodesk Forge.',
