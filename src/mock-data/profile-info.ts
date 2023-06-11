@@ -81,8 +81,11 @@ const profileInfo: Record<string, TypeProfile> = {
       {
         title: 'Stellar React-burger',
         label: 'Static page CSR',
-        tech: ['React', 'Redux', 'RTK', 'React-dnd', 'Framer-motion', 'TypeScript', 'Webpack', 'Eslint', 'ServiceWorker'],
-        links: [{ label: 'GitHub', url: 'https://github.com/bmazurme/react-burger' }],
+        tech: ['React', 'Redux', 'RTK', 'React-dnd', 'Framer-motion', 'TypeScript', 'Webpack', 'Eslint'],
+        links: [
+          { label: 'GitHub', url: 'https://github.com/bmazurme/react-burger' },
+          { label: 'Netlify', url: 'https://bejewelled-youtiao-8f9817.netlify.app/' },
+        ],
       },
       {
         title: 'Photo posting service Mesto',
@@ -260,8 +263,11 @@ const profileInfo: Record<string, TypeProfile> = {
       {
         title: 'Stellar React-burger',
         label: 'Static page CSR',
-        tech: ['React', 'Redux', 'RTK', 'React-dnd', 'Framer-motion', 'TypeScript', 'Webpack', 'Eslint', 'ServiceWorker'],
-        links: [{ label: 'GitHub', url: 'https://github.com/bmazurme/react-burger' }],
+        tech: ['React', 'Redux', 'RTK', 'React-dnd', 'Framer-motion', 'TypeScript', 'Webpack', 'Eslint'],
+        links: [
+          { label: 'GitHub', url: 'https://github.com/bmazurme/react-burger' },
+          { label: 'Netlify', url: 'https://bejewelled-youtiao-8f9817.netlify.app/' },
+        ],
       },
       {
         title: 'Сервис размещения фотографий Mesto',
