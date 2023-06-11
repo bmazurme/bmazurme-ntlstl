@@ -35,58 +35,71 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 [![Netlify](https://img.shields.io/badge/-Netlify-black?style=flat-square&logo=netlify)](https://main--celebrated-pithivier-e91356.netlify.app/)
 [![GitHubPages](https://img.shields.io/badge/-GitHubPages-black?style=flat-square&logo=GitHub)](https://bmazurme.github.io/ntlstl/)
 
+### pm2
+```bash
+$ pm2 start npm -- start
+
+$ pm2 start npm -- restart
+
+$ pm2 kill
+```
 ### Docker
+```bash
+$ docker-compose build
 
-`docker-compose build`
+$ docker-compose up
 
-`docker-compose up`
+$ docker-compose stop
 
-`docker-compose stop`
+$ docker system prune -a
 
-`docker system prune -a`
+$ docker push cr.yandex/${REGISTRY_ID}/ntlstl:latest
 
-`docker push cr.yandex/${REGISTRY_ID}/ntlstl:latest`
+$ docker pull cr.yandex/${REGISTRY_ID}/ntlstl:latest
 
-`docker pull cr.yandex/${REGISTRY_ID}/ntlstl:latest`
+$ docker run cr.yandex/${REGISTRY_ID}/ntlstl:latest
 
-`docker run cr.yandex/${REGISTRY_ID}/ntlstl:latest`
+$ docker run -d -p 80:3000 cr.yandex/${REGISTRY_ID}/ntlstl:latest
 
-`docker run -d -p 80:3000 cr.yandex/${REGISTRY_ID}/ntlstl:latest`
+# [https://cloud.yandex.ru/docs/container-registry/tutorials/run-docker-on-vm#before-begin](https://cloud.yandex.ru/docs/container-registry/tutorials/run-docker-on-vm#before-begin)
 
-[https://cloud.yandex.ru/docs/container-registry/tutorials/run-docker-on-vm#before-begin](https://cloud.yandex.ru/docs/container-registry/tutorials/run-docker-on-vm#before-begin)
+$ docker exec -it container_ID_or_name /bin/bash
 
-`docker exec -it container_ID_or_name /bin/bash`
+# build
+$ docker build -t docker_nextjs:developement .
 
-build ```docker build -t docker_nextjs:developement .```
-
-run ```docker run --publish 3000:3000 docker_nextjs:developement```
+# run
+$ docker run --publish 3000:3000 docker_nextjs:developement
+```
 
 ### NGINX
+```bash
+$ sudo apt update
 
-`sudo apt update`
+$ sudo apt install -y nginx
 
-`sudo apt install -y nginx`
+$ sudo ufw allow 'Nginx Full'
 
-`sudo ufw allow 'Nginx Full'`
+$ sudo ufw allow OpenSSH
 
-`sudo ufw allow OpenSSH`
+$ sudo ufw enable
 
-`sudo ufw enable`
+$ sudo systemctl enable --now nginx
 
-`sudo systemctl enable --now nginx`
+$ sudo nano /etc/nginx/sites-available/default
 
-`sudo nano /etc/nginx/sites-available/default`
+$ sudo nginx -t
 
-`sudo nginx -t`
-
-`sudo systemctl reload nginx`
+$ sudo systemctl reload nginx
+```
 
 ### SSL
+```bash
+$ sudo apt update
 
-`sudo apt update`
+$ sudo apt install -y certbot python3-certbot-nginx
 
-`sudo apt install -y certbot python3-certbot-nginx`
+$ sudo certbot --nginx
 
-`sudo certbot --nginx`
-
-`sudo systemctl reload nginx`
+$ sudo systemctl reload nginx
+```
