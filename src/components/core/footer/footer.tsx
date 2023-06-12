@@ -19,13 +19,9 @@ export default function Footer() {
     <footer className={styles.footer}>
       <div>
         &copy;
-        {' '}
-        {year}
-        {' '}
+        {` ${year} `}
         <Link className={styles.link} href={Links.BASE}>
-          [
-          {TITLE}
-          ]
+          {`[${TITLE}]`}
         </Link>
       </div>
       <ContactMenu links={contactLinks} />
