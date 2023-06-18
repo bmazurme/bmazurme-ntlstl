@@ -1,16 +1,9 @@
+import { Links } from '../utils/config';
+
 const contactLinks = [
-  {
-    label: 'Telegram',
-    url: 'https://t.me/ntlstl',
-  },
-  {
-    label: 'LinkedIn',
-    url: 'https://www.linkedin.com/in/bogdan-mazur-aba74287',
-  },
-  {
-    label: 'GitHub',
-    url: 'https://github.com/bmazurme',
-  },
+  { label: 'Telegram', url: Links.TELEGRAM },
+  { label: 'LinkedIn', url: Links.LINKEDIN },
+  { label: 'GitHub', url: Links.GITHUB },
 ];
 
 export default contactLinks;
