@@ -20,9 +20,7 @@ export default function Header() {
       <ul className={styles.header__list}>
         <li className={styles.header__link}>
           <Link href={Links.BASE}>
-            [
-            {TITLE}
-            ]
+            {`[${TITLE}]`}
           </Link>
         </li>
       </ul>
