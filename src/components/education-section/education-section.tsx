@@ -19,9 +19,7 @@ export default function EducationSection() {
               {item.name}
               <span className={styles.date}>
                 {item.from}
-                {' '}
-                -
-                {' '}
+                {' - '}
                 {item.to}
               </span>
             </h5>
