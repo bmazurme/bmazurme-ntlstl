@@ -4,6 +4,10 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  --color: #000;
+  --background-color: #fff;
+  --border-color: #000;
+  --color-tag: #000;
 }
 
 a {
@@ -19,8 +23,11 @@ a {
   html {
     color-scheme: dark;
   }
+
   body {
-    color: white;
-    background: black;
+    --color: #eaeaea;
+    --background-color: #000;
+    --border-color: #212121;
+    --color-tag: #222;
   }
 }
