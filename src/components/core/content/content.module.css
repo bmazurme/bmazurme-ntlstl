@@ -1,5 +1,13 @@
 .page {
   margin: 0 auto;
   max-width: 1200px;
+  color: var(--color);
+  padding: 0 70px;
+  box-sizing: border-box;
 }
 
+@media screen and (min-width: 320px) and (max-width: 599px) {
+  .page {
+    padding: 0 10px;
+  }
+}

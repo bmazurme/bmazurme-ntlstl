@@ -1,9 +1,10 @@
 .header {
-  margin: 20px 70px;
+  margin: 20px 0;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   position: relative;
+  color: var(--color);
 }
 
 @media screen and (min-width: 320px) and (max-width: 599px) {
