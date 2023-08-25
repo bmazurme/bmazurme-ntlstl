@@ -7,14 +7,14 @@ export default function ProjectCard({
 }: TypeCard) {
   return (
     <li className={styles.card}>
-      <h4 className={styles.card__title}>{title}</h4>
-      <h5 className={styles.card__type}>{label}</h5>
-      <ul className={styles.card__tags}>
-        {(tech).map((item: string) => <li key={uuidv4()} className={styles.card__tag}>{item}</li>)}
+      <h4 className={styles.title}>{title}</h4>
+      <h5 className={styles.type}>{label}</h5>
+      <ul className={styles.tags}>
+        {(tech).map((item: string) => <li key={uuidv4()} className={styles.tag}>{item}</li>)}
       </ul>
-      <ul className={styles.card__links}>
+      <ul className={styles.links}>
         {links?.map((link: TypeLink) => (
-          <li key={uuidv4()} className={styles.card__link}>
+          <li key={uuidv4()} className={styles.link}>
             <a href={link.url}>{link.label}</a>
           </li>
         ))}
