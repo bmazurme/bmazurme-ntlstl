@@ -11,9 +11,9 @@ export default function EducationSection() {
   return (
     <section className={styles.company}>
       <h2 className={styles.title}>{info.education}</h2>
-      <ul className={styles.company__list}>
+      <ul className={styles.list}>
         {info.educationList.map((item) => (
-          <li key={uuidv4()} className={styles.company__link}>
+          <li key={uuidv4()} className={styles.link}>
             <h4 className={styles.name}>{item.place}</h4>
             <h5 className={styles.position}>
               {item.name}
