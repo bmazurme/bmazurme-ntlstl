@@ -1,4 +1,5 @@
 const TITLE = 'ntlstl';
+const LANG_KEY = 'lang';
 
 const Links = {
   BASE: '/',
@@ -10,4 +11,4 @@ const Links = {
   TELEGRAM: 'https://t.me/ntlstl',
 };
 
-export { TITLE, Links };
+export { TITLE, Links, LANG_KEY };

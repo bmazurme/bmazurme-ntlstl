@@ -1,4 +1,7 @@
 import getAge from './get-age';
-import { Links, TITLE } from './config';
+import { Links, TITLE, LANG_KEY } from './config';
+import { saveToStorage, getFromStorage } from './local-storage';
 
-export { getAge, Links, TITLE };
+export {
+  getAge, saveToStorage, getFromStorage, Links, TITLE, LANG_KEY,
+};
