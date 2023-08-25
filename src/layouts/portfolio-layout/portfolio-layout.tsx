@@ -11,11 +11,13 @@ export default function Portfolio() {
   const { info } = context as { info: TypeProfile };
 
   return (
-    <section className={styles.portfolio}>
-      <h2 className={styles.title}>{info.portfolio}</h2>
-      <ul className={styles.cards}>
-        {info.portfolioList.map((card: TypeCard) => <ProjectCard key={uuidv4()} {...card} />)}
-      </ul>
-    </section>
+    <main>
+      <section className={styles.portfolio}>
+        <h2 className={styles.title}>{info.portfolio}</h2>
+        <ul className={styles.cards}>
+          {info.portfolioList.map((card: TypeCard) => <ProjectCard key={uuidv4()} {...card} />)}
+        </ul>
+      </section>
+    </main>
   );
 }
