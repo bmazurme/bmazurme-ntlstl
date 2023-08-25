@@ -1,4 +1,4 @@
-import Content from '../components/core/content';
+import Content from '../components/content';
 import PortfolioLayer from '../layouts/portfolio-layout';
 
 export default function Profile() {
