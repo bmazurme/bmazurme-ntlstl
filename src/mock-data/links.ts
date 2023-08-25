@@ -8,4 +8,11 @@ const links = [
   { label: 'E-mail', url: Links.EMAIL },
 ];
 
-export default links;
+const noticeLinks = [
+  { name: 'All', to: '/' },
+  { name: 'Code', to: '/code' },
+  { name: 'Hobby', to: '/hobby' },
+  { name: 'Places', to: '/places' },
+];
+
+export { noticeLinks, links };

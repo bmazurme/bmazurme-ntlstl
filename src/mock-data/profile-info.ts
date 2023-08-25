@@ -124,6 +124,12 @@ const profileInfo: Record<string, TypeProfile> = {
         links: [{ label: 'GitHub', url: 'https://github.com/bmazurme/react-redux-d3' }],
       },
       {
+        title: 'UGMK',
+        label: 'Recharts.js',
+        tech: ['React', 'Express', 'JavaScript', 'Recharts', 'Webpack', 'Eslint', 'Docker'],
+        links: [{ label: 'GitHub', url: 'https://github.com/bmazurme/ugmk_test_app' }],
+      },
+      {
         title: 'Messenger',
         label: 'Messenger',
         tech: ['TypeScript', 'Handlebars', 'Mocha', 'WebSocket', 'Webpack', 'BEM', 'Eslint', 'Docker'],
@@ -304,6 +310,12 @@ const profileInfo: Record<string, TypeProfile> = {
         label: 'd3.js',
         tech: ['React', 'Redux', 'Express', 'TypeScript', 'React-d3-tree', 'Webpack', 'Ant design', 'Eslint'],
         links: [{ label: 'GitHub', url: 'https://github.com/bmazurme/react-redux-d3' }],
+      },
+      {
+        title: 'UGMK',
+        label: 'Recharts.js',
+        tech: ['React', 'Express', 'JavaScript', 'Recharts', 'Webpack', 'Eslint', 'Docker'],
+        links: [{ label: 'GitHub', url: 'https://github.com/bmazurme/ugmk_test_app' }],
       },
       {
         title: 'Простой мессенджер',
