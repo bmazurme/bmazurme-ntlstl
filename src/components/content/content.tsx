@@ -2,12 +2,12 @@ import { ReactElement } from 'react';
 import { NextSeo } from 'next-seo';
 import Head from 'next/head';
 
-import { Header, Footer } from '../../index';
+import { Header, Footer } from '../index';
 
-import { TITLE } from '../../../utils';
+import { TITLE } from '../../utils';
 
 import styles from './content.module.css';
-import short from '../../../img/bm.jpg';
+import short from '../../img/bm.jpg';
 
 interface IProps {
   children: ReactElement;
