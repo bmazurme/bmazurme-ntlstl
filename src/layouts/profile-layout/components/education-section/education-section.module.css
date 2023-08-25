@@ -9,7 +9,7 @@
   }
 }
 
-.company__list {
+.list {
   margin: 40px 0 0;
   padding: 0;
   display: flex;
@@ -18,12 +18,12 @@
 }
 
 @media screen and (min-width: 320px) and (max-width: 599px) {
-  .company__list {
+  .list {
     justify-content: center;
   }
 }
 
-.company__link {
+.link {
   margin: 10px 0;
   padding: 0;
 }
@@ -84,4 +84,16 @@
   font-weight: 400;
   font-size: 12px;
   line-height: 22px;
+}
+
+@media print {
+  .title {
+    margin: 30px 0 0;
+    padding: 0;
+  }
+
+  .list {
+    margin: 0;
+    padding: 0;
+  }
 }
