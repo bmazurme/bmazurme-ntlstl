@@ -1,11 +1,11 @@
 import Link from 'next/link';
 
-import Menu from '../../menu';
-import { TITLE, Links } from '../../../utils';
+import Menu from '../menu';
+import { TITLE, Links } from '../../utils';
 
-import withExtraClass from '../../../hocs/with-extra-class';
+import withExtraClass from '../../hocs/with-extra-class';
 
-import { contactLinks } from '../../../mock-data';
+import { contactLinks } from '../../mock-data';
 
 import styles from './footer.module.css';
 import menuStyle from './menu.module.css';
