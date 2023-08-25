@@ -1,0 +1,15 @@
+.notes {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+@media screen and (min-width: 320px) and (max-width: 599px) {
+  .notes {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 959px) {
+
+}
