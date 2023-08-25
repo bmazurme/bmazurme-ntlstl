@@ -1,0 +1,31 @@
+.header {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+  color: var(--color);
+}
+
+.header::after {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #212121;;
+}
+
+@media screen and (min-width: 320px) and (max-width: 599px) {
+  .header {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+@media print {
+  .header {
+    display: none;
+  }
+}
