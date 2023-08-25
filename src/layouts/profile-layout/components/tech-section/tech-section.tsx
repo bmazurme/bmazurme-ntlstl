@@ -13,7 +13,7 @@ export default function TechSection() {
   return (
     <section className={styles.tech}>
       <h2 className={styles.title}>{info.tech}</h2>
-      <ul className={styles.tech__list}>
+      <ul className={styles.tags}>
         {techList.map((item) => <li key={uuidv4()} className={styles.tag}>{item}</li>)}
       </ul>
     </section>
