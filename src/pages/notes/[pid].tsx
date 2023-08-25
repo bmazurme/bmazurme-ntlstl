@@ -3,23 +3,17 @@ import Content from '../../components/content';
 import NotesLayout from '../../layouts/notes-layout';
 
 import { noticeLinks } from '../../mock-data/links';
+import { cards } from '../../mock-data/cards';
 
 export default function Test() {
   const router = useRouter();
   const { pid } = router.query;
-  let cards = ['0', '1', '2', '3'];
-
-  console.log(pid);
-
-  if (pid !== '/') {
-    const index = noticeLinks.findIndex((x) => (x.to.replace('/', '') === pid));
-    console.log(index);
-    cards = [cards[index]];
-  }
+  const index = noticeLinks.findIndex((x) => (x.to.replace('/', '') === pid));
+  const getCards = pid !== '/' ? [cards[index]] : cards;
 
   return (
     <Content>
-      <NotesLayout links={noticeLinks} cards={cards} />
+      <NotesLayout links={noticeLinks} cards={getCards} />
     </Content>
   );
 }
