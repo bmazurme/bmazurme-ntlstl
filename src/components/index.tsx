@@ -1,5 +1,5 @@
 import Logo from './logo';
-import Header from './core/header';
-import Footer from './core/footer';
+import Header from './header';
+import Footer from './footer';
 
 export { Logo, Header, Footer };

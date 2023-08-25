@@ -3,7 +3,7 @@ import Menu from '../../components/menu';
 
 import withExtraClass from '../../hocs/with-extra-class';
 
-import links from '../../mock-data/links';
+import { links } from '../../mock-data/links';
 
 import styles from '../../styles/home.module.css';
 import menuStyle from './index-layout.module.css';
