@@ -10,9 +10,7 @@ export default function Logo() {
     <h1 className={styles.title}>
       <span className={styles.title_background}>
         <span className={classNames(styles.title_foreground, styles.animated)}>
-          [
-          {TITLE}
-          ]
+          {`[${TITLE}]`}
         </span>
       </span>
     </h1>
