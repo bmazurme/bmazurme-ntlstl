@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 /* eslint-disable react/jsx-no-constructed-context-values */
 import {
   ReactNode, createContext, useContext, useState, useCallback,
