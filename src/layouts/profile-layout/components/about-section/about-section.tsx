@@ -1,4 +1,5 @@
 /* eslint-disable max-len */
+import Image from 'next/image';
 import { v4 as uuidv4 } from 'uuid';
 
 import { useAppContext } from '../../../../context/app-context';
@@ -14,7 +15,13 @@ export default function AboutSection() {
 
   return (
     <section className={styles.about}>
-      <img className={styles.image} src={img.src} alt="фото профиля" />
+      <Image
+        className={styles.image}
+        src={img.src}
+        alt="фото профиля"
+        width={500}
+        height={500}
+      />
       <div className={styles.text}>
         <h1 className={styles.name}>{info.name}</h1>
         <h3 className={styles.profession}>
