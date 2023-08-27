@@ -1,7 +1,7 @@
 import Content from '../components/content';
 import PortfolioLayer from '../layouts/portfolio-layout';
 
-export default function Profile() {
+export default function ProfilePage() {
   return (
     <Content>
       <PortfolioLayer />
