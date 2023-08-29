@@ -1,14 +1,17 @@
+import Link from 'next/link';
+
 import style from './card.module.css';
 
 export default function Card({ data }
-  : { data: { name: string; tag: string }}) {
+  : { data: { name: string; tag: string; link: string }}) {
   return (
-    <div className={style.card}>
-      <div className={style.cover}>{data.name}</div>
-      <div className={style.footer}>
-        <div>{data.tag}</div>
-        <div>-</div>
+    <Link className={style.card} href={`/note/${data.link}`}>
+      <div className={style.cover}>
+        <h4 className={style.title}>{`[${data.name}]`}</h4>
       </div>
-    </div>
+      <div className={style.footer}>
+        <span>{`#${data.tag}`}</span>
+      </div>
+    </Link>
   );
 }
