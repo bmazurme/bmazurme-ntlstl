@@ -21,6 +21,21 @@
   height: 100%;
   justify-content: center;
   align-items: center;
+  background-color: #E8E8E8;
+  background-image: url("../../../../img/screen.jpg");
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--background-color);
+  padding: 5px;
+  font-size: 20px;
+}
+
+.tag {
+  font-weight: 500;
 }
 
 .footer {
@@ -28,6 +43,6 @@
   padding: 5px 10px 0;
   border-top: 1px solid var(--border-color);
   width: 100%;
-  min-height: 55px;
+  min-height: 40px;
   box-sizing: border-box;
 }
