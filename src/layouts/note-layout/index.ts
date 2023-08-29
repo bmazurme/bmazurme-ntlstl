@@ -1,3 +1,4 @@
-import NoteLayout from './note-layout';
+import NoteLayout, { TypeNoteCard } from './note-layout';
 
 export default NoteLayout;
+export { TypeNoteCard };
