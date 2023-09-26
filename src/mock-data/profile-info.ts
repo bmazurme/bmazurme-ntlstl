@@ -81,10 +81,19 @@ const profileInfo: Record<string, TypeProfile> = {
       {
         title: 'Stellar React-burger',
         label: 'Static page CSR',
-        tech: ['React', 'Redux', 'RTK', 'React-dnd', 'Framer-motion', 'TypeScript', 'Webpack', 'Eslint'],
+        tech: ['React', 'Redux', 'RTK', 'React-dnd', 'Framer-motion', 'TypeScript', 'Webpack', 'Eslint', 'Jest', 'Cypress'],
         links: [
           { label: 'GitHub', url: 'https://github.com/bmazurme/react-burger' },
           { label: 'Netlify', url: 'https://bejewelled-youtiao-8f9817.netlify.app/' },
+        ],
+      },
+      {
+        title: 'Photo posting service [ntlstl.places]',
+        label: 'Static page CSR',
+        tech: ['React', 'Redux', 'RTK', 'Express', 'TypeScript', 'PostgreSQL', 'Sequelize', 'Webpack', 'Eslint', 'Docker', 'CI/CD'],
+        links: [
+          { label: 'GitHub', url: 'https://github.com/bmazurme/ntlstl.mesto' },
+          { label: '[places]', url: 'https://places.ntlstl.dev/' },
         ],
       },
       {
@@ -94,12 +103,13 @@ const profileInfo: Record<string, TypeProfile> = {
         links: [
           { label: 'GitHub', url: 'https://github.com/bmazurme/react-mesto-auth' },
           { label: 'Netlify', url: 'https://whimsical-sprite-5d5e95.netlify.app/' },
+          { label: '[mesto]', url: 'https://mesto.ntlstl.dev/' },
         ],
       },
       {
         title: 'Game 15-puzzle',
         label: 'Game SSR',
-        tech: ['React', 'Redux', 'Express', 'Canvas', 'PostgreSQL', 'ServiceWorker', 'TypeScript', 'Jest', 'Axios', 'Tailwind CSS', 'Webpack', 'Eslint', 'Docker', 'CI/CD'],
+        tech: ['React', 'Redux', 'Express', 'Canvas', 'PostgreSQL', 'ServiceWorker', 'Sequelize', 'TypeScript', 'Jest', 'Axios', 'Tailwind CSS', 'Webpack', 'Eslint', 'Docker', 'CI/CD'],
         links: [{ label: 'GitHub', url: 'https://github.com/babylon-game/practicum_15puzzle_babylon' }],
       },
       {
@@ -115,7 +125,10 @@ const profileInfo: Record<string, TypeProfile> = {
         title: 'Messenger',
         label: 'Messenger',
         tech: ['React', 'Redux', 'Express', 'TypeScript', 'Axios', 'WebSocket', 'Webpack', 'BEM', 'Eslint', 'Docker', 'CI/CD'],
-        links: [{ label: 'GitHub', url: 'https://github.com/bmazurme/messenger' }],
+        links: [
+          { label: 'GitHub', url: 'https://github.com/bmazurme/messenger' },
+          { label: '[messenger]', url: 'https://messenger.ntlstl.dev/' },
+        ],
       },
       {
         title: 'Product-tree',
@@ -269,10 +282,19 @@ const profileInfo: Record<string, TypeProfile> = {
       {
         title: 'Stellar React-burger',
         label: 'Static page CSR',
-        tech: ['React', 'Redux', 'RTK', 'React-dnd', 'Framer-motion', 'TypeScript', 'Webpack', 'Eslint'],
+        tech: ['React', 'Redux', 'RTK', 'React-dnd', 'Framer-motion', 'TypeScript', 'Webpack', 'Eslint', 'Jest', 'Cypress'],
         links: [
           { label: 'GitHub', url: 'https://github.com/bmazurme/react-burger' },
           { label: 'Netlify', url: 'https://bejewelled-youtiao-8f9817.netlify.app/' },
+        ],
+      },
+      {
+        title: 'Сервис размещения фотографий [ntlstl.places]',
+        label: 'Одностраничный сайт CSR',
+        tech: ['React', 'Redux', 'RTK', 'Express', 'TypeScript', 'PostgreSQL', 'Sequelize', 'Webpack', 'Eslint', 'Docker', 'CI/CD'],
+        links: [
+          { label: 'GitHub', url: 'https://github.com/bmazurme/ntlstl.mesto' },
+          { label: '[places]', url: 'https://places.ntlstl.dev/' },
         ],
       },
       {
@@ -282,12 +304,13 @@ const profileInfo: Record<string, TypeProfile> = {
         links: [
           { label: 'GitHub', url: 'https://github.com/bmazurme/react-mesto-auth' },
           { label: 'Netlify', url: 'https://whimsical-sprite-5d5e95.netlify.app/' },
+          { label: '[mesto]', url: 'https://mesto.ntlstl.dev/' },
         ],
       },
       {
         title: 'Игра пятнашки',
         label: 'Игра SSR',
-        tech: ['React', 'Redux', 'Express', 'Canvas', 'PostgreSQL', 'ServiceWorker', 'TypeScript', 'Jest', 'Axios', 'Tailwind CSS', 'Webpack', 'Eslint', 'Docker', 'CI/CD'],
+        tech: ['React', 'Redux', 'Express', 'Canvas', 'PostgreSQL', 'Sequelize', 'ServiceWorker', 'TypeScript', 'Jest', 'Axios', 'Tailwind CSS', 'Webpack', 'Eslint', 'Docker', 'CI/CD'],
         links: [{ label: 'GitHub', url: 'https://github.com/babylon-game/practicum_15puzzle_babylon' }],
       },
       {
@@ -303,7 +326,10 @@ const profileInfo: Record<string, TypeProfile> = {
         title: 'Простой мессенджер',
         label: 'Мессенджер',
         tech: ['React', 'Redux', 'Express', 'TypeScript', 'Axios', 'WebSocket', 'Webpack', 'BEM', 'Eslint', 'Docker', 'CI/CD'],
-        links: [{ label: 'GitHub', url: 'https://github.com/bmazurme/messenger' }],
+        links: [
+          { label: 'GitHub', url: 'https://github.com/bmazurme/messenger' },
+          { label: '[messenger]', url: 'https://messenger.ntlstl.dev/' },
+        ],
       },
       {
         title: 'Product-tree',
