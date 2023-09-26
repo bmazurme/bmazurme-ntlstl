@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import React from 'react';
 
 import MenuSecondary from '../../components/menu-secondary';
 import Cards from './componets/cards';

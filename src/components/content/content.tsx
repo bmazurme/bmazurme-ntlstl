@@ -1,4 +1,4 @@
-import { ReactElement } from 'react';
+import React, { ReactElement } from 'react';
 import { NextSeo } from 'next-seo';
 import Head from 'next/head';
 

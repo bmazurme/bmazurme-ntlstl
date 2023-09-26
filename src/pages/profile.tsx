@@ -1,3 +1,5 @@
+import React from 'react';
+
 import Content from '../components/content';
 import ProfileLayer from '../layouts/profile-layout';
 

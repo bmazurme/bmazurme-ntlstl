@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/no-noninteractive-element-interactions */
 /* eslint-disable jsx-a11y/click-events-have-key-events */
+import React from 'react';
 import classNames from 'classnames';
 import { v4 as uuidv4 } from 'uuid';
 

@@ -1,3 +1,5 @@
+import React from 'react';
+
 import AboutSection from './components/about-section';
 import TechSection from './components/tech-section';
 import EducationSection from './components/education-section';

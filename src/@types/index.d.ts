@@ -7,7 +7,7 @@ type TypeCard = {
   title: string;
   label: string;
   tech: string[];
-  links: Link[];
+  links: TypeLink[];
 }
 
 type TypeLang = {
@@ -29,3 +29,16 @@ type TypeProfile = {
   companyList: Record<string, string | null>[];
   portfolioList: TypeCard[];
 };
+
+declare module '*.css' {
+  interface IClassNames {
+    [className: string]: string
+  }
+  const classNames: IClassNames;
+  export = classNames;
+}
+
+declare module '*.jpg' {
+  const content: any;
+  export default content;
+}

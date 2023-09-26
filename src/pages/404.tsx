@@ -1,3 +1,4 @@
+import React from 'react';
 import NotFoundLayout from '../layouts/not-found-layout';
 
 import styles from '../styles/home.module.css';

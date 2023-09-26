@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
 import Content from '../../components/content';
 import NotesLayout from '../../layouts/notes-layout';

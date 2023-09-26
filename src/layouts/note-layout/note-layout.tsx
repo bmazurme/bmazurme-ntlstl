@@ -1,3 +1,4 @@
+import React from 'react';
 import Image from 'next/image';
 import { v4 as uuidv4 } from 'uuid';
 
@@ -35,10 +36,17 @@ export default function NoteLayout({ card }: { card: TypeNoteCard | null }) {
       <div className={style.content}>
         {card && card.content?.map((t: TypeContent) => {
           if ('alt' in t) {
-            return <Image key={uuidv4()} src={(t as TypeImage).src} alt={(t as TypeImage).alt} width={500} height={200} />;
-          } else {
-            return <p key={uuidv4()}>{(t as TypeText).text}</p>;
+            return (
+              <Image
+                key={uuidv4()}
+                src={(t as TypeImage).src}
+                alt={(t as TypeImage).alt}
+                width={500}
+                height={200}
+              />
+            );
           }
+          return <p key={uuidv4()}>{(t as TypeText).text}</p>;
         })}
       </div>
     </div>

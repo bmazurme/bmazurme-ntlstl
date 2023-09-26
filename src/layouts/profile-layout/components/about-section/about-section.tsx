@@ -1,4 +1,5 @@
 /* eslint-disable max-len */
+import React from 'react';
 import Image from 'next/image';
 import { v4 as uuidv4 } from 'uuid';
 

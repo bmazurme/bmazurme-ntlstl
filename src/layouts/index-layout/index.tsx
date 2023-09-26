@@ -1,3 +1,4 @@
+import React from 'react';
 import { Logo } from '../../components';
 import Menu from '../../components/menu';
 
