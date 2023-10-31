@@ -1,3 +1,6 @@
+import burger from '../img/burger.png';
+import places from '../img/places.png';
+
 /* eslint-disable operator-linebreak */
 const profileInfo: Record<string, TypeProfile> = {
   EN: {
@@ -79,6 +82,7 @@ const profileInfo: Record<string, TypeProfile> = {
     ],
     portfolioList: [
       {
+        img: burger,
         title: 'Stellar React-burger',
         label: 'Static page CSR',
         tech: ['React', 'Redux', 'RTK', 'React-dnd', 'Framer-motion', 'TypeScript', 'Webpack', 'Eslint', 'Jest', 'Cypress'],
@@ -88,6 +92,7 @@ const profileInfo: Record<string, TypeProfile> = {
         ],
       },
       {
+        img: places,
         title: 'Photo posting service [ntlstl.places]',
         label: 'Static page CSR',
         tech: ['React', 'Redux', 'RTK', 'Express', 'TypeScript', 'PostgreSQL', 'Sequelize', 'Webpack', 'Eslint', 'Docker', 'CI/CD'],
@@ -280,6 +285,7 @@ const profileInfo: Record<string, TypeProfile> = {
     ],
     portfolioList: [
       {
+        img: burger,
         title: 'Stellar React-burger',
         label: 'Static page CSR',
         tech: ['React', 'Redux', 'RTK', 'React-dnd', 'Framer-motion', 'TypeScript', 'Webpack', 'Eslint', 'Jest', 'Cypress'],
@@ -289,6 +295,7 @@ const profileInfo: Record<string, TypeProfile> = {
         ],
       },
       {
+        img: places,
         title: 'Сервис размещения фотографий [ntlstl.places]',
         label: 'Одностраничный сайт CSR',
         tech: ['React', 'Redux', 'RTK', 'Express', 'TypeScript', 'PostgreSQL', 'Sequelize', 'Webpack', 'Eslint', 'Docker', 'CI/CD'],
