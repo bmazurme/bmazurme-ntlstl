@@ -1,12 +1,32 @@
 .card {
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
+  display: grid;
+  grid-template-areas: "image title" "image type" "image tags" "image links";
+  grid-template-columns: 300px 1fr;
+  column-gap: 16px;
+  row-gap: 8px;
   list-style: none;
   font-size: 16px;
   line-height: 22px;
   margin: 0;
+  margin-top: 20px;
   padding: 0 0 20px;
   border-bottom: 1px solid #212121;
+}
+
+.image {
+  grid-area: image;
+  background-color: #E8E8E8;
+  width: 300px;
+  height: 200px;
+  display: flex;
+  border-radius: 3px;
+  border: 1px solid var(--border-color);
+}
+
+.card:first-child {
+  margin-top: 0;
 }
 
 .card:last-child {
@@ -15,9 +35,10 @@
 }
 
 .title {
+  grid-area: title;
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 22px;
   line-height: 30px;
   letter-spacing: -0.04em;
   padding: 0;
@@ -26,6 +47,7 @@
 }
 
 .tags {
+  grid-area: tags;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -37,16 +59,20 @@
 }
 
 .tag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #E8E8E8;
   border-radius: 3px;
-  margin: 10px 10px 0 0;
-  padding: 3px;
-  font-size: 14px;
-  line-height: 16px;
+  margin: 8px 8px 0 0;
+  padding: 6px;
+  font-size: 12px;
+  line-height: 12px;
   font-weight: 500;
 }
 
 .links {
+  grid-area: links;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -66,12 +92,48 @@
 }
 
 .type {
+  grid-area: type;
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 20px;
   letter-spacing: -0.04em;
   padding: 0;
   margin: 0;
   position: relative;
+}
+
+@media screen and (min-width: 320px) and (max-width: 599px) {
+  .card {
+    grid-template-areas: "image" "title" "type" "tags" "links";
+    grid-template-columns: 300px;
+  }
+  
+  .image {
+    width: 280px;
+    height: 180px;
+  }
+
+  .title {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .type {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .tag {
+    margin: 6px 6px 0 0;
+    padding: 4px;
+    font-size: 10px;
+    line-height: 10px;
+  }
+
+  .link {
+    margin: 0 8px 0 0;
+    font-size: 12px;
+    line-height: 14px;
+  }
 }

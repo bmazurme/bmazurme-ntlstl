@@ -4,6 +4,7 @@ type TypeLink = {
 }
 
 type TypeCard = {
+  img?: StaticImageData;
   title: string;
   label: string;
   tech: string[];
