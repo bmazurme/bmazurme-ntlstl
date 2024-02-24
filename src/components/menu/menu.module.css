@@ -9,6 +9,18 @@
   list-style: none;
 }
 
+.icon {
+  /* background-color: chartreuse; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+  margin-right: 4px;
+  padding: 0;
+  height: 16px;
+  width: 16px;
+}
+
 @media screen and (min-width: 320px) and (max-width: 599px) {
   .links {
     flex-direction: column;
