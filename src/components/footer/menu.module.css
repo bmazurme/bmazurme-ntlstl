@@ -9,6 +9,11 @@
   list-style: none;
 }
 
+.link {
+  display: flex;
+  flex-direction: row;
+}
+
 @media screen and (min-width: 320px) and (max-width: 599px) {
   .links {
     flex-direction: column;
