@@ -12,6 +12,8 @@ import how from '../img/how.png';
 import d3 from '../img/d3.png';
 import puzzle from '../img/puzzle.png';
 import ugmk from '../img/ugmk.png';
+import activityRings from '../img/cover-rings.png';
+import kupi from '../img/kupi.png';
 
 /* eslint-disable operator-linebreak */
 const profileInfo: Record<string, TypeProfile> = {
@@ -106,7 +108,7 @@ const profileInfo: Record<string, TypeProfile> = {
       {
         img: places,
         title: 'Photo posting service [ntlstl.places]',
-        label: 'Single page application CSR',
+        label: 'Single page application CSR. API.',
         tech: ['React', 'Redux', 'RTK', 'Express', 'TypeScript', 'PostgreSQL', 'Sequelize', 'Webpack', 'Eslint', 'Docker', 'CI/CD'],
         links: [
           { label: 'GitHub', url: 'https://github.com/bmazurme/ntlstl.mesto' },
@@ -164,6 +166,15 @@ const profileInfo: Record<string, TypeProfile> = {
         label: 'Recharts.js',
         tech: ['React', 'Express', 'JavaScript', 'Recharts', 'Webpack', 'Eslint', 'Docker'],
         links: [{ label: 'GitHub', url: 'https://github.com/bmazurme/ugmk_test_app' }],
+      },
+      {
+        img: activityRings,
+        title: 'Activity rings',
+        label: 'React RadialBar component',
+        tech: ['React', 'TypeScript', 'SVG'],
+        links: [
+          { label: 'GitHub', url: 'https://github.com/bmazurme' },
+        ],
       },
       {
         img: messenger,
@@ -227,6 +238,15 @@ const profileInfo: Record<string, TypeProfile> = {
         links: [
           { label: 'GitHub', url: 'https://github.com/bmazurme/gallery-svf' },
           { label: 'GitHub Pages', url: 'https://bmazurme.github.io/gallery-svf/' },
+        ],
+      },
+      {
+        img: kupi,
+        title: 'Kupipodariday',
+        label: 'Backend',
+        tech: ['TypeScript', 'Nest.js', 'TypeORM', 'postgresql'],
+        links: [
+          { label: 'GitHub', url: 'https://github.com/bmazurme' },
         ],
       },
     ],
@@ -322,7 +342,7 @@ const profileInfo: Record<string, TypeProfile> = {
       {
         img: places,
         title: 'Сервис размещения фотографий [ntlstl.places]',
-        label: 'Одностраничный сайт CSR',
+        label: 'Одностраничный сайт CSR. API.',
         tech: ['React', 'Redux', 'RTK', 'Express', 'TypeScript', 'PostgreSQL', 'Sequelize', 'Webpack', 'Eslint', 'Docker', 'CI/CD'],
         links: [
           { label: 'GitHub', url: 'https://github.com/bmazurme/ntlstl.mesto' },
@@ -380,6 +400,15 @@ const profileInfo: Record<string, TypeProfile> = {
         label: 'Recharts.js',
         tech: ['React', 'Express', 'JavaScript', 'Recharts', 'Webpack', 'Eslint', 'Docker'],
         links: [{ label: 'GitHub', url: 'https://github.com/bmazurme/ugmk_test_app' }],
+      },
+      {
+        img: activityRings,
+        title: 'Activity rings',
+        label: 'React RadialBar компонент',
+        tech: ['React', 'TypeScript', 'SVG'],
+        links: [
+          { label: 'GitHub', url: 'https://github.com/bmazurme' },
+        ],
       },
       {
         img: messenger,
@@ -443,6 +472,15 @@ const profileInfo: Record<string, TypeProfile> = {
         links: [
           { label: 'GitHub', url: 'https://github.com/bmazurme/gallery-svf' },
           { label: 'GitHub Pages', url: 'https://bmazurme.github.io/gallery-svf/' },
+        ],
+      },
+      {
+        img: kupi,
+        title: 'Kupipodariday',
+        label: 'Бэкенд',
+        tech: ['TypeScript', 'Nest.js', 'TypeORM', 'postgresql'],
+        links: [
+          { label: 'GitHub', url: 'https://github.com/bmazurme' },
         ],
       },
     ],
