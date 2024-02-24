@@ -1,5 +1,6 @@
 type TypeLink = {
   label: string;
+  icon?: any;
   url: string;
 }
 
@@ -7,7 +8,7 @@ type TypeCard = {
   img?: StaticImageData;
   title: string;
   label: string;
-  tech: string[];
+  tech: { label: string; icon?: any }[];
   links: TypeLink[];
 }
 
