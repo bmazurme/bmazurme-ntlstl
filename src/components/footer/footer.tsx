@@ -15,7 +15,6 @@ const ContactMenu = withExtraClass(menuStyle)(Menu);
 
 export default function Footer() {
   const year = new Date().getFullYear().toString();
-
   return (
     <footer className={styles.footer}>
       <div>
