@@ -15,7 +15,15 @@ export default function TechSection() {
     <section className={styles.tech}>
       <h2 className={styles.title}>{info.tech}</h2>
       <ul className={styles.tags}>
-        {techList.map((item) => <li key={uuidv4()} className={styles.tag}>{item}</li>)}
+        {techList.map(({ label, icon: Component }) =>
+          <li
+            key={uuidv4()}
+            className={styles.tag}
+          >
+            {Component ? <span className={styles.icon}><Component size="xs" /></span> : null}
+            {label}
+          </li>)
+        }
       </ul>
     </section>
   );

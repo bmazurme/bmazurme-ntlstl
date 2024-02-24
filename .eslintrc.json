@@ -8,7 +8,7 @@
         "plugin:react/recommended",
         "plugin:@typescript-eslint/recommended",
         "airbnb",
-        "next/core-web-vitals"
+        "next/core-web-vitals",
     ],
     "overrides": [
     ],
@@ -43,7 +43,9 @@
       "react/jsx-filename-extension": [2, { "extensions": [".js", ".jsx", ".ts", ".tsx"] }],
       "@typescript-eslint/no-non-null-assertion": "off",
       "@typescript-eslint/no-var-requires": 0,
-      "@typescript-eslint/ban-ts-comment": "off"
+      "@typescript-eslint/ban-ts-comment": "off",
+      "import/no-extraneous-dependencies": ["error", {"devDependencies": false, "optionalDependencies": false, "peerDependencies": false}]
+    
     //   "import/extensions": [
     //     "error",
     //     "ignorePackages",

@@ -15,6 +15,44 @@ import ugmk from '../img/ugmk.png';
 import activityRings from '../img/cover-rings.png';
 import kupi from '../img/kupi.png';
 
+import {
+  tagReact,
+  tagJavaScript,
+  tagTypeScript,
+  tagRedux,
+  tagExpress,
+  tagEslint,
+  tagDocker,
+  tagMongodb,
+  tagMongoose,
+  tagNest,
+  tagTypeORM,
+  tagPostgreSQL,
+  tagSequelize,
+  tagWebpack,
+  tagJest,
+  tagCypress,
+  tagAxios,
+  tagBem,
+  tagRtk,
+  tagTailwind,
+  tagHTML,
+  tagCSS,
+  tagAntdesign,
+  tagMocha,
+  tagReactD3,
+  tagReactDnd,
+  tagRecharts,
+  tagCanvas,
+  tagHandlebars,
+  tagForge,
+  tagSvg,
+  tagWebSocket,
+  tagServiceWorker,
+  tagCicd,
+  tagFramerMotion,
+} from './tags';
+
 /* eslint-disable operator-linebreak */
 const profileInfo: Record<string, TypeProfile> = {
   EN: {
@@ -99,7 +137,7 @@ const profileInfo: Record<string, TypeProfile> = {
         img: burger,
         title: 'Stellar React-burger',
         label: 'Single page application CSR',
-        tech: ['React', 'Redux', 'RTK', 'React-dnd', 'Framer-motion', 'TypeScript', 'Webpack', 'Eslint', 'Jest', 'Cypress'],
+        tech: [tagReact, tagRedux, tagRtk, tagReactDnd, tagFramerMotion, tagTypeScript, tagWebpack, tagEslint, tagJest, tagCypress],
         links: [
           { label: 'GitHub', url: 'https://github.com/bmazurme/react-burger' },
           { label: 'Netlify', url: 'https://bejewelled-youtiao-8f9817.netlify.app/' },
@@ -108,8 +146,8 @@ const profileInfo: Record<string, TypeProfile> = {
       {
         img: places,
         title: 'Photo posting service [ntlstl.places]',
-        label: 'Single page application CSR. API.',
-        tech: ['React', 'Redux', 'RTK', 'Express', 'TypeScript', 'PostgreSQL', 'Sequelize', 'Webpack', 'Eslint', 'Docker', 'CI/CD'],
+        label: 'Single page application CSR. Backend API',
+        tech: [tagReact, tagRedux, tagRtk, tagExpress, tagTypeScript, tagPostgreSQL, tagSequelize, tagFramerMotion, tagWebpack, tagEslint, tagDocker, tagCicd],
         links: [
           { label: 'GitHub', url: 'https://github.com/bmazurme/ntlstl.mesto' },
           { label: '[places]', url: 'https://places.ntlstl.dev/' },
@@ -119,7 +157,7 @@ const profileInfo: Record<string, TypeProfile> = {
         img: mesto,
         title: 'Photo posting service Mesto',
         label: 'Single page application CSR',
-        tech: ['React', 'Redux', 'TypeScript', 'Axios', 'Webpack', 'Eslint', 'Docker', 'ServiceWorker', 'CI/CD'],
+        tech: [tagReact, tagRedux, tagTypeScript, tagAxios, tagWebpack, tagEslint, tagDocker, tagServiceWorker, tagCicd],
         links: [
           { label: 'GitHub', url: 'https://github.com/bmazurme/react-mesto-auth' },
           { label: 'Netlify', url: 'https://whimsical-sprite-5d5e95.netlify.app/' },
@@ -130,14 +168,14 @@ const profileInfo: Record<string, TypeProfile> = {
         img: puzzle,
         title: 'Game 15-puzzle',
         label: 'Game SSR',
-        tech: ['React', 'Redux', 'Express', 'Canvas', 'PostgreSQL', 'ServiceWorker', 'Sequelize', 'TypeScript', 'Jest', 'Axios', 'Tailwind CSS', 'Webpack', 'Eslint', 'Docker', 'CI/CD'],
+        tech: [tagReact, tagRedux, tagExpress, tagCanvas, tagPostgreSQL, tagServiceWorker, tagSequelize, tagTypeScript, tagJest, tagAxios, tagTailwind, tagWebpack, tagEslint, tagDocker, tagCicd],
         links: [{ label: 'GitHub', url: 'https://github.com/babylon-game/practicum_15puzzle_babylon' }],
       },
       {
         img: movies,
         title: 'Movies explorer',
         label: 'Single page application CSR',
-        tech: ['React', 'Redux', 'TypeScript', 'Axios', 'Webpack', 'Eslint'],
+        tech: [tagReact, tagRedux, tagTypeScript, tagAxios, tagWebpack, tagEslint],
         links: [
           { label: 'GitHub', url: 'https://github.com/bmazurme/movies-explorer-frontend' },
           { label: 'Netlify', url: 'https://63dabdfebc34881642dc87ec--graceful-cassata-eff5c3.netlify.app/' },
@@ -147,7 +185,7 @@ const profileInfo: Record<string, TypeProfile> = {
         img: messenger,
         title: 'Messenger',
         label: 'Single page application CSR. Messenger',
-        tech: ['React', 'Redux', 'Express', 'TypeScript', 'Axios', 'WebSocket', 'Webpack', 'BEM', 'Eslint', 'Docker', 'CI/CD'],
+        tech: [tagReact, tagRedux, tagExpress, tagTypeScript, tagAxios, tagWebSocket, tagWebpack, tagBem, tagEslint, tagDocker, tagCicd],
         links: [
           { label: 'GitHub', url: 'https://github.com/bmazurme/messenger' },
           { label: '[messenger]', url: 'https://messenger.ntlstl.dev/' },
@@ -157,21 +195,21 @@ const profileInfo: Record<string, TypeProfile> = {
         img: d3,
         title: 'Product-tree',
         label: 'd3.js',
-        tech: ['React', 'Redux', 'Express', 'TypeScript', 'React-d3-tree', 'Webpack', 'Ant design', 'Eslint'],
+        tech: [tagReact, tagRedux, tagExpress, tagTypeScript, tagReactD3, tagWebpack, tagAntdesign, tagEslint],
         links: [{ label: 'GitHub', url: 'https://github.com/bmazurme/react-redux-d3' }],
       },
       {
         img: ugmk,
         title: 'UGMK',
         label: 'Recharts.js',
-        tech: ['React', 'Express', 'JavaScript', 'Recharts', 'Webpack', 'Eslint', 'Docker'],
+        tech: [tagReact, tagExpress, tagJavaScript, tagRecharts, tagWebpack, tagEslint, tagDocker],
         links: [{ label: 'GitHub', url: 'https://github.com/bmazurme/ugmk_test_app' }],
       },
       {
         img: activityRings,
         title: 'Activity rings',
         label: 'React RadialBar component',
-        tech: ['React', 'TypeScript', 'SVG'],
+        tech: [tagReact, tagTypeScript, tagSvg],
         links: [
           { label: 'GitHub', url: 'https://github.com/bmazurme' },
         ],
@@ -180,7 +218,7 @@ const profileInfo: Record<string, TypeProfile> = {
         img: messenger,
         title: 'Messenger',
         label: 'Single page application CSR. Messenger',
-        tech: ['TypeScript', 'Handlebars', 'Mocha', 'WebSocket', 'Webpack', 'BEM', 'Eslint', 'Docker'],
+        tech: [tagTypeScript, tagHandlebars, tagMocha, tagWebSocket, tagWebpack, tagBem, tagEslint, tagDocker],
         links: [
           { label: 'GitHub', url: 'https://github.com/bmazurme/messenger' },
           { label: 'Netlify', url: 'https://velvety-babka-2aac37.netlify.app/' },
@@ -190,7 +228,7 @@ const profileInfo: Record<string, TypeProfile> = {
         img: travel,
         title: 'Russian travel',
         label: 'Static page. Adaptive page',
-        tech: ['HTML', 'CSS', 'BEM'],
+        tech: [tagHTML, tagCSS, tagBem],
         links: [
           { label: 'GitHub', url: 'https://github.com/bmazurme/russian-travel' },
           { label: 'GitHub Pages', url: 'https://bmazurme.github.io/russian-travel/' },
@@ -200,7 +238,7 @@ const profileInfo: Record<string, TypeProfile> = {
         img: kuda,
         title: 'Kuda poedu',
         label: 'Static page. Adaptive page',
-        tech: ['HTML', 'CSS', 'BEM'],
+        tech: [tagHTML, tagCSS, tagBem],
         links: [
           { label: 'GitHub', url: 'https://github.com/bmazurme/kudaYaPoedu' },
           { label: 'GitHub Pages', url: 'https://bmazurme.github.io/kudaYaPoedu/' },
@@ -210,21 +248,21 @@ const profileInfo: Record<string, TypeProfile> = {
         img: itmo,
         title: 'ITMO',
         label: 'Adaptive page',
-        tech: ['HTML', 'CSS', 'JavaScript', 'BEM'],
+        tech: [tagHTML, tagCSS, tagJavaScript, tagBem],
         links: [{ label: 'GitHub Pages', url: 'https://bmazurme.github.io/itmo/' }],
       },
       {
         img: makku,
         title: 'MAKKU',
         label: 'Adaptive page',
-        tech: ['HTML', 'CSS', 'JavaScript', 'BEM'],
+        tech: [tagHTML, tagCSS, tagJavaScript, tagBem],
         links: [{ label: 'Netlify', url: 'https://stellar-custard-0d637a.netlify.app/' }],
       },
       {
         img: how,
         title: 'How to learn',
         label: 'Static page',
-        tech: ['HTML', 'CSS', 'BEM'],
+        tech: [tagHTML, tagCSS, tagBem],
         links: [
           { label: 'GitHub', url: 'https://github.com/bmazurme/how-to-learn' },
           { label: 'GitHub Pages', url: 'https://bmazurme.github.io/how-to-learn/' },
@@ -234,7 +272,7 @@ const profileInfo: Record<string, TypeProfile> = {
         img: svg,
         title: 'Gallery svf',
         label: 'Static page',
-        tech: ['HTML', 'CSS', 'BEM', 'Forge'],
+        tech: [tagHTML, tagCSS, tagBem, tagForge],
         links: [
           { label: 'GitHub', url: 'https://github.com/bmazurme/gallery-svf' },
           { label: 'GitHub Pages', url: 'https://bmazurme.github.io/gallery-svf/' },
@@ -242,9 +280,18 @@ const profileInfo: Record<string, TypeProfile> = {
       },
       {
         img: kupi,
-        title: 'Kupipodariday',
-        label: 'Backend',
-        tech: ['TypeScript', 'Nest.js', 'TypeORM', 'postgresql'],
+        title: 'Kupipodariday API',
+        label: 'Backend API',
+        tech: [tagTypeScript, tagNest, tagTypeORM, tagPostgreSQL],
+        links: [
+          { label: 'GitHub', url: 'https://github.com/bmazurme' },
+        ],
+      },
+      {
+        img: mesto,
+        title: 'Mesto API',
+        label: 'Backend API',
+        tech: [tagTypeScript, tagExpress, tagMongoose, tagMongodb],
         links: [
           { label: 'GitHub', url: 'https://github.com/bmazurme' },
         ],
@@ -333,7 +380,7 @@ const profileInfo: Record<string, TypeProfile> = {
         img: burger,
         title: 'Stellar React-burger',
         label: 'Одностраничный сайт CSR',
-        tech: ['React', 'Redux', 'RTK', 'React-dnd', 'Framer-motion', 'TypeScript', 'Webpack', 'Eslint', 'Jest', 'Cypress'],
+        tech: [tagReact, tagRedux, tagRtk, tagReactDnd, tagFramerMotion, tagTypeScript, tagWebpack, tagEslint, tagJest, tagCypress],
         links: [
           { label: 'GitHub', url: 'https://github.com/bmazurme/react-burger' },
           { label: 'Netlify', url: 'https://bejewelled-youtiao-8f9817.netlify.app/' },
@@ -342,8 +389,8 @@ const profileInfo: Record<string, TypeProfile> = {
       {
         img: places,
         title: 'Сервис размещения фотографий [ntlstl.places]',
-        label: 'Одностраничный сайт CSR. API.',
-        tech: ['React', 'Redux', 'RTK', 'Express', 'TypeScript', 'PostgreSQL', 'Sequelize', 'Webpack', 'Eslint', 'Docker', 'CI/CD'],
+        label: 'Одностраничный сайт CSR. Backend API',
+        tech: [tagReact, tagRedux, tagRtk, tagExpress, tagTypeScript, tagPostgreSQL, tagSequelize, tagFramerMotion, tagWebpack, tagEslint, tagDocker, tagCicd],
         links: [
           { label: 'GitHub', url: 'https://github.com/bmazurme/ntlstl.mesto' },
           { label: '[places]', url: 'https://places.ntlstl.dev/' },
@@ -353,7 +400,7 @@ const profileInfo: Record<string, TypeProfile> = {
         img: mesto,
         title: 'Сервис размещения фотографий Mesto',
         label: 'Одностраничный сайт CSR',
-        tech: ['React', 'Redux', 'TypeScript', 'Axios', 'Webpack', 'Eslint', 'Docker', 'ServiceWorker', 'CI/CD'],
+        tech: [tagReact, tagRedux, tagTypeScript, tagAxios, tagWebpack, tagEslint, tagDocker, tagServiceWorker, tagCicd],
         links: [
           { label: 'GitHub', url: 'https://github.com/bmazurme/react-mesto-auth' },
           { label: 'Netlify', url: 'https://whimsical-sprite-5d5e95.netlify.app/' },
@@ -364,14 +411,14 @@ const profileInfo: Record<string, TypeProfile> = {
         img: puzzle,
         title: 'Игра пятнашки',
         label: 'Игра SSR',
-        tech: ['React', 'Redux', 'Express', 'Canvas', 'PostgreSQL', 'Sequelize', 'ServiceWorker', 'TypeScript', 'Jest', 'Axios', 'Tailwind CSS', 'Webpack', 'Eslint', 'Docker', 'CI/CD'],
+        tech: [tagReact, tagRedux, tagExpress, tagCanvas, tagPostgreSQL, tagSequelize, tagServiceWorker, tagTypeScript, tagJest, tagAxios, tagTailwind, tagWebpack, tagEslint, tagDocker, tagCicd],
         links: [{ label: 'GitHub', url: 'https://github.com/babylon-game/practicum_15puzzle_babylon' }],
       },
       {
         img: movies,
         title: 'Movies explorer',
         label: 'Одностраничный сайт CSR',
-        tech: ['React', 'Redux', 'TypeScript', 'Axios', 'Webpack', 'Eslint'],
+        tech: [tagReact, tagRedux, tagTypeScript, tagAxios, tagWebpack, tagEslint],
         links: [
           { label: 'GitHub', url: 'https://github.com/bmazurme/movies-explorer-frontend' },
           { label: 'Netlify', url: 'https://63dabdfebc34881642dc87ec--graceful-cassata-eff5c3.netlify.app/' },
@@ -381,7 +428,7 @@ const profileInfo: Record<string, TypeProfile> = {
         img: messenger,
         title: 'Простой мессенджер',
         label: 'Одностраничный сайт CSR Мессенджер',
-        tech: ['React', 'Redux', 'Express', 'TypeScript', 'Axios', 'WebSocket', 'Webpack', 'BEM', 'Eslint', 'Docker', 'CI/CD'],
+        tech: [tagReact, tagRedux, tagExpress, tagTypeScript, tagAxios, tagWebSocket, tagWebpack, tagBem, tagEslint, tagDocker, tagCicd],
         links: [
           { label: 'GitHub', url: 'https://github.com/bmazurme/messenger' },
           { label: '[messenger]', url: 'https://messenger.ntlstl.dev/' },
@@ -391,21 +438,21 @@ const profileInfo: Record<string, TypeProfile> = {
         img: d3,
         title: 'Product-tree',
         label: 'd3.js',
-        tech: ['React', 'Redux', 'Express', 'TypeScript', 'React-d3-tree', 'Webpack', 'Ant design', 'Eslint'],
+        tech: [tagReact, tagRedux, tagExpress, tagTypeScript, tagReactD3, tagWebpack, tagAntdesign, tagEslint],
         links: [{ label: 'GitHub', url: 'https://github.com/bmazurme/react-redux-d3' }],
       },
       {
         img: ugmk,
         title: 'UGMK',
         label: 'Recharts.js',
-        tech: ['React', 'Express', 'JavaScript', 'Recharts', 'Webpack', 'Eslint', 'Docker'],
+        tech: [tagReact, tagExpress, tagJavaScript, tagRecharts, tagWebpack, tagEslint, tagDocker],
         links: [{ label: 'GitHub', url: 'https://github.com/bmazurme/ugmk_test_app' }],
       },
       {
         img: activityRings,
         title: 'Activity rings',
         label: 'React RadialBar компонент',
-        tech: ['React', 'TypeScript', 'SVG'],
+        tech: [tagReact, tagTypeScript, tagSvg],
         links: [
           { label: 'GitHub', url: 'https://github.com/bmazurme' },
         ],
@@ -414,7 +461,7 @@ const profileInfo: Record<string, TypeProfile> = {
         img: messenger,
         title: 'Простой мессенджер',
         label: 'Мессенджер',
-        tech: ['TypeScript', 'Handlebars', 'Mocha', 'WebSocket', 'Webpack', 'BEM', 'Eslint', 'Docker'],
+        tech: [tagTypeScript, tagHandlebars, tagMocha, tagWebSocket, tagWebpack, tagBem, tagEslint, tagDocker],
         links: [
           { label: 'GitHub', url: 'https://github.com/bmazurme/messenger' },
           { label: 'Netlify', url: 'https://velvety-babka-2aac37.netlify.app/' },
@@ -424,7 +471,7 @@ const profileInfo: Record<string, TypeProfile> = {
         img: travel,
         title: 'Путешествие по России',
         label: 'Адаптивный сайт',
-        tech: ['HTML', 'CSS', 'BEM'],
+        tech: [tagHTML, tagCSS, tagBem],
         links: [
           { label: 'GitHub', url: 'https://github.com/bmazurme/russian-travel' },
           { label: 'GitHub Pages', url: 'https://bmazurme.github.io/russian-travel/' },
@@ -434,7 +481,7 @@ const profileInfo: Record<string, TypeProfile> = {
         img: kuda,
         title: 'Куда поеду',
         label: 'Адаптивный сайт',
-        tech: ['HTML', 'CSS', 'BEM'],
+        tech: [tagHTML, tagCSS, tagBem],
         links: [
           { label: 'GitHub', url: 'https://github.com/bmazurme/kudaYaPoedu' },
           { label: 'GitHub Pages', url: 'https://bmazurme.github.io/kudaYaPoedu/' },
@@ -444,21 +491,21 @@ const profileInfo: Record<string, TypeProfile> = {
         img: itmo,
         title: 'ИТМО',
         label: 'Адаптивный сайт',
-        tech: ['HTML', 'CSS', 'JavaScript', 'BEM'],
+        tech: [tagHTML, tagCSS, tagJavaScript, tagBem],
         links: [{ label: 'GitHub Pages', url: 'https://bmazurme.github.io/itmo/' }],
       },
       {
         img: makku,
         title: 'МАККУ',
         label: 'Адаптивный сайт',
-        tech: ['HTML', 'CSS', 'JavaScript', 'BEM'],
+        tech: [tagHTML, tagCSS, tagJavaScript, tagBem],
         links: [{ label: 'Netlify', url: 'https://stellar-custard-0d637a.netlify.app/' }],
       },
       {
         img: how,
         title: 'How to learn',
         label: 'Статичный сайт',
-        tech: ['HTML', 'CSS', 'BEM'],
+        tech: [tagHTML, tagCSS, tagBem],
         links: [
           { label: 'GitHub', url: 'https://github.com/bmazurme/how-to-learn' },
           { label: 'GitHub Pages', url: 'https://bmazurme.github.io/how-to-learn/' },
@@ -468,7 +515,7 @@ const profileInfo: Record<string, TypeProfile> = {
         img: svg,
         title: 'Gallery svf',
         label: 'Статичный сайт',
-        tech: ['HTML', 'CSS', 'BEM', 'Forge'],
+        tech: [tagHTML, tagCSS, tagBem, tagForge],
         links: [
           { label: 'GitHub', url: 'https://github.com/bmazurme/gallery-svf' },
           { label: 'GitHub Pages', url: 'https://bmazurme.github.io/gallery-svf/' },
@@ -476,9 +523,18 @@ const profileInfo: Record<string, TypeProfile> = {
       },
       {
         img: kupi,
-        title: 'Kupipodariday',
-        label: 'Бэкенд',
-        tech: ['TypeScript', 'Nest.js', 'TypeORM', 'postgresql'],
+        title: 'Kupipodariday API',
+        label: 'Бэкенд Kupipodariday. Каркас API',
+        tech: [tagTypeScript, tagNest, tagTypeORM, tagPostgreSQL],
+        links: [
+          { label: 'GitHub', url: 'https://github.com/bmazurme' },
+        ],
+      },
+      {
+        img: mesto,
+        title: 'Mesto API',
+        label: 'Бэкенд Mesto. Каркас API',
+        tech: [tagTypeScript, tagExpress, tagMongoose, tagMongodb],
         links: [
           { label: 'GitHub', url: 'https://github.com/bmazurme' },
         ],
