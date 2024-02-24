@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "deploy": "gh-pages -d .next",
-    "dockerize": "docker build -t ntlsts .",
+    "dockerize": "docker build -t cr.yandex/crpfap56bqr8nkph7d9g/ntlstl:latest .",
     "docker:run": "docker run -d --rm -p 3000:3000 ntlsts",
     "test": "jest --watch",
     "test:ci": "jest --ci",
