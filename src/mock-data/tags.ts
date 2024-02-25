@@ -11,8 +11,8 @@ import {
   BiLogoGitlab,
   BiLogoFigma,
   BiLogoGraphql,
-  BiSolidFileHtml,
-  BiSolidFileCss,
+  BiLogoHtml5,
+  BiLogoCss3,
 
 } from 'react-icons/bi';
 import {
@@ -36,7 +36,7 @@ import {
   SiHandlebarsdotjs,
   SiSvg,
   SiForgejo,
-  
+
 } from 'react-icons/si';
 
 export const tagJavaScript = { label: 'JavaScript', icon: BiLogoJavascript };
@@ -59,8 +59,8 @@ export const tagAxios = { label: 'Axios', icon: SiAxios };
 export const tagBem = { label: 'BEM', icon: SiBem };
 export const tagRtk = { label: 'RTK' };
 export const tagTailwind = { label: 'Tailwind', icon: SiTailwindcss };
-export const tagHTML = { label: 'HTML', icon: BiSolidFileHtml };
-export const tagCSS = { label: 'CSS', icon: BiSolidFileCss };
+export const tagHTML = { label: 'HTML', icon: BiLogoHtml5 };
+export const tagCSS = { label: 'CSS', icon: BiLogoCss3 };
 export const tagAntdesign = { label: 'Ant design', icon: SiAntdesign };
 export const tagMocha = { label: 'Mocha', icon: SiMocha };
 export const tagReactD3 = { label: 'React-d3-tree' };
