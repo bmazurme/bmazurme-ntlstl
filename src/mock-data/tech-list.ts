@@ -11,7 +11,6 @@ import {
   BiLogoGitlab,
   BiLogoFigma,
   BiLogoGraphql,
-
 } from 'react-icons/bi';
 import {
   SiExpress,
