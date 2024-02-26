@@ -137,7 +137,7 @@ const profileInfo: Record<string, TypeProfile> = {
         img: burger,
         title: 'Stellar React-burger',
         label: 'Single page application CSR',
-        tech: [tagReact, tagRedux, tagRtk, tagReactDnd, tagFramerMotion, tagTypeScript, tagWebpack, tagEslint, tagJest, tagCypress],
+        tech: [tagReact, tagRedux, tagRtk, tagReactDnd, tagFramerMotion, tagTypeScript, tagWebSocket, tagWebpack, tagEslint, tagJest, tagCypress],
         links: [
           { label: 'GitHub', url: 'https://github.com/bmazurme/react-burger' },
           { label: 'Netlify', url: 'https://bejewelled-youtiao-8f9817.netlify.app/' },
@@ -167,15 +167,15 @@ const profileInfo: Record<string, TypeProfile> = {
       {
         img: puzzle,
         title: 'Game 15-puzzle',
-        label: 'Game SSR',
+        label: 'Game SSR. Backend API',
         tech: [tagReact, tagRedux, tagExpress, tagCanvas, tagPostgreSQL, tagServiceWorker, tagSequelize, tagTypeScript, tagJest, tagAxios, tagTailwind, tagWebpack, tagEslint, tagDocker, tagCicd],
         links: [{ label: 'GitHub', url: 'https://github.com/babylon-game/practicum_15puzzle_babylon' }],
       },
       {
         img: movies,
         title: 'Movies explorer',
-        label: 'Single page application CSR',
-        tech: [tagReact, tagRedux, tagTypeScript, tagAxios, tagWebpack, tagEslint],
+        label: 'Single page application CSR. Backend API',
+        tech: [tagReact, tagRedux, tagTypeScript, tagAxios, tagWebpack, tagEslint, tagExpress, tagMongodb, tagMongoose],
         links: [
           { label: 'GitHub', url: 'https://github.com/bmazurme/movies-explorer-frontend' },
           { label: 'Netlify', url: 'https://63dabdfebc34881642dc87ec--graceful-cassata-eff5c3.netlify.app/' },
@@ -380,7 +380,7 @@ const profileInfo: Record<string, TypeProfile> = {
         img: burger,
         title: 'Stellar React-burger',
         label: 'Одностраничный сайт CSR',
-        tech: [tagReact, tagRedux, tagRtk, tagReactDnd, tagFramerMotion, tagTypeScript, tagWebpack, tagEslint, tagJest, tagCypress],
+        tech: [tagReact, tagRedux, tagRtk, tagReactDnd, tagFramerMotion, tagTypeScript, tagWebSocket, tagWebpack, tagEslint, tagJest, tagCypress],
         links: [
           { label: 'GitHub', url: 'https://github.com/bmazurme/react-burger' },
           { label: 'Netlify', url: 'https://bejewelled-youtiao-8f9817.netlify.app/' },
@@ -410,15 +410,15 @@ const profileInfo: Record<string, TypeProfile> = {
       {
         img: puzzle,
         title: 'Игра пятнашки',
-        label: 'Игра SSR',
+        label: 'Игра SSR. Backend API',
         tech: [tagReact, tagRedux, tagExpress, tagCanvas, tagPostgreSQL, tagSequelize, tagServiceWorker, tagTypeScript, tagJest, tagAxios, tagTailwind, tagWebpack, tagEslint, tagDocker, tagCicd],
         links: [{ label: 'GitHub', url: 'https://github.com/babylon-game/practicum_15puzzle_babylon' }],
       },
       {
         img: movies,
         title: 'Movies explorer',
-        label: 'Одностраничный сайт CSR',
-        tech: [tagReact, tagRedux, tagTypeScript, tagAxios, tagWebpack, tagEslint],
+        label: 'Одностраничный сайт CSR. Backend API',
+        tech: [tagReact, tagRedux, tagTypeScript, tagAxios, tagWebpack, tagEslint, tagExpress, tagMongodb, tagMongoose],
         links: [
           { label: 'GitHub', url: 'https://github.com/bmazurme/movies-explorer-frontend' },
           { label: 'Netlify', url: 'https://63dabdfebc34881642dc87ec--graceful-cassata-eff5c3.netlify.app/' },
