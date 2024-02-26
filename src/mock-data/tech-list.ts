@@ -28,6 +28,8 @@ import {
   SiAxios,
   SiTailwindcss,
   SiBem,
+  SiAntdesign,
+  SiPassport,
 } from 'react-icons/si';
 
 const techList = [
@@ -42,6 +44,7 @@ const techList = [
   { label: 'Redux Thunk' },
   { label: 'RTK' },
   { label: 'React-d3-tree' },
+  { label: 'Recharts' },
   { label: 'React-dnd' },
   { label: 'Cypress', icon: SiCypress },
   { label: 'Jest', icon: SiJest },
@@ -49,9 +52,11 @@ const techList = [
   { label: 'PostCSS', icon: SiPostcss },
   { label: 'Eslint', icon: SiEslint },
   { label: 'MUI', icon: SiMui },
+  { label: 'Ant design', icon: SiAntdesign },
   { label: 'Tailwind', icon: SiTailwindcss },
   { label: 'BEM', icon: SiBem },
   { label: 'Canvas' },
+  { label: 'Passport', icon: SiPassport },
   { label: 'MongoDB', icon: BiLogoMongodb },
   { label: 'PostgreSQL', icon: BiLogoPostgresql },
   { label: 'GitHub', icon: BiLogoGithub },
