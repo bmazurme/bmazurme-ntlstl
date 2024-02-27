@@ -25,12 +25,12 @@ export default function AboutSection() {
       />
       <div className={styles.text}>
         <h1 className={styles.name}>{info.name}</h1>
-        <h3 className={styles.profession}>
+        <h2 className={styles.profession}>
           {info.profession}
           ,
           {' '}
           {getAge(info.age)}
-        </h3>
+        </h2>
         <p className={styles.description}>
           {info.about.map((text: string) => <span key={uuidv4()} className={styles.paragraph}>{text}</span>)}
         </p>
