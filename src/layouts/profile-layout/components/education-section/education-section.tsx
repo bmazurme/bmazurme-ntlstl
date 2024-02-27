@@ -15,15 +15,15 @@ export default function EducationSection() {
       <ul className={styles.list}>
         {info.educationList.map((item) => (
           <li key={uuidv4()} className={styles.link}>
-            <h4 className={styles.name}>{item.place}</h4>
-            <h5 className={styles.position}>
+            <h3 className={styles.name}>{item.place}</h3>
+            <h4 className={styles.position}>
               {item.name}
               <span className={styles.date}>
                 {item.from}
                 {' - '}
                 {item.to}
               </span>
-            </h5>
+            </h4>
           </li>
         ))}
       </ul>
