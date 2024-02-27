@@ -21,8 +21,8 @@ export default function ProjectCard({
         height={200}
       />
       )}
-      <h4 className={styles.title}>{title}</h4>
-      <h5 className={styles.type}>{label}</h5>
+      <h3 className={styles.title}>{title}</h3>
+      <h4 className={styles.type}>{label}</h4>
       <ul className={styles.tags}>
         {(tech).map(({ label, icon: Component }) =>
           <li
