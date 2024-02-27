@@ -1,7 +1,8 @@
 import React from 'react';
-import type { AppProps } from 'next/app';
 import { AppWrapper } from '../context/app-context';
 import Metrika from '../components/metrika';
+
+import type { AppProps } from 'next/app';
 
 import '../styles/globals.css';
 
