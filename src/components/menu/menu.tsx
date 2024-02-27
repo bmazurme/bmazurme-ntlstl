@@ -12,7 +12,7 @@ export default function Menu({ links, extraClass }
         <li className={extraClass?.item} key={uuidv4()}>
           <Link className={extraClass?.link} href={url}>
             {Component ? <span className={style.icon}>
-              <Component size="xs" />
+              <Component size="20px" />
             </span> : null}
             {label}
           </Link>
