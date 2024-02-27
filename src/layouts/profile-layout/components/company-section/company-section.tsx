@@ -14,8 +14,8 @@ export default function CompanySection() {
       <ul className={styles.list}>
         {info.companyList.map((item) => (
           <li key={uuidv4()} className={styles.link}>
-            <h4 className={styles.name}>{item.name}</h4>
-            <h5 className={styles.position}>
+            <h3 className={styles.name}>{item.name}</h3>
+            <h4 className={styles.position}>
               {item.position}
               <span className={styles.date}>
                 {item.from}
@@ -24,7 +24,7 @@ export default function CompanySection() {
                 {' '}
                 {item.to}
               </span>
-            </h5>
+            </h4>
             {item.description ? <p className={styles.description}>{item.description}</p> : null}
             {item.stack ? <p className={styles.description}>{item.stack}</p> : null}
           </li>
