@@ -29,7 +29,7 @@ export default function ProjectCard({
             key={uuidv4()}
             className={styles.tag}
           >
-            {Component ? <span className={styles.icon}><Component size="xs" /></span> : null}
+            {Component ? <span className={styles.icon}><Component size="20px" /></span> : null}
             {label}
           </li>)}
       </ul>
