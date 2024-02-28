@@ -134,16 +134,6 @@ const profileInfo: Record<string, TypeProfile> = {
     ],
     portfolioList: [
       {
-        img: burger,
-        title: 'Stellar React-burger',
-        label: 'Single page application CSR',
-        tech: [tagReact, tagRedux, tagRtk, tagReactDnd, tagFramerMotion, tagTypeScript, tagWebSocket, tagWebpack, tagEslint, tagJest, tagCypress],
-        links: [
-          { label: 'GitHub', url: 'https://github.com/bmazurme/react-burger' },
-          { label: 'Netlify', url: 'https://bejewelled-youtiao-8f9817.netlify.app/' },
-        ],
-      },
-      {
         img: places,
         title: 'Photo posting service [ntlstl.places]',
         label: 'Single page application CSR. Backend API',
@@ -151,6 +141,16 @@ const profileInfo: Record<string, TypeProfile> = {
         links: [
           { label: 'GitHub', url: 'https://github.com/bmazurme/ntlstl.mesto' },
           { label: '[places]', url: 'https://places.ntlstl.dev/' },
+        ],
+      },
+      {
+        img: burger,
+        title: 'Stellar React-burger',
+        label: 'Single page application CSR',
+        tech: [tagReact, tagRedux, tagRtk, tagReactDnd, tagFramerMotion, tagTypeScript, tagWebSocket, tagWebpack, tagEslint, tagJest, tagCypress],
+        links: [
+          { label: 'GitHub', url: 'https://github.com/bmazurme/react-burger' },
+          { label: 'Netlify', url: 'https://bejewelled-youtiao-8f9817.netlify.app/' },
         ],
       },
       {
@@ -377,16 +377,6 @@ const profileInfo: Record<string, TypeProfile> = {
     ],
     portfolioList: [
       {
-        img: burger,
-        title: 'Stellar React-burger',
-        label: 'Одностраничный сайт CSR',
-        tech: [tagReact, tagRedux, tagRtk, tagReactDnd, tagFramerMotion, tagTypeScript, tagWebSocket, tagWebpack, tagEslint, tagJest, tagCypress],
-        links: [
-          { label: 'GitHub', url: 'https://github.com/bmazurme/react-burger' },
-          { label: 'Netlify', url: 'https://bejewelled-youtiao-8f9817.netlify.app/' },
-        ],
-      },
-      {
         img: places,
         title: 'Сервис размещения фотографий [ntlstl.places]',
         label: 'Одностраничный сайт CSR. Backend API',
@@ -394,6 +384,16 @@ const profileInfo: Record<string, TypeProfile> = {
         links: [
           { label: 'GitHub', url: 'https://github.com/bmazurme/ntlstl.mesto' },
           { label: '[places]', url: 'https://places.ntlstl.dev/' },
+        ],
+      },
+      {
+        img: burger,
+        title: 'Stellar React-burger',
+        label: 'Одностраничный сайт CSR',
+        tech: [tagReact, tagRedux, tagRtk, tagReactDnd, tagFramerMotion, tagTypeScript, tagWebSocket, tagWebpack, tagEslint, tagJest, tagCypress],
+        links: [
+          { label: 'GitHub', url: 'https://github.com/bmazurme/react-burger' },
+          { label: 'Netlify', url: 'https://bejewelled-youtiao-8f9817.netlify.app/' },
         ],
       },
       {
