@@ -15,6 +15,7 @@ export default function ProjectCard({
       && (
       <Image
         className={styles.image}
+        loading='eager'
         src={img}
         alt={title}
         width={300}
