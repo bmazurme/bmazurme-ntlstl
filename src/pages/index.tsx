@@ -1,6 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
 import { NextSeo } from 'next-seo';
+
 import HomeLayer from '../layouts/index-layout/index';
 
 import { TITLE } from '../utils';

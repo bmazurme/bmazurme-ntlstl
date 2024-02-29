@@ -1,16 +1,15 @@
 .links {
+  display: flex;
   margin: 0;
   align-self: center;
   padding: 0;
   width: auto;
-  display: flex;
   flex-direction: row;
   justify-content: flex-end;
   list-style: none;
 }
 
 .icon {
-  /* background-color: chartreuse; */
   display: flex;
   flex-direction: column;
   justify-content: center;

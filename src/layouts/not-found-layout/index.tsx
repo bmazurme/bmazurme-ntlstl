@@ -1,6 +1,5 @@
 import React from 'react';
-import { NotFound } from '../../components';
-import Menu from '../../components/menu';
+import { NotFound, Menu } from '../../components';
 
 import withExtraClass from '../../hocs/with-extra-class';
 

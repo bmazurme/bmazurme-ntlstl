@@ -5,10 +5,10 @@ type TypeLink = {
 }
 
 type TypeCard = {
-  img?: StaticImageData;
+  img?: string; // StaticImageData;
   title: string;
   label: string;
-  tech: { label: string; icon?: any }[];
+  tech: string[]; // { label: string; icon?: any }[];
   links: TypeLink[];
 }
 

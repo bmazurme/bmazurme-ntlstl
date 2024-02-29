@@ -1,7 +1,7 @@
 import { Links } from '../utils/config';
 import { BiLogoGithub, BiLogoTelegram, BiLogoLinkedin } from 'react-icons/bi';
 
-const contactLinks = [
+export const contactLinks = [
   {
     label: 'Telegram',
     icon: BiLogoTelegram,
@@ -18,5 +18,3 @@ const contactLinks = [
     url: Links.GITHUB,
   },
 ];
-
-export default contactLinks;

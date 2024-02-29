@@ -45,16 +45,5 @@
       "@typescript-eslint/no-var-requires": 0,
       "@typescript-eslint/ban-ts-comment": "off",
       "import/no-extraneous-dependencies": ["error", {"devDependencies": false, "optionalDependencies": false, "peerDependencies": false}]
-    
-    //   "import/extensions": [
-    //     "error",
-    //     "ignorePackages",
-    //     {
-    //       "js": "never",
-    //       "jsx": "never",
-    //       "ts": "never",
-    //       "tsx": "never"
-    //     }
-    //  ]
     }
 }

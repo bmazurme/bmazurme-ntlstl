@@ -1,5 +1,2 @@
-import languageList from './language-list';
-import profileInfo from './profile-info';
-import contactLinks from './contact-links';
-
-export { languageList, profileInfo, contactLinks };
+export * from './language-list';
+export * from './contact-links';
