@@ -18,7 +18,6 @@ export default function ProfilePage() {
 
 export const getServerSideProps = async (context: any) => {
   const { locale } = context;
-  // console.log(locale);
   // const res = await fetch('http://localhost:3001/' + locale);
   // const data = await res.json();
   const data: any = [];

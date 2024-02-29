@@ -7,10 +7,10 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import Content from '../layouts/content';
 import ProfileLayer from '../layouts/profile-layout';
 
-import { useDataContext } from '../context';
+// import { useDataContext } from '../context';
 
 export default function ProfilePage({ data: dt, locale }: any) {
-  const context = useDataContext();
+  // const context = useDataContext();
   const { t } = useTranslation();
   const profile: any = t('profile', { returnObjects: true });
 
@@ -27,7 +27,6 @@ export default function ProfilePage({ data: dt, locale }: any) {
 
 export const getServerSideProps = async (context: any) => {
   const { locale } = context;
-  // console.log(locale);
   // const res = await fetch('http://localhost:3001/' + locale);
   // const data = await res.json();
   const data: any = [];
