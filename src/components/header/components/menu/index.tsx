@@ -20,7 +20,6 @@ export function Menu() {
   const onToggleLang = (value: string) => {
     saveToStorage(LANG_KEY, value);
     toggleLanguage(value);
-
     router.push({
         pathname: router.pathname,
         query: router.query,
