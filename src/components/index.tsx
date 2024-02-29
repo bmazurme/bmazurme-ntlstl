@@ -1,8 +1,6 @@
-import Logo from './logo';
-import Header from './header';
-import Footer from './footer';
-import NotFound from './not-found';
-
-export {
-  Logo, Header, Footer, NotFound,
-};
+export * from './logo';
+export * from './header';
+export * from './footer';
+export * from './not-found';
+export * from './project-card';
+export * from './menu';

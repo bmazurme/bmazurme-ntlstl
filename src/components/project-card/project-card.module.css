@@ -1,6 +1,4 @@
 .card {
-  /* display: flex;
-  flex-direction: column; */
   display: grid;
   grid-template-areas: "image title" "image type" "image tags" "image links";
   grid-template-columns: 300px 1fr;
@@ -18,8 +16,8 @@
 .icon {
   height: 20px;
   width: 20px;
-  margin: 0;
   margin-right: 4px;
+  margin: 0;
   padding: 0;
 }
 
@@ -80,25 +78,24 @@
   font-weight: 500;
 }
 
-.box {
-  grid-area: links;
+.common {
   display: flex;
   flex-direction: row;
-  align-items: center;
   justify-content: flex-start;
   flex-wrap: wrap;
-  margin: 10px 0 0;
   padding: 0;
 }
 
+.box {
+  composes: common;
+  grid-area: links;
+  align-items: center;
+  margin: 10px 0 0;
+}
+
 .links {
-  /* grid-area: links; */
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  flex-wrap: wrap;
+  composes: common;
   margin: 0;
-  padding: 0;
   list-style: none;
 }
 

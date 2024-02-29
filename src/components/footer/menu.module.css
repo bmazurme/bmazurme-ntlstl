@@ -1,17 +1,16 @@
+.link {
+  display: flex;
+  flex-direction: row;
+}
+
 .links {
+  composes: link;
   margin: 0;
   align-self: center;
   padding: 0;
   width: auto;
-  display: flex;
-  flex-direction: row;
   justify-content: flex-end;
   list-style: none;
-}
-
-.link {
-  display: flex;
-  flex-direction: row;
 }
 
 @media screen and (min-width: 320px) and (max-width: 599px) {
