@@ -35,6 +35,7 @@ import {
   SiHandlebarsdotjs,
   SiSvg,
   SiForgejo,
+  SiSharp,
 } from 'react-icons/si';
 
 export const tagsDict: Record<string, { label: string, icon?: any }> = {
@@ -73,4 +74,5 @@ export const tagsDict: Record<string, { label: string, icon?: any }> = {
   tagServiceWorker: { label: 'ServiceWorker' },
   tagCicd: { label: 'CI/CD' },
   tagFramerMotion: { label: 'Framer-motion' },
+  tagSharp: { label: 'Sharp', icon: SiSharp },
 };
