@@ -82,7 +82,7 @@
         "img": "places",
         "title": "Photo posting service [ntlstl.places]",
         "label": "Single page application CSR. Backend API",
-        "tech": ["tagReact", "tagRedux", "tagRtk", "tagExpress", "tagTypeScript", "tagPostgreSQL", "tagSequelize", "tagFramerMotion", "tagWebpack", "tagEslint", "tagDocker", "tagCicd"],
+        "tech": ["tagReact", "tagRedux", "tagRtk", "tagExpress", "tagSharp", "tagTypeScript", "tagPostgreSQL", "tagSequelize", "tagFramerMotion", "tagWebpack", "tagEslint", "tagDocker", "tagCicd"],
         "links": [
           { "label": "GitHub", "url": "https://github.com/bmazurme/ntlstl.mesto" },
           { "label": "[places]", "url": "https://places.ntlstl.dev/" }
