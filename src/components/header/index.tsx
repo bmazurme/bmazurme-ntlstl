@@ -1,8 +1,10 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import { useEffect } from 'react';
 import { useRouter } from 'next/router';
+import Link from 'next/link';
 
-import { Logo, Menu } from './components';
+import { Logo } from '../logo';
+import { Menu } from './components';
 import { useLangContext } from '../../context';
 
 import { LANG_KEY, getFromStorage } from '../../utils';
@@ -28,7 +30,9 @@ export function Header() {
 
   return (
     <div className={styles.header}>
-      <Logo />
+      <Link href="/">
+        <Logo />
+      </Link>
       <Menu />
     </div>
   );
