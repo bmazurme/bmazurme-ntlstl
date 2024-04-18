@@ -1,5 +1,4 @@
 import React from 'react';
-// import { useRouter } from 'next/router'
 
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
@@ -7,16 +6,9 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import Content from '../layouts/content';
 import ProfileLayer from '../layouts/profile-layout';
 
-// import { useDataContext } from '../context';
-
-export default function ProfilePage({ data: dt, locale }: any) {
-  // const context = useDataContext();
+export default function ProfilePage() {
   const { t } = useTranslation();
   const profile: any = t('profile', { returnObjects: true });
-
-  // if (router.isFallback) {
-  //   return <div>Загрузка...</div>
-  // }
 
   return (
     <Content>
