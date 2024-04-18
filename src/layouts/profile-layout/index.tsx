@@ -3,7 +3,7 @@ import React from 'react';
 import AboutSection from './components/about-section';
 import TechSection from './components/tech-section';
 import EducationSection from './components/education-section';
-import CompanySection from './components/company-section';
+import CompanySection from './components/experience-section';
 
 export default function ProfileLayout({ profile, data, locale }: any) {
   return (
