@@ -1,12 +1,16 @@
 .title {
   margin: 0;
   padding: 0;
+  padding-bottom: 10px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #fff; */
 }
 
 .title_background {
-  font-size: 7rem;
+  font-size: 2.5rem;
   --content: '[ntlstl]';
   color: #000;
   display: flex;
@@ -75,12 +79,12 @@
 
 @media screen and (max-width: 319px) {
   .title_background {
-    font-size: 5rem;
+    font-size: 2rem;
   }
 }
 
 @media screen and (min-width: 320px) and (max-width: 479px) {
   .title_background {
-    font-size: 6.4rem;
+    font-size: 2rem;
   }
 }
