@@ -5,7 +5,7 @@ import TechSection from './components/tech-section';
 import EducationSection from './components/education-section';
 import CompanySection from './components/experience-section';
 
-export default function ProfileLayout({ profile, data, locale }: any) {
+export default function ProfileLayout({ profile }: any) {
   return (
     <main>
       <AboutSection profile={profile} />
