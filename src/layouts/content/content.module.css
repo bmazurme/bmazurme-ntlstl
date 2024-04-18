@@ -1,13 +1,15 @@
-.page {
+.content {
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 800px;
+  min-height: 60vh;
   color: var(--color);
-  padding: 0 70px;
+  padding: 0 50px;
   box-sizing: border-box;
+  /* background-color:cadetblue; */
 }
 
 @media screen and (min-width: 320px) and (max-width: 599px) {
-  .page {
+  .content {
     padding: 0 10px;
   }
 }

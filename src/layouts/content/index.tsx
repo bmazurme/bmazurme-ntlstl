@@ -15,7 +15,7 @@ interface IProps {
 
 export default function Content({ children }: IProps) {
   return (
-    <div className={styles.page}>
+    <div className={styles.content}>
       <Head>
         <title>ntlstl | web developer</title>
         <meta name="description" content={TITLE} />
