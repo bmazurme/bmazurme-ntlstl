@@ -14,9 +14,7 @@ export default function EducationSection({ profile }: any) {
             <h4 className={styles.position}>
               {item.name}
               <span className={styles.date}>
-                {item.from}
-                {' - '}
-                {item.to}
+                {`${item.from} - ${item.to}`}
               </span>
             </h4>
           </li>
