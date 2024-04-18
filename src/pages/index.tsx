@@ -8,10 +8,17 @@ import { TITLE } from '../utils';
 
 import short from '../img/screen.jpg';
 import styles from '../styles/home.module.css';
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
+import { useTranslation } from 'react-i18next';
 
 export default function Home() {
+  const { t } = useTranslation();
+  const profile: any = t('profile', { returnObjects: true });
+  // console.log(profile)
+
   return (
-    <div className={styles.container}>
+    // lassName={styles.container}
+    <div>
       <Head>
         <title>ntlstl | web developer</title>
         <meta name="description" content={TITLE} />
@@ -35,7 +42,23 @@ export default function Home() {
           site_name: 'ntlstl',
         }}
       />
-      <HomeLayer />
+      <HomeLayer data={profile} />
     </div>
   );
 }
+
+export const getServerSideProps = async (context: any) => {
+  const { locale } = context;
+  // const res = await fetch('http://localhost:3001/' + locale);
+  // const data = await res.json();
+  const data: any = [];
+
+  return {
+    props: {
+      ...(await serverSideTranslations(locale, ['common'])),
+      data,
+      locale,
+    },
+  };
+};
+
